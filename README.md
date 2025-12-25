@@ -32,5 +32,5 @@ Conversión y rediseño de hardware para simulación de alto rendimiento.
 ---
 
 ### 📫 Contacto
-* **Email:** (Pon aquí tu email profesional)
-* **LinkedIn:** (Pega aquí el enlace a tu perfil de LinkedIn)
+* **Email:** Fabio11fcv@gmail.com
+* **LinkedIn:** www.linkedin.com/in/fabio-campos-villaverde-23543b352
