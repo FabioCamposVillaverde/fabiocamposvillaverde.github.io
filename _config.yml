@@ -2,3 +2,7 @@ theme: jekyll-theme-minimal
 title: Fabio Campos Villaverde
 description: Portafolio de Ingeniería Mecánica | UVigo
 show_downloads: false
+# Ajustes de estilo
+style: |
+  .wrapper { max-width: 1200px !important; }
+  table { width: 100%; }
