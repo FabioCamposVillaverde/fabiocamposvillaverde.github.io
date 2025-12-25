@@ -4,9 +4,9 @@
   <p>Universidad de Vigo (UVigo)</p>
   
   <a href="https://www.linkedin.com/in/tu-perfil" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin" alt="LinkedIn">
+    <img src="https://www.linkedin.com/in/fabio-campos-villaverde-23543b352/" alt="LinkedIn">
   </a>
-  <a href="mailto:tu_email@uvigo.es">
+  <a href="mailto:fabio11fcv@gmail.com">
     <img src="https://img.shields.io/badge/Email-Contactame-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email">
   </a>
 </div>
