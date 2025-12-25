@@ -1,68 +1,60 @@
-<style>
-body { background-color: #eef1f5 !important; }
-.wrapper {
-  background-color: #ffffff !important;
-  border-radius: 10px;
-  box-shadow: 0 5px 15px rgba(0,0,0,0.05);
-  padding: 40px !important;
-  max-width: 900px !important;
-  margin-top: 20px !important; margin-bottom: 20px !important;
-}
-</style>
+---
+layout: default
+title: Home
+permalink: /
+order: 1
+---
 
-<div align="center">
-  <h1>Fabio Campos Villaverde</h1>
-  <h3>Ingeniero Mecánico | Diseño de Maquinaria & Mecatrónica</h3>
-  <p>Universidad de Vigo (UVigo)</p>
+<div style="display: flex; flex-wrap: wrap; align-items: center; gap: 40px; margin-bottom: 50px;">
   
-  <a href="https://www.linkedin.com/in/fabio-campos-villaverde-23543b352/" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-Ver_Perfil-blue?style=for-the-badge&logo=linkedin" alt="LinkedIn">
-  </a>
-  <a href="mailto:fabio11fcv@gmail.com">
-    <img src="https://img.shields.io/badge/Email-fabio11fcv@gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email">
-  </a>
+  <div style="flex: 1; min-width: 250px;">
+    <img src="assets/images/mifoto.jpg" alt="Fabio Campos" style="border-radius: 10px; width: 100%; max-width: 300px; box-shadow: 0 10px 20px rgba(0,0,0,0.1);">
+  </div>
+
+  <div style="flex: 2; min-width: 300px;">
+    <h1 style="margin-top: 0;">¡Hola! Soy Fabio.</h1>
+    <h3 style="color: #666; font-weight: normal;">Ingeniero Mecánico | UVigo</h3>
+    <p style="font-size: 1.1em; line-height: 1.6;">
+      Soy un estudiante de ingeniería apasionado por conectar el mundo digital con el físico.
+      Me especializo en <strong>Diseño Mecánico</strong> y <strong>Mecatrónica</strong>, llevando proyectos desde el modelo CAD hasta el prototipo funcional que puedes tocar.
+    </p>
+    <br>
+    <a href="mailto:fabio11fcv@gmail.com" style="background-color: #333; color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px;">Contactar</a>
+    <a href="./proyectos/" style="border: 1px solid #333; color: #333; padding: 10px 20px; text-decoration: none; border-radius: 5px; margin-left: 10px;">Ver Portafolio</a>
+  </div>
+
 </div>
 
-<br>
-<hr>
+<hr style="border: 0; border-top: 1px solid #eee; margin: 40px 0;">
 
-<h3>👋 Sobre mí</h3>
-<p>
-Bienvenido a mi web personal. Soy estudiante de último año de Ingeniería Mecánica con una fuerte vocación por el <strong>diseño práctico</strong>. No solo modelo en 3D; fabrico, sueldo, programo y pruebo mis diseños.
-</p>
-<p>
-Me especializo en integrar la mecánica robusta con electrónica de control (Arduino/STM32) para crear máquinas funcionales.
-</p>
+<h2 style="text-align: center; margin-bottom: 30px;">Habilidades Técnicas</h2>
 
-<br>
+<div style="display: flex; flex-wrap: wrap; justify-content: space-between; gap: 20px; text-align: left;">
+  
+  <div style="flex: 1; min-width: 200px; padding: 20px; background: #f9f9f9; border-radius: 8px;">
+    <h4>🛠️ Diseño Mecánico</h4>
+    <p>SolidWorks (CSWA/P), Catia V5, Diseño de mecanismos, Selección de materiales, GD&T.</p>
+  </div>
 
-<div style="background-color: #f0f8ff; border-left: 5px solid #0366d6; padding: 20px; border-radius: 5px;">
-  <h3>⭐ Proyecto Destacado: Simulador Direct Drive</h3>
-  <p>Recientemente he diseñado y construido un sistema de simulación completo reutilizando un motor de patinete eléctrico.</p>
-  <ul style="margin-bottom: 15px;">
-    <li>Ingeniería Inversa y control de motores BLDC.</li>
-    <li>Diseño de pedales con Celdas de Carga.</li>
-    <li>Fabricación aditiva y mecanizado.</li>
-  </ul>
-  <a href="./simulador-racing" style="background-color: #0366d6; color: white; padding: 8px 12px; text-decoration: none; border-radius: 4px; font-size: 0.9em; font-weight: bold;">Ver Proyecto Completo</a>
+  <div style="flex: 1; min-width: 200px; padding: 20px; background: #f9f9f9; border-radius: 8px;">
+    <h4>⚡ Electrónica</h4>
+    <p>Arduino, Control de Motores BLDC, Sensores, Soldadura de PCB, Instrumentación básica.</p>
+  </div>
+
+  <div style="flex: 1; min-width: 200px; padding: 20px; background: #f9f9f9; border-radius: 8px;">
+    <h4>🏭 Fabricación</h4>
+    <p>Impresión 3D (FDM), Torno y Fresadora manual, Mecanizado CNC, Herramientas de taller.</p>
+  </div>
 </div>
 
-<br>
-<hr>
+<br><br>
 
-<div align="center" style="margin-top: 30px;">
-  <p>¿Quieres ver más trabajos de diseño mecánico?</p>
-  <a href="./proyectos/" style="background-color: #24292e; color: white; padding: 15px 30px; text-decoration: none; border-radius: 30px; font-weight: bold; font-size: 1.1em; box-shadow: 0 4px 6px rgba(0,0,0,0.2);">
-    📂 Ver Portafolio Completo
-  </a>
+<h3>⭐ Proyecto Destacado</h3>
+<div style="border: 1px solid #eee; border-radius: 10px; overflow: hidden; box-shadow: 0 5px 15px rgba(0,0,0,0.05);">
+  <img src="assets/images/simulador-volante.jpg" alt="Simulador" style="width: 100%; height: 300px; object-fit: cover; background-color: #ddd;">
+  <div style="padding: 25px;">
+    <h2>Simulador Direct Drive Híbrido</h2>
+    <p>Conversión de un motor de patinete eléctrico en un volante de simulación profesional.</p>
+    <a href="./simulador-racing" style="color: #0366d6; font-weight: bold; text-decoration: none;">Leer caso de estudio ➔</a>
+  </div>
 </div>
-
-<br>
-<br>
-
-### 🛠 Habilidades Técnicas
-| Diseño CAD | Fabricación | Electrónica |
-| :--- | :--- | :--- |
-| SolidWorks (CSWA/P) | Impresión 3D (FDM) | Arduino / C++ |
-| Catia V5 | Torno & Fresadora | Soldadura |
-| Ansys FEA | Mecanizado CNC | Circuitos PCB |
