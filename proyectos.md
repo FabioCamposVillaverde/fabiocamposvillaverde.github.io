@@ -1,28 +1,60 @@
 ---
 layout: page
-title: Portafolio
+title: Proyectos
 permalink: /proyectos/
-order: 1
+order: 2
 ---
 
-Aquí encontrarás una colección detallada de mis trabajos de ingeniería, desde diseño CAD paramétrico hasta sistemas mecatrónicos.
+<style>
+  /* Estilo para las Tarjetas tipo Caleb */
+  .project-card {
+    border: 1px solid #eee;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: transform 0.2s;
+    background: white;
+    text-decoration: none;
+    color: inherit;
+    display: block;
+  }
+  .project-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+  }
+  .card-image {
+    width: 100%;
+    height: 200px;
+    background-color: #eee; /* Gris mientras no haya foto */
+    object-fit: cover;
+  }
+  .card-content {
+    padding: 20px;
+  }
+</style>
 
-<div style="display: flex; flex-wrap: wrap; gap: 20px; justify-content: space-between;">
-
-  <div style="flex: 1 1 45%; border: 1px solid #e1e4e8; border-radius: 6px; padding: 20px; background-color: white; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
-    <h3>🏎️ Simulador Direct Drive</h3>
-    <p><strong>Mecatrónica & Prototipado</strong></p>
-    <p>Conversión de motor BLDC de patinete en volante de simulación de alto par. Incluye electrónica de potencia y pedales con celdas de carga.</p>
-    <br>
-    <a href="../simulador-racing" style="background-color: #2ea44f; color: white; padding: 8px 15px; text-decoration: none; border-radius: 4px; font-weight: bold; font-size: 0.9em;">Ver Detalles ➔</a>
-  </div>
-
-  <div style="flex: 1 1 45%; border: 1px solid #e1e4e8; border-radius: 6px; padding: 20px; background-color: white; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
-    <h3>🏭 Cinta Transportadora Modular</h3>
-    <p><strong>Diseño Paramétrico & SolidWorks</strong></p>
-    <p>Sistema de transporte escalable para plantas de áridos. Diseño modular que permite variar la longitud sin costes de reingeniería.</p>
-    <br>
-    <a href="../cinta-modular" style="background-color: #0366d6; color: white; padding: 8px 15px; text-decoration: none; border-radius: 4px; font-weight: bold; font-size: 0.9em;">Ver Detalles ➔</a>
-  </div>
-
+<div style="text-align: center; margin-bottom: 40px;">
+  <h1>Portafolio de Ingeniería</h1>
+  <p>Selección de trabajos académicos y personales.</p>
 </div>
+
+<div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 30px;">
+
+  <a href="../simulador-racing" class="project-card">
+    <img src="../assets/images/simulador-volante.jpg" alt="Simulador" class="card-image">
+    <div class="card-content">
+      <h3 style="margin-top: 0;">🏎️ Simulador Direct Drive</h3>
+      <p style="font-size: 0.9em; color: #666;">Mecatrónica / Prototipado</p>
+      <p>Sistema de Force Feedback de alto par usando motores reciclados.</p>
+    </div>
+  </a>
+
+  <a href="../cinta-modular" class="project-card">
+    <img src="../assets/images/cinta-render.jpg" alt="Cinta Transportadora" class="card-image">
+    <div class="card-content">
+      <h3 style="margin-top: 0;">🏭 Cinta Modular</h3>
+      <p style="font-size: 0.9em; color: #666;">Diseño Mecánico / SolidWorks</p>
+      <p>Diseño paramétrico de transporte de áridos adaptable.</p>
+    </div>
+  </a>
+
+  </div>
