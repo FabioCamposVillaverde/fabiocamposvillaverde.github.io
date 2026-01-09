@@ -1,6 +1,11 @@
+---
+layout: default
+title: DIY Direct Drive Sim Rig
+---
+
 # 🏎️ OpenSource DIY Direct Drive Sim Rig
 
-![Vista General](./01_full_rig.jpg)
+![Vista General](assets/images/01_full_rig.jpg)
 
 > **"Ingeniería de competición al alcance del maker."**
 > Un ecosistema de simulación completo construido desde cero utilizando piezas de automoción recicladas, impresión 3D avanzada y electrónica de código abierto.
@@ -31,20 +36,20 @@ El núcleo es un sistema **Direct Drive de 15Nm** reales, acompañado de pedales
 La ergonomía fue clave en el diseño. Todo está al alcance de la mano. La base del volante cuenta con una carcasa impresa en 3D con ventilación forzada tipo panel de abeja.
 Se aprecia la **botonera personalizada** (Button Box) con joystick de navegación y la disposición del cambio secuencial y freno de mano para configuraciones de Rally/Drift.
 
-![Cockpit Top View](./02_cockpit_layout.jpg)
+![Cockpit Top View](assets/images/02_cockpit_layout.jpg)
 
 ### 2. Pedales de Célula de Carga (Load Cell)
 Diseño personalizado inspirado en la gama alta (Heusinkveld). La estructura combina perfiles de acero con piezas impresas en 3D de alta densidad (relleno 100%).
 * **Sensación:** El freno utiliza una célula de carga de 100kg, permitiendo frenar por *presión* muscular y no por recorrido, igual que un coche de carreras real.
 
-![Pedals Profile](./04_pedals_profile.jpg)
+![Pedals Profile](assets/images/04_pedals_profile.jpg)
 
 ### 3. Periféricos de Control
 Mecanismos robustos diseñados para aguantar el trato duro.
 
 | Shifter Secuencial | Freno de Mano Hidráulico (Sim) |
 | :---: | :---: |
-| ![Shifter](./05_shifter_detail.jpg) | ![Handbrake](./06_handbrake_detail.jpg) |
+| ![Shifter](assets/images/05_shifter_detail.jpg) | ![Handbrake](assets/images/06_handbrake_detail.jpg) |
 | *Accionamiento metálico con muelle de alta tensión* | *Célula de carga de 20kg visible con muelle de precarga* |
 
 ### 4. El Corazón: Direct Drive & Electrónica
@@ -54,18 +59,18 @@ La magia ocurre bajo el capó.
 
 | Motor Unit | Gestión de Cables |
 | :---: | :---: |
-| ![Motor](./03_motor_base.jpg) | ![Wiring](./07_electronics.jpg) |
+| ![Motor](assets/images/03_motor_base.jpg) | ![Wiring](assets/images/07_electronics.jpg) |
 
 ### 5. Inmersión Háptica (Bass Shakers)
 Para sentir los pianos, los cambios de marcha y las revoluciones del motor, se han instalado excitadores acústicos directamente en el chasis (bajo pedales y asiento). Esto añade una capa física de información que el Force Feedback del volante no puede transmitir.
 
-![Bass Shaker](./08_bass_shaker.jpg)
+![Bass Shaker](assets/images/08_bass_shaker.jpg)
 
 ---
 
 ## 🛠️ Software y Configuración
 * **SimHub:** Controla la matriz LED (RPM, Banderas) y la gestión de los Bass Shakers.
-* **Firmware:** [Indicar aquí si usas MMOS, OpenFFBoard, etc]
+* **Firmware:** Custom Firmware para gestión FFB.
 
 ## 🚀 Futuras Mejoras
 * [ ] Añadir tercer pedal (Embrague).
@@ -73,3 +78,4 @@ Para sentir los pianos, los cambios de marcha y las revoluciones del motor, se h
 * [ ] Pantalla LCD para telemetría avanzada.
 
 ---
+*Este es un proyecto DIY. Si te interesa replicar alguna parte, contáctame.*
