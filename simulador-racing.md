@@ -1,30 +1,75 @@
-# Simulador de Conducción Híbrido "Direct Drive"
-**Categoría:** Mecatrónica / Prototipado | **Estado:** Funcional
+# 🏎️ OpenSource DIY Direct Drive Sim Rig
 
-![Foto Principal del Simulador](aqui-va-tu-foto-principal.jpg)
-*(Prototipo final ensamblado con estructura personalizada)*
+![Vista General](./01_full_rig.jpg)
 
-## 1. Resumen del Proyecto
-Diseño y fabricación de un ecosistema de simulación de alto rendimiento. El objetivo fue democratizar la tecnología **Direct Drive** (acople directo motor-volante) reutilizando componentes industriales y de movilidad personal, logrando una fidelidad de fuerza (Force Feedback) superior a sistemas comerciales de gama media.
+> **"Ingeniería de competición al alcance del maker."**
+> Un ecosistema de simulación completo construido desde cero utilizando piezas de automoción recicladas, impresión 3D avanzada y electrónica de código abierto.
 
-## 2. Subsistemas Técnicos
+## 📋 Resumen del Proyecto
 
-### A. Sistema de Dirección (Direct Drive)
-En lugar de usar engranajes o correas (que introducen holguras), adapté un **motor BLDC de patinete eléctrico** para transmisión directa.
-* **Ingeniería Inversa:** Se rediseñó el eje del motor para acoplar un volante de competición estándar.
-* **Control:** Implementación de una controladora electrónica programada para interpretar la telemetría del simulador y traducirla en par motor (torque) en tiempo real.
+Este proyecto nació con el objetivo de igualar o superar las sensaciones de los equipos de simulación comerciales de gama alta (>2000€), manteniendo un presupuesto "Low Cost" mediante el diseño propio y la fabricación aditiva.
 
-### B. Pedalería y Cambio Secuencial
-Diseño mecánico propio para los periféricos de entrada.
-* **Freno:** Sistema con celda de carga (Load Cell) para medir presión en lugar de distancia, simulando la dureza hidráulica real de un coche de carreras.
-* **Cambio:** Mecanismo secuencial impreso en 3D con accionamiento magnético para feedback táctil.
+El núcleo es un sistema **Direct Drive de 15Nm** reales, acompañado de pedales hidráulicos simulados por célula de carga y un sistema de inmersión háptica.
 
-### C. Sistema Háptico (Bass Shakers)
-Implementación de vibración localizada mediante el reciclaje de componentes de audio.
-* **Funcionamiento:** Se extrajo la señal de telemetría (baches, pianos, RPM del motor) y se separó por canales.
-* **Transductores:** Modificación de altavoces convencionales para actuar como "Bass Shakers", transmitiendo vibración física al chasis en función de la frecuencia de la suspensión virtual.
+## ⚙️ Especificaciones Técnicas
 
-## 3. Galería de Fabricación
-*(Aquí subiremos fotos del cableado, el motor desmontado y las piezas 3D)*
+| Subsistema | Componente | Detalles Técnicos |
+| :--- | :--- | :--- |
+| **Force Feedback** | Motor DD | Motor Brushless de patinete eléctrico modificado (15Nm Pico) |
+| **Control** | Driver | Placa base de impresora 3D con Firmware custom EMC/OSW |
+| **Pedales** | Freno | Célula de carga **100kg** + Elastómeros variables |
+| **Pedales** | Acelerador | Recorrido ajustable + Potenciómetro lineal |
+| **Cambio** | Secuencial | Mecanismo de leva con retorno agresivo por muelle |
+| **Handbrake** | Analógico | Célula de carga **20kg** para modulación progresiva |
+| **Inmersión** | Bass Shakers | 4x Excitadores acústicos (altavoces mod) + Amplificadores dedicados |
 
-[🔙 Volver al Inicio](./)
+---
+
+## 📸 Galería de Ingeniería
+
+### 1. La Cabina (Driver's Layout)
+La ergonomía fue clave en el diseño. Todo está al alcance de la mano. La base del volante cuenta con una carcasa impresa en 3D con ventilación forzada tipo panel de abeja.
+Se aprecia la **botonera personalizada** (Button Box) con joystick de navegación y la disposición del cambio secuencial y freno de mano para configuraciones de Rally/Drift.
+
+![Cockpit Top View](./02_cockpit_layout.jpg)
+
+### 2. Pedales de Célula de Carga (Load Cell)
+Diseño personalizado inspirado en la gama alta (Heusinkveld). La estructura combina perfiles de acero con piezas impresas en 3D de alta densidad (relleno 100%).
+* **Sensación:** El freno utiliza una célula de carga de 100kg, permitiendo frenar por *presión* muscular y no por recorrido, igual que un coche de carreras real.
+
+![Pedals Profile](./04_pedals_profile.jpg)
+
+### 3. Periféricos de Control
+Mecanismos robustos diseñados para aguantar el trato duro.
+
+| Shifter Secuencial | Freno de Mano Hidráulico (Sim) |
+| :---: | :---: |
+| ![Shifter](./05_shifter_detail.jpg) | ![Handbrake](./06_handbrake_detail.jpg) |
+| *Accionamiento metálico con muelle de alta tensión* | *Célula de carga de 20kg visible con muelle de precarga* |
+
+### 4. El Corazón: Direct Drive & Electrónica
+La magia ocurre bajo el capó.
+* **Motor:** Se ha adaptado un motor de movilidad eléctrica, diseñando un eje y un acople para el volante, junto con un sistema de **Quick Release impreso en 3D**.
+* **Gestión:** Bajo el asiento se encuentra la fuente de alimentación industrial y los controladores de los Bass Shakers, manteniendo el centro de gravedad bajo y el cableado ordenado.
+
+| Motor Unit | Gestión de Cables |
+| :---: | :---: |
+| ![Motor](./03_motor_base.jpg) | ![Wiring](./07_electronics.jpg) |
+
+### 5. Inmersión Háptica (Bass Shakers)
+Para sentir los pianos, los cambios de marcha y las revoluciones del motor, se han instalado excitadores acústicos directamente en el chasis (bajo pedales y asiento). Esto añade una capa física de información que el Force Feedback del volante no puede transmitir.
+
+![Bass Shaker](./08_bass_shaker.jpg)
+
+---
+
+## 🛠️ Software y Configuración
+* **SimHub:** Controla la matriz LED (RPM, Banderas) y la gestión de los Bass Shakers.
+* **Firmware:** [Indicar aquí si usas MMOS, OpenFFBoard, etc]
+
+## 🚀 Futuras Mejoras
+* [ ] Añadir tercer pedal (Embrague).
+* [ ] Mejorar la refrigeración del controlador del motor.
+* [ ] Pantalla LCD para telemetría avanzada.
+
+---
