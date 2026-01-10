@@ -7,75 +7,87 @@ title: DIY Direct Drive Sim Rig
 
 <img src="assets/images/01_full_rig.jpg" width="100%">
 
+<br>
+
 > **"Ingeniería de competición al alcance del maker."**
-> Un ecosistema de simulación completo construido desde cero utilizando piezas de automoción recicladas, impresión 3D avanzada y electrónica de código abierto.
+> Un ecosistema de simulación completo, diseñado desde cero para replicar las fuerzas de un coche real usando el proyecto **FFBeast**, impresión 3D avanzada y telemetría visual.
 
-## 📋 Resumen del Proyecto
+---
 
-Este proyecto nació con el objetivo de igualar o superar las sensaciones de los equipos de simulación comerciales de gama alta (>2000€), manteniendo un presupuesto "Low Cost" mediante el diseño propio y la fabricación aditiva.
+### ⚡ El Corazón: Proyecto FFBeast
+<img src="assets/images/03_motor_base.jpg" align="right" width="350" style="margin-left: 20px; margin-bottom: 10px;">
 
-El núcleo es un sistema **Direct Drive de 15Nm** reales, acompañado de pedales hidráulicos simulados por célula de carga y un sistema de inmersión háptica.
+Para el Force Feedback, he huido de las soluciones comerciales cerradas. El sistema se basa en el proyecto Open Source **FFBeast**, conocido por su capacidad de gestionar pares de fuerza extremos con una fidelidad increíble.
 
-## ⚙️ Especificaciones Técnicas
+* **Motor:** Recuperado de movilidad eléctrica (Patinete), capaz de entregar picos de **15Nm**.
+* **Driver:** Controlador de alta potencia modificado.
+* **Sensaciones:** Gracias al software de FFBeast, se eliminan los "cogging" (saltos) del motor, logrando una suavidad comparable a bases Direct Drive de +1500€.
+* **Refrigeración:** Carcasa impresa en 3D con diseño de flujo de aire forzado.
 
-| Subsistema | Componente | Detalles Técnicos |
+<br clear="all">
+<br>
+
+### 🦶 Pedales Hidráulicos (Simulados)
+<img src="assets/images/04_pedals_profile.jpg" align="left" width="350" style="margin-right: 20px; margin-bottom: 10px;">
+
+La consistencia en la frenada lo es todo. He diseñado unos pedales inspirados en la ingeniería de *Heusinkveld*, fabricados con placas de acero y cuerpos estructurales en PETG al 100% de relleno.
+
+* **Freno:** No funciona por recorrido, sino por presión, utilizando una **Célula de Carga de 100kg**.
+* **Customización:** El tacto es totalmente ajustable mediante elastómeros (gomas) de distinta dureza para simular desde un coche de calle hasta un F1.
+* **Acelerador:** Sensor Hall magnético sin contacto para una durabilidad infinita y suavidad total.
+
+<br clear="all">
+<br>
+
+### 🚥 Telemetría Visual: Matriz LED
+<img src="assets/images/02_cockpit_layout.jpg" align="right" width="350" style="margin-left: 20px; margin-bottom: 10px;">
+
+Para mantener la vista en la carretera, he integrado un sistema de información visual directamente sobre la base del volante, gestionado vía **SimHub**.
+
+* **Matriz LED Central:** Muestra la marcha engranada grande y clara.
+* **Barra de Revoluciones:** Una tira LED RGB indica el momento exacto del cambio de marcha.
+* **Spotter & Banderas:** Los LEDs laterales parpadean en amarillo/azul/rojo según las banderas de pista o si tengo un coche en el ángulo muerto.
+* **Botonera:** Matriz de botones físicos + Joystick para navegar por los menús del coche sin usar el ratón.
+
+<br clear="all">
+<br>
+
+### 🕹️ Control de Vehículo: Rally & Drift
+
+Para disciplinas que requieren agresividad, el volante no es suficiente. He fabricado dos periféricos dedicados en metal y 3D.
+
+<div align="center">
+  <img src="assets/images/05_shifter_detail.jpg" height="250" style="margin-right: 10px;">
+  <img src="assets/images/06_handbrake_detail.jpg" height="250" style="margin-left: 10px;">
+</div>
+
+* **Cambio Secuencial (Morado):** Mecanismo de leva interna con muelles de alta tensión. El "Clack" metálico al cambiar de marcha da una satisfacción mecánica real.
+* **Freno de Mano (Rojo):** Diseñado para drift. Usa una **Célula de Carga de 20kg** en lugar de un simple botón. Esto permite modular la frenada trasera para colocar el coche con precisión milimétrica en las curvas.
+
+<br>
+
+### 🔊 Inmersión Háptica (Bass Shakers)
+<img src="assets/images/08_bass_shaker.jpg" align="left" width="350" style="margin-right: 20px; margin-bottom: 10px;">
+
+El Force Feedback te dice lo que hacen las ruedas delanteras, pero... ¿qué pasa con el resto del chasis?
+
+He construido un sistema de **Bass Shakers** utilizando altavoces reciclados modificados para actuar como pistones de vibración. Están anclados estratégicamente bajo el asiento y los pedales.
+
+* **¿Qué se siente?** Los baches de la carretera, los cambios de marcha del motor, la vibración del motor al ralentí y el bloqueo de ruedas. Es la diferencia entre jugar a un videojuego y conducir un coche.
+
+<br clear="all">
+
+---
+
+### 🚀 Resumen de Especificaciones
+
+| Componente | Tecnología | Software/Driver |
 | :--- | :--- | :--- |
-| **Force Feedback** | Motor DD | Motor Brushless de patinete eléctrico modificado (15Nm Pico) |
-| **Control** | Driver | Placa base de impresora 3D con Firmware custom EMC/OSW |
-| **Pedales** | Freno | Célula de carga **100kg** + Elastómeros variables |
-| **Pedales** | Acelerador | Recorrido ajustable + Potenciómetro lineal |
-| **Cambio** | Secuencial | Mecanismo de leva con retorno agresivo por muelle |
-| **Handbrake** | Analógico | Célula de carga **20kg** para modulación progresiva |
-| **Inmersión** | Bass Shakers | 4x Excitadores acústicos (altavoces mod) + Amplificadores dedicados |
+| **Base** | Motor Patinete Mod (15Nm) | Proyecto **FFBeast** |
+| **Pedales** | Célula de Carga 100kg | Arduino Joystick Lib |
+| **Handbrake** | Célula de Carga 20kg | Amplificador HX711 |
+| **Dashboard** | Matriz LED + WS2812b | **SimHub** |
+| **Estructura** | Madera reforzada + Acero | Diseño Propio CAD |
 
 ---
-
-## 📸 Galería de Ingeniería
-
-### 1. La Cabina (Driver's Layout)
-La ergonomía fue clave en el diseño. Todo está al alcance de la mano. La base del volante cuenta con una carcasa impresa en 3D con ventilación forzada tipo panel de abeja.
-Se aprecia la **botonera personalizada** (Button Box) con joystick de navegación y la disposición del cambio secuencial y freno de mano para configuraciones de Rally/Drift.
-
-<img src="assets/images/02_cockpit_layout.jpg" width="600">
-
-### 2. Pedales de Célula de Carga (Load Cell)
-Diseño personalizado inspirado en la gama alta (Heusinkveld). La estructura combina perfiles de acero con piezas impresas en 3D de alta densidad (relleno 100%).
-* **Sensación:** El freno utiliza una célula de carga de 100kg, permitiendo frenar por *presión* muscular y no por recorrido, igual que un coche de carreras real.
-
-<img src="assets/images/04_pedals_profile.jpg" width="600">
-
-### 3. Periféricos de Control
-Mecanismos robustos diseñados para aguantar el trato duro.
-
-| Shifter Secuencial | Freno de Mano Hidráulico (Sim) |
-| :---: | :---: |
-| <img src="assets/images/05_shifter_detail.jpg" width="350"> | <img src="assets/images/06_handbrake_detail.jpg" width="350"> |
-| *Accionamiento metálico* | *Célula de carga visible* |
-
-### 4. El Corazón: Direct Drive & Electrónica
-La magia ocurre bajo el capó.
-* **Motor:** Se ha adaptado un motor de movilidad eléctrica, diseñando un eje y un acople para el volante, junto con un sistema de **Quick Release impreso en 3D**.
-* **Gestión:** Bajo el asiento se encuentra la fuente de alimentación industrial y los controladores de los Bass Shakers, manteniendo el centro de gravedad bajo y el cableado ordenado.
-
-| Motor Unit | Gestión de Cables |
-| :---: | :---: |
-| <img src="assets/images/03_motor_base.jpg" width="350"> | <img src="assets/images/07_electronics.jpg" width="350"> |
-
-### 5. Inmersión Háptica (Bass Shakers)
-Para sentir los pianos, los cambios de marcha y las revoluciones del motor, se han instalado excitadores acústicos directamente en el chasis (bajo pedales y asiento). Esto añade una capa física de información que el Force Feedback del volante no puede transmitir.
-
-<img src="assets/images/08_bass_shaker.jpg" width="600">
-
----
-
-## 🛠️ Software y Configuración
-* **SimHub:** Controla la matriz LED (RPM, Banderas) y la gestión de los Bass Shakers.
-* **Firmware:** Custom Firmware para gestión FFB.
-
-## 🚀 Futuras Mejoras
-* [ ] Añadir tercer pedal (Embrague).
-* [ ] Mejorar la refrigeración del controlador del motor.
-* [ ] Pantalla LCD para telemetría avanzada.
-
----
-*Este es un proyecto DIY. Si te interesa replicar alguna parte, contáctame.*
+*Diseño y construcción por [Tu Nombre].*
