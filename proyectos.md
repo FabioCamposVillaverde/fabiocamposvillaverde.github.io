@@ -105,7 +105,7 @@ permalink: /proyectos/
 
   <a href="/simulador-racing" class="project-card">
     <div class="card-image-container">
-      <img src="assets/images/01_full_rig.jpg" alt="Simulador Direct Drive" class="card-image">
+      <img src="/assets/images/01_full_rig.jpg" alt="Simulador Direct Drive" class="card-image">
     </div>
     <div class="card-content">
       <span class="project-tag">Mecatrónica</span>
