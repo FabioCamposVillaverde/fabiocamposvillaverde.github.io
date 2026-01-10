@@ -40,7 +40,6 @@ permalink: /proyectos/
 
   .card-image-container {
     width: 100%;
-    /* HE VUELTO A PONER UNA ALTURA ELEGANTE */
     height: 220px; 
     background-color: #f4f4f4;
     overflow: hidden;
@@ -126,6 +125,30 @@ permalink: /proyectos/
       <span class="project-tag">Diseño Mecánico</span>
       <h3 class="project-title">Cinta Transportadora Modular</h3>
       <p class="project-desc">Sistema de transporte de áridos escalable. Diseño paramétrico en SolidWorks que permite adaptar la longitud sin rediseño.</p>
+      <span class="card-link">Ver detalles ➔</span>
+    </div>
+  </a>
+
+  <a href="/tfg-dune" class="project-card">
+    <div class="card-image-container">
+      <img src="/assets/images/dune-structure.jpg" alt="Estructura Sensor DUNE" class="card-image">
+    </div>
+    <div class="card-content">
+      <span class="project-tag">Investigación & Estructuras</span>
+      <h3 class="project-title">Soporte Sensor DUNE (TFG)</h3>
+      <p class="project-desc">Diseño estructural para la integración de sensores en el experimento de neutrinos DUNE. Análisis de materiales para entornos críticos.</p>
+      <span class="card-link">Ver detalles ➔</span>
+    </div>
+  </a>
+
+  <a href="/smart-hangboard" class="project-card">
+    <div class="card-image-container">
+      <img src="/assets/images/smart-hangboard.jpg" alt="Entrenador Inteligente" class="card-image">
+    </div>
+    <div class="card-content">
+      <span class="project-tag">IoT & Desarrollo App</span>
+      <h3 class="project-title">Entrenador de Escalada IoT</h3>
+      <p class="project-desc">Dispositivo de entrenamiento con regletas intercambiables. Conectividad Bluetooth a App móvil para visualización de fuerza en tiempo real.</p>
       <span class="card-link">Ver detalles ➔</span>
     </div>
   </a>
