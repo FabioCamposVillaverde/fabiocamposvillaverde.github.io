@@ -68,7 +68,6 @@ order: 1
     </h2>
     
     <p style="color: #f0f0f0; font-size: 1.2em; max-width: 700px; margin: 0 auto 30px auto; text-shadow: 0 1px 3px rgba(0,0,0,0.8); line-height: 1.5;">
-        Ingeniería Open Source llevada al límite: Motor de 15Nm recuperado, electrónica personalizada y pedales con célula de carga.
     </p>
 
     <a href="./simulador-racing" style="
