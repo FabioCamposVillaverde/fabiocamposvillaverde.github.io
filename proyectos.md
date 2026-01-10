@@ -40,8 +40,8 @@ permalink: /proyectos/
 
   .card-image-container {
     width: 100%;
-    /* ANTES: height: 220px; */
-    height: 350px;  /* <--- CAMBIA ESTO */
+    /* HE VUELTO A PONER UNA ALTURA ELEGANTE */
+    height: 220px; 
     background-color: #f4f4f4;
     overflow: hidden;
     position: relative;
@@ -52,11 +52,12 @@ permalink: /proyectos/
     width: 100%;
     height: 100%;
     object-fit: cover;
+    object-position: center;
     transition: transform 0.5s;
   }
 
   .project-card:hover .card-image {
-    transform: scale(1.05); /* Zoom suave en la foto al pasar el ratón */
+    transform: scale(1.05);
   }
 
   .card-content {
@@ -107,12 +108,12 @@ permalink: /proyectos/
 
   <a href="/simulador-racing" class="project-card">
     <div class="card-image-container">
-      <img src="/assets/images/01_full_rig.jpg" alt="Simulador Direct Drive" class="card-image">
+      <img src="/assets/images/04_pedals_profile.jpg" alt="Simulador Direct Drive" class="card-image">
     </div>
     <div class="card-content">
       <span class="project-tag">Mecatrónica</span>
       <h3 class="project-title">Simulador Direct Drive</h3>
-      <p class="project-desc">Diseño y construcción de un volante de simulación Force Feedback reutilizando un motor industrial. Incluye pedales con celdas de carga.</p>
+      <p class="project-desc">Diseño y construcción de un volante Force Feedback de 15Nm reutilizando un motor industrial. Ingeniería inversa y fabricación aditiva.</p>
       <span class="card-link">Ver detalles ➔</span>
     </div>
   </a>
@@ -129,4 +130,4 @@ permalink: /proyectos/
     </div>
   </a>
 
-  </div>
+</div>
