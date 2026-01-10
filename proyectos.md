@@ -30,6 +30,7 @@ permalink: /proyectos/
     display: flex;
     flex-direction: column;
     height: 100%;
+    position: relative; /* Para poder posicionar etiquetas si hiciera falta */
   }
 
   .project-card:hover {
@@ -57,6 +58,21 @@ permalink: /proyectos/
 
   .project-card:hover .card-image {
     transform: scale(1.05);
+  }
+
+  /* Etiqueta para proyectos en curso */
+  .wip-badge {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: #ffd700;
+    color: #333;
+    font-size: 0.75rem;
+    font-weight: bold;
+    padding: 4px 8px;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+    z-index: 10;
   }
 
   .card-content {
@@ -99,11 +115,25 @@ permalink: /proyectos/
 <div class="projects-header">
   <h1>Mis Proyectos</h1>
   <p style="color: #666; max-width: 600px; margin: 0 auto;">
-    Una colección de mis trabajos más destacados en ingeniería mecánica, diseño CAD y mecatrónica. Desde el concepto inicial hasta la fabricación.
+    Una colección de mis trabajos más destacados en ingeniería mecánica, diseño CAD y mecatrónica.
   </p>
 </div>
 
 <div class="projects-grid">
+
+  <a href="/tfg-dune" class="project-card">
+    <span class="wip-badge">🚧 EN DESARROLLO</span>
+    
+    <div class="card-image-container">
+      <img src="/assets/images/dune-cad-v1.jpg" alt="Estructura DUNE TFG" class="card-image">
+    </div>
+    <div class="card-content">
+      <span class="project-tag">Investigación & Estructuras</span>
+      <h3 class="project-title">Soporte Sensor DUNE (TFG)</h3>
+      <p class="project-desc">Diseño de una estructura criogénica (-186°C) para soportar sensores de fotones en el experimento internacional DUNE.</p>
+      <span class="card-link">Ver progreso ➔</span>
+    </div>
+  </a>
 
   <a href="/simulador-racing" class="project-card">
     <div class="card-image-container">
@@ -129,18 +159,6 @@ permalink: /proyectos/
     </div>
   </a>
 
-  <a href="/tfg-dune" class="project-card">
-    <div class="card-image-container">
-      <img src="/assets/images/dune-structure.jpg" alt="Estructura Sensor DUNE" class="card-image">
-    </div>
-    <div class="card-content">
-      <span class="project-tag">Investigación & Estructuras</span>
-      <h3 class="project-title">Soporte Sensor DUNE (TFG)</h3>
-      <p class="project-desc">Diseño estructural para la integración de sensores en el experimento de neutrinos DUNE. Análisis de materiales para entornos críticos.</p>
-      <span class="card-link">Ver detalles ➔</span>
-    </div>
-  </a>
-
   <a href="/smart-hangboard" class="project-card">
     <div class="card-image-container">
       <img src="/assets/images/smart-hangboard.jpg" alt="Entrenador Inteligente" class="card-image">
@@ -148,7 +166,7 @@ permalink: /proyectos/
     <div class="card-content">
       <span class="project-tag">IoT & Desarrollo App</span>
       <h3 class="project-title">Entrenador de Escalada IoT</h3>
-      <p class="project-desc">Dispositivo de entrenamiento con regletas intercambiables. Conectividad Bluetooth a App móvil para visualización de fuerza en tiempo real.</p>
+      <p class="project-desc">Dispositivo conectado para medir fuerza de dedos. Sensores de carga, ESP32 y App móvil para visualización en tiempo real.</p>
       <span class="card-link">Ver detalles ➔</span>
     </div>
   </a>
