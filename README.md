@@ -50,11 +50,38 @@ order: 1
 <br><br>
 
 <h3>⭐ Proyecto Destacado</h3>
-<div style="border: 1px solid #eee; border-radius: 10px; overflow: hidden; box-shadow: 0 5px 15px rgba(0,0,0,0.05);">
-  <img src="assets/images/simulador-volante.jpg" alt="Simulador" style="width: 100%; height: 300px; object-fit: cover; background-color: #ddd;">
-  <div style="padding: 25px;">
-    <h2>Simulador Direct Drive Híbrido</h2>
-    <p>Conversión de un motor de patinete eléctrico en un volante de simulación profesional.</p>
-    <a href="./simulador-racing" style="color: #0366d6; font-weight: bold; text-decoration: none;">Leer caso de estudio ➔</a>
-  </div>
+
+<div style="
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('assets/images/01_full_rig.jpg');
+    background-size: cover;
+    background-position: center;
+    border-radius: 12px;
+    padding: 80px 20px;
+    text-align: center;
+    color: white;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+    margin-bottom: 30px;
+    transition: transform 0.3s ease;">
+
+    <h2 style="color: white; text-shadow: 0 2px 4px rgba(0,0,0,0.5); margin-bottom: 15px; font-size: 2.2em; border: none;">
+        🏎️ Simulador Direct Drive Híbrido
+    </h2>
+    
+    <p style="color: #f0f0f0; font-size: 1.2em; max-width: 700px; margin: 0 auto 30px auto; text-shadow: 0 1px 3px rgba(0,0,0,0.8); line-height: 1.5;">
+        Ingeniería Open Source llevada al límite: Motor de 15Nm recuperado, electrónica personalizada y pedales con célula de carga.
+    </p>
+
+    <a href="./simulador-racing" style="
+        background-color: #2ea44f;
+        color: white;
+        padding: 15px 30px;
+        text-decoration: none;
+        border-radius: 6px;
+        font-weight: bold;
+        font-size: 18px;
+        border: 1px solid rgba(255, 255, 255, 0.2);
+        box-shadow: 0 4px 6px rgba(0,0,0,0.2);">
+        VER CASO DE ESTUDIO ➔
+    </a>
+
 </div>
