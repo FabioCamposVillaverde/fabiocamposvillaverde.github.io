@@ -40,10 +40,12 @@ permalink: /proyectos/
 
   .card-image-container {
     width: 100%;
-    height: 200px;
+    /* ANTES: height: 220px; */
+    height: 350px;  /* <--- CAMBIA ESTO */
     background-color: #f4f4f4;
     overflow: hidden;
     position: relative;
+    border-bottom: 1px solid #eaeaea;
   }
 
   .card-image {
