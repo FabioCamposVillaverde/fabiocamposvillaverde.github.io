@@ -14,7 +14,7 @@ Si tienes alguna propuesta laboral, duda sobre mis proyectos o simplemente quier
     <h3>📍 Mis Datos</h3>
     <p><strong>Email:</strong> fabio11fcv@gmail.com</p>
     <p><strong>Ubicación:</strong> Vigo, España</p>
-    <p><strong>LinkedIn:</strong> <a href="https://linkedin.com/in/tu-perfil">Ver Perfil</a></p>
+    <p><strong>LinkedIn:</strong> <a href="https://linkedin.com/in/fabio-campos-villaverde-23543b352">Ver Perfil</a></p>
     <br>
     <p>Actualmente estoy buscando oportunidades como Ingeniero Junior o Prácticas en diseño mecánico.</p>
   </div>
