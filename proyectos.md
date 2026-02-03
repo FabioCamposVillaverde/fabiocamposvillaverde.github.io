@@ -30,7 +30,7 @@ permalink: /proyectos/
     display: flex;
     flex-direction: column;
     height: 100%;
-    position: relative; /* Para poder posicionar etiquetas si hiciera falta */
+    position: relative;
   }
 
   .project-card:hover {
@@ -123,7 +123,6 @@ permalink: /proyectos/
 
   <a href="/tfg-dune" class="project-card">
     <span class="wip-badge">🚧 EN DESARROLLO</span>
-    
     <div class="card-image-container">
       <img src="/assets/images/dune-cad-v1.jpg" alt="Estructura DUNE TFG" class="card-image">
     </div>
@@ -149,7 +148,7 @@ permalink: /proyectos/
 
   <a href="/cinta-modular" class="project-card">
     <div class="card-image-container">
-      <img src="/assets/images/cinta-render.jpg" alt="Cinta Modular" class="card-image">
+      <img src="/assets/images/cinta_full_render.jpg" alt="Cinta Modular Render" class="card-image">
     </div>
     <div class="card-content">
       <span class="project-tag">Diseño Mecánico</span>
