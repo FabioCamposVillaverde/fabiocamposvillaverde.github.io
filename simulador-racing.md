@@ -90,4 +90,4 @@ He construido un sistema de **Bass Shakers** utilizando altavoces reciclados mod
 | **Estructura** | Madera reforzada + Acero | Diseño Propio CAD |
 
 ---
-*Diseño y construcción por [Tu Nombre].*
+
