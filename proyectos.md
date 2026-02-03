@@ -160,7 +160,7 @@ permalink: /proyectos/
 
   <a href="/smart-hangboard" class="project-card">
     <div class="card-image-container">
-      <img src="/assets/images/smart-hangboard.jpg" alt="Entrenador Inteligente" class="card-image">
+      <img src="/assets/images/fixed_system_3d.jpg" alt="Entrenador Inteligente" class="card-image">
     </div>
     <div class="card-content">
       <span class="project-tag">IoT & Desarrollo App</span>
