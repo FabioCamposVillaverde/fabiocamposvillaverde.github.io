@@ -5,65 +5,77 @@ title: IoT Smart Climbing Trainer
 
 # 🧗 Smart Climbing Sensor (IoT)
 
-<img src="/assets/images/climbing_sensor_main.jpg" width="100%" style="border-radius: 8px;">
-
-<br>
+<div align="center">
+  <img src="/assets/images/climbing_sensor_main.jpg" width="100%" style="border-radius: 8px; margin-bottom: 20px;">
+</div>
 
 > **"Digitalizando la fuerza de agarre."**
-> Un dispositivo de medición portátil desarrollado desde cero. Integra diseño mecánico (CNC/3D), electrónica embebida (ESP32) y desarrollo de software móvil para monitorizar el rendimiento en escalada.
+> Un dispositivo de medición portátil desarrollado desde cero. Integra diseño mecánico (CNC/3D), electrónica embebida (ESP32) y desarrollo de software móvil.
 
 ---
 
 ### 📱 Fase 1: Prototipado y Desarrollo de App
-<img src="/assets/images/app_dev_v2.jpg" align="right" width="35%" style="margin-left: 20px; margin-bottom: 10px; border-radius: 6px; border: 1px solid #ddd;">
-<img src="/assets/images/v1_prototype.jpg" align="right" width="35%" style="margin-left: 20px; margin-bottom: 10px; border-radius: 6px; margin-top: 10px;">
 
-El proyecto nació de la necesidad de una alternativa accesible a los sensores comerciales (como Tindeq).
+El proyecto nació de la necesidad de una alternativa accesible a los sensores comerciales. El reto principal fue crear un ecosistema de software propio antes de perfeccionar el hardware.
 
-* **Software Propio (V1/V2):** Se desarrolló una aplicación Android utilizando *MIT App Inventor*.
-    * **Funcionalidades:** Visualización de gráficos en tiempo real, guardado de datos en CSV para post-procesado y temporizadores acústicos para entrenamientos de repeticiones.
-* **Hardware Inicial:** La primera versión (V1) fue una prueba de concepto fabricada manualmente. Aunque funcional, la falta de precisión mecánica en la celda de carga casera impulsó la siguiente iteración.
+* **Software (V1/V2):** Se desarrolló una App Android (MIT App Inventor) con gráficos en tiempo real y exportación CSV.
+* **Hardware Inicial:** La V1 (derecha) fue una prueba de concepto con una celda de carga genérica. Aunque funcional, sirvió para validar la comunicación Bluetooth antes de invertir en mecanizado.
 
-<br clear="all">
+<div style="display: flex; justify-content: center; gap: 20px; margin-top: 20px; flex-wrap: wrap;">
+  <div style="text-align: center; width: 45%;">
+    <img src="/assets/images/app_dev_v2.jpg" style="height: 400px; object-fit: contain; border-radius: 6px; border: 1px solid #ddd;">
+    <p style="font-size: 0.8rem; color: #666;">Interfaz App V2</p>
+  </div>
+  <div style="text-align: center; width: 45%;">
+    <img src="/assets/images/v1_prototype.jpg" style="height: 400px; object-fit: cover; border-radius: 6px;">
+    <p style="font-size: 0.8rem; color: #666;">Prototipo V1 (Prueba de concepto)</p>
+  </div>
+</div>
+
 <br>
 
-### ⚙️ Fase 2: Mecanizado CNC e Integración
-<img src="/assets/images/v2_internal_cnc.jpg" align="left" width="45%" style="margin-right: 20px; margin-bottom: 10px; border-radius: 6px;">
+### ⚙️ Fase 2: El Reto del Mecanizado CNC
 
-Para la versión V2, se buscó profesionalizar el hardware.
+Para la versión V2, se buscó profesionalizar el hardware diseñando una celda de carga personalizada en **Aluminio**.
 
-* **Diseño Mecánico:** Se diseñó una celda de carga personalizada y se mandó fabricar en **Aluminio mediante CNC**. Se diseñó una carcasa compacta impresa en 3D para alojar la batería y el amplificador HX711.
-* **Lecciones Aprendidas:** Esta fase fue crítica. Los cálculos de deformación para la pieza CNC no fueron correctos, resultando en una histéresis alta y mediciones inconsistentes.
-* **Solución:** Este "fallo" ingenieril permitió comprender la complejidad de diseñar transductores de fuerza desde cero, redirigiendo el proyecto hacia la integración de sensores industriales calibrados.
+* **El Error Instructivo:** Los cálculos de deformación para la pieza CNC no fueron correctos para el tipo de aleación usada, resultando en una histéresis alta (la pieza no recuperaba su forma original perfectamente).
+* **Aprendizaje:** Este fallo permitió comprender la complejidad de diseñar transductores de fuerza, redirigiendo el proyecto en la V3 hacia la integración de sensores industriales calibrados.
 
-<br clear="all">
+<div align="center" style="margin-top: 15px;">
+  <img src="/assets/images/v2_internal_cnc.jpg" width="80%" style="border-radius: 6px;">
+  <p style="font-size: 0.8rem; color: #666; margin-top: 5px;">Interior de la V2: Integración de amplificador HX711 en carcasa 3D</p>
+</div>
+
 <br>
 
-### 📡 Fase 3: Estandarización y Conectividad (V3)
-<img src="/assets/images/climbing_sensor_main.jpg" align="right" width="45%" style="margin-left: 20px; margin-bottom: 10px; border-radius: 6px;">
+### 📡 Fase 3: Estandarización (Versión Final)
 
-La versión actual (V3) soluciona los problemas mecánicos y mejora la conectividad.
+La versión actual (V3) soluciona los problemas mecánicos y mejora la conectividad, logrando un producto final fiable.
 
-* **Hardware Robusto:** Se integró una celda de carga comercial de grado industrial (Puente de Wheatstone completo) garantizando linealidad y precisión.
-* **Firmware ESP32:** Se migró a un microcontrolador ESP32 por su capacidad Bluetooth Low Energy (BLE).
-* **Protocolo Open Source:** Se implementó una emulación del protocolo de comunicación de Tindeq (basado en el repositorio *crimpdeq*). Esto permite que mi hardware casero sea compatible con la aplicación oficial profesional, aprovechando lo mejor de ambos mundos: hardware económico propio y software comercial depurado.
+* **Hardware Robusto:** Se integró una celda de carga comercial de grado industrial (Puente de Wheatstone completo).
+* **Protocolo Open Source:** Se migró a **ESP32** para emular el protocolo de comunicación de sensores profesionales (Tindeq). Esto permite usar mi hardware casero con software de entrenamiento avanzado existente en el mercado.
 
-<br clear="all">
+<div align="center" style="margin-top: 15px;">
+  <img src="/assets/images/climbing_sensor_main.jpg" width="80%" style="border-radius: 6px;">
+</div>
+
 <br>
 
 ### 🧱 Innovación: Sistema Fijo Intercambiable
-<img src="/assets/images/fixed_system_3d.jpg" align="left" width="45%" style="margin-right: 20px; margin-bottom: 10px; border-radius: 6px;">
 
-Paralelamente al sensor portátil, se desarrolló una estación de medición fija para rocódromos.
+Paralelamente, se desarrolló una estación de medición fija para rocódromos con una ventaja clave sobre las tablas comerciales: la **modularidad**.
 
-* **Diseño Modular:** A diferencia de las tablas multipresa tradicionales, este sistema cuenta con un **cabezal intercambiable**.
-* **Versatilidad:** Mediante impresión 3D rápida, se pueden fabricar insertos con distintas profundidades (10mm, 20mm, romos) que se acoplan al sensor base. Esto permite testear diferentes tipos de agarre sin necesitar múltiples sensores costosos.
+Mediante impresión 3D rápida, se pueden fabricar insertos con distintas profundidades (10mm, 20mm, romos) que se acoplan al sensor base, permitiendo testear diferentes agarres con un solo sensor.
 
-<br clear="all">
+<div align="center" style="margin-top: 15px;">
+  <img src="/assets/images/fixed_system_3d.jpg" width="60%" style="border-radius: 6px;">
+</div>
+
+<br>
 
 ---
 
-### 🚀 Ficha Técnica del Proyecto
+### 🚀 Ficha Técnica
 
 | Dominio | Tecnologías Aplicadas |
 | :--- | :--- |
