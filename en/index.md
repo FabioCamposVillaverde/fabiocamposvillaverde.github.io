@@ -5,6 +5,11 @@ permalink: /en/
 order: 1
 ---
 
+<div style="display: flex; justify-content: flex-end; margin-bottom: 20px; gap: 10px;">
+  <a href="/" style="text-decoration: none; padding: 5px 12px; border-radius: 4px; font-weight: bold; border: 1px solid #24292e; color: #24292e; font-size: 0.9em; transition: all 0.2s;">🇪🇸 ES</a>
+  <span style="padding: 5px 12px; border-radius: 4px; font-weight: bold; background: #24292e; color: white; font-size: 0.9em; box-shadow: 0 2px 4px rgba(0,0,0,0.1); cursor: default;">🇬🇧 EN</span>
+</div>
+
 <div style="display: flex; flex-wrap: wrap; align-items: center; gap: 50px; margin-bottom: 60px;">
   
   <div style="flex: 1; min-width: 280px;">
@@ -27,7 +32,7 @@ order: 1
     <br>
     
     <div style="display: flex; gap: 15px; flex-wrap: wrap; margin-top: 10px;">
-      <a href="/en/proyectos/" style="background-color: #24292e; color: white; padding: 12px 28px; text-decoration: none; border-radius: 6px; font-weight: 600; font-size: 1.05rem; transition: background 0.3s;">View Projects</a>
+      <a href="/en/projects/" style="background-color: #24292e; color: white; padding: 12px 28px; text-decoration: none; border-radius: 6px; font-weight: 600; font-size: 1.05rem; transition: background 0.3s;">View Projects</a>
       <a href="/resume/" style="background-color: white; color: #24292e; border: 2px solid #24292e; padding: 10px 23px; text-decoration: none; border-radius: 6px; font-weight: 600; font-size: 1.05rem; transition: all 0.3s;">📄 View Resume</a>
     </div>
   </div>
@@ -110,5 +115,5 @@ order: 1
 </div>
 
 <div style="text-align: center; margin-top: 30px; margin-bottom: 50px;">
-    <a href="/en/proyectos/" style="color: #0366d6; text-decoration: none; font-weight: bold; font-size: 1.2em; border-bottom: 2px solid #0366d6;">View all projects (Modular Conveyor, DUNE Thesis...) ➔</a>
+    <a href="/en/projects/" style="color: #0366d6; text-decoration: none; font-weight: bold; font-size: 1.2em; border-bottom: 2px solid #0366d6;">View all projects (Modular Conveyor, DUNE Thesis...) ➔</a>
 </div>
