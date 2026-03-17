@@ -5,6 +5,11 @@ permalink: /
 order: 1
 ---
 
+<div style="display: flex; justify-content: flex-end; margin-bottom: 20px; gap: 10px;">
+  <span style="padding: 5px 12px; border-radius: 4px; font-weight: bold; background: #24292e; color: white; font-size: 0.9em; box-shadow: 0 2px 4px rgba(0,0,0,0.1); cursor: default;">🇪🇸 ES</span>
+  <a href="/en/" style="text-decoration: none; padding: 5px 12px; border-radius: 4px; font-weight: bold; border: 1px solid #24292e; color: #24292e; font-size: 0.9em; transition: all 0.2s;">🇬🇧 EN</a>
+</div>
+
 <div style="display: flex; flex-wrap: wrap; align-items: center; gap: 50px; margin-bottom: 60px;">
   
   <div style="flex: 1; min-width: 280px;">
