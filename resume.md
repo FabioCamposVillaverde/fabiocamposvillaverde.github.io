@@ -53,16 +53,16 @@ permalink: /resume/
     Experiencia detallada en ingeniería mecánica, diseño paramétrico y mecatrónica.
   </p>
   
-  <a href="/assets/pdfs/curriculum-fabio-eng.pdf" download class="btn-download">
+  <a href="/assets/pdfs/curriculum-fabio-esp.pdf" download class="btn-download">
     📥 Descargar PDF Completo
   </a>
 </div>
 
 <div class="pdf-container">
-  <iframe src="/assets/pdfs/curriculum-fabio-eng.pdf" width="100%" height="100%" style="border: none;">
+  <iframe src="/assets/pdfs/curriculum-fabio-esp.pdf" width="100%" height="100%" style="border: none;">
     <div style="text-align: center; padding: 50px;">
       <p>Tu navegador no puede visualizar el PDF directamente.</p>
-      <a href="/assets/pdfs/cv_fabio_campos.pdf" class="btn-download">Haz clic aquí para descargarlo</a>
+      <a href="/assets/pdfs/curriculum-fabio-esp.pdf" class="btn-download">Haz clic aquí para descargarlo</a>
     </div>
   </iframe>
 </div>

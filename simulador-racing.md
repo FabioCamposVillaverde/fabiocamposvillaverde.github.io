@@ -90,4 +90,5 @@ He construido un sistema de **Bass Shakers** utilizando altavoces reciclados mod
 | **Estructura** | Madera reforzada + Acero | Diseño Propio CAD |
 
 ---
+[🔙 Volver al Portafolio](/proyectos/)
 
