@@ -127,9 +127,9 @@ permalink: /proyectos/
       <img src="/assets/images/dune-cad-v1.jpg" alt="Estructura DUNE TFG" class="card-image">
     </div>
     <div class="card-content">
-      <span class="project-tag">Investigación & Estructuras</span>
-      <h3 class="project-title">Soporte Sensor DUNE (TFG)</h3>
-      <p class="project-desc">Diseño de una estructura criogénica (-186°C) para soportar sensores de fotones en el experimento internacional DUNE.</p>
+      <span class="project-tag">Diseño termo-estructural</span>
+      <h3 class="project-title">Soportes para sensores · DUNE ND-GAr (TFG)</h3>
+      <p class="project-desc">Módulo óptico criogénico (ΔT −47 °C) para el experimento internacional de neutrinos DUNE. Diseño en SolidWorks y validación FEM estructural y térmica.</p>
       <span class="card-link">Ver progreso ➔</span>
     </div>
   </a>

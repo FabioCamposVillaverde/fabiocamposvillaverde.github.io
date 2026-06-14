@@ -3,12 +3,8 @@ layout: default
 title: Home
 permalink: /
 order: 1
+description: "Portafolio de ingeniería mecánica de Fabio Campos: diseño paramétrico en SolidWorks, mecatrónica y fabricación. Del CAD al prototipo funcional."
 ---
-
-<div style="display: flex; justify-content: flex-end; margin-bottom: 20px; gap: 10px;">
-  <span style="padding: 5px 12px; border-radius: 4px; font-weight: bold; background: #24292e; color: white; font-size: 0.9em; box-shadow: 0 2px 4px rgba(0,0,0,0.1); cursor: default;">🇪🇸 ES</span>
-  <a href="/en/" style="text-decoration: none; padding: 5px 12px; border-radius: 4px; font-weight: bold; border: 1px solid #24292e; color: #24292e; font-size: 0.9em; transition: all 0.2s;">🇬🇧 EN</a>
-</div>
 
 <div style="display: flex; flex-wrap: wrap; align-items: center; gap: 50px; margin-bottom: 60px;">
   
@@ -26,7 +22,7 @@ order: 1
       Mi enfoque combina la ingeniería mecánica clásica con la electrónica moderna (IoT/Mecatrónica) para llevar proyectos desde el CAD hasta el prototipo funcional.
     </p>
     <p style="font-size: 1em; color: #0366d6; font-weight: 500; background: #f0f7ff; padding: 10px; border-left: 4px solid #0366d6; border-radius: 4px;">
-      🎓 Actualmente desarrollando mi TFG sobre estructuras criogénicas para el experimento internacional DUNE.
+      🎓 Actualmente desarrollando mi TFG: el diseño termo-estructural de un módulo óptico para el experimento internacional de neutrinos DUNE.
     </p>
     
     <br>

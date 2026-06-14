@@ -127,9 +127,9 @@ permalink: /en/projects/
       <img src="/assets/images/dune-cad-v1.jpg" alt="DUNE Structure BSc Thesis" class="card-image">
     </div>
     <div class="card-content">
-      <span class="project-tag">Research & Structures</span>
-      <h3 class="project-title">DUNE Sensor Support (BSc Thesis)</h3>
-      <p class="project-desc">Design of a cryogenic structure (-186°C) to support photon sensors in the international DUNE experiment.</p>
+      <span class="project-tag">Thermo-structural design</span>
+      <h3 class="project-title">Sensor supports · DUNE ND-GAr (BSc Thesis)</h3>
+      <p class="project-desc">Cryogenic optical module (ΔT −47 °C) for the international DUNE neutrino experiment. SolidWorks design with structural and thermal FEM validation.</p>
       <span class="card-link">View progress ➔</span>
     </div>
   </a>

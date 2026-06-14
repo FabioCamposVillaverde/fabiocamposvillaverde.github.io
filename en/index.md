@@ -3,12 +3,9 @@ layout: default
 title: Home
 permalink: /en/
 order: 1
+lang: en
+description: "Mechanical engineering portfolio of Fabio Campos: parametric design in SolidWorks, mechatronics and manufacturing. From CAD to functional prototype."
 ---
-
-<div style="display: flex; justify-content: flex-end; margin-bottom: 20px; gap: 10px;">
-  <a href="/" style="text-decoration: none; padding: 5px 12px; border-radius: 4px; font-weight: bold; border: 1px solid #24292e; color: #24292e; font-size: 0.9em; transition: all 0.2s;">🇪🇸 ES</a>
-  <span style="padding: 5px 12px; border-radius: 4px; font-weight: bold; background: #24292e; color: white; font-size: 0.9em; box-shadow: 0 2px 4px rgba(0,0,0,0.1); cursor: default;">🇬🇧 EN</span>
-</div>
 
 <div style="display: flex; flex-wrap: wrap; align-items: center; gap: 50px; margin-bottom: 60px;">
   
@@ -26,14 +23,14 @@ order: 1
       My approach combines classic mechanical engineering with modern electronics (IoT/Mechatronics) to take projects from CAD models to functional prototypes.
     </p>
     <p style="font-size: 1em; color: #0366d6; font-weight: 500; background: #f0f7ff; padding: 10px; border-left: 4px solid #0366d6; border-radius: 4px;">
-      🎓 Currently developing my Bachelor Thesis on cryogenic structures for the international DUNE experiment.
+      🎓 Currently developing my Bachelor Thesis: the thermo-structural design of an optical module for the international DUNE neutrino experiment.
     </p>
     
     <br>
     
     <div style="display: flex; gap: 15px; flex-wrap: wrap; margin-top: 10px;">
       <a href="/en/projects/" style="background-color: #24292e; color: white; padding: 12px 28px; text-decoration: none; border-radius: 6px; font-weight: 600; font-size: 1.05rem; transition: background 0.3s;">View Projects</a>
-      <a href="/resume/" style="background-color: white; color: #24292e; border: 2px solid #24292e; padding: 10px 23px; text-decoration: none; border-radius: 6px; font-weight: 600; font-size: 1.05rem; transition: all 0.3s;">📄 View Resume</a>
+      <a href="/en/resume/" style="background-color: white; color: #24292e; border: 2px solid #24292e; padding: 10px 23px; text-decoration: none; border-radius: 6px; font-weight: 600; font-size: 1.05rem; transition: all 0.3s;">📄 View Resume</a>
     </div>
   </div>
 

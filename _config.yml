@@ -1,6 +1,8 @@
 theme: jekyll-theme-minimal
 title: Fabio Campos V.
-description: Portafolio de Ingeniería Mecánica
+description: Portafolio de Ingeniería Mecánica de Fabio Campos — Diseño paramétrico (SolidWorks), mecatrónica y fabricación. Del CAD al prototipo funcional.
+url: "https://fabiocamposvillaverde.github.io"
+baseurl: ""
 show_downloads: false
 # Esto ayuda a que el tema se vea más ancho como el de Caleb
 style: |
