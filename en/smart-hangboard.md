@@ -3,6 +3,7 @@ layout: default
 title: IoT Smart Climbing Trainer
 permalink: /en/smart-hangboard/
 lang: en
+alt: /smart-hangboard
 description: "Portable grip-strength meter for climbing: mechanical design (CNC/3D), embedded electronics with ESP32 and BLE, and a custom mobile app."
 ---
 

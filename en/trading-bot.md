@@ -1,8 +1,10 @@
 ---
 layout: default
-title: Bot de Trading Algorítmico
-alt: /en/trading-bot/
-description: "Bot de trading algorítmico para Bitcoin construido en Python: pipeline de datos, despliegue 24/7, dashboard en tiempo real, backtesting y gestión de riesgo."
+title: Algorithmic Trading Bot
+permalink: /en/trading-bot/
+lang: en
+alt: /trading-bot/
+description: "Algorithmic Bitcoin trading bot built in Python: data pipeline, 24/7 deployment, real-time dashboard, backtesting and risk management."
 ---
 
 <style>
@@ -80,102 +82,102 @@ description: "Bot de trading algorítmico para Bitcoin construido en Python: pip
     <section class="tb-hero tb-reveal" style="margin-top: 0;">
       <div>
         <span class="tb-eyebrow">Python · Data Engineering · DevOps</span>
-        <h1>Bot de Trading Algorítmico para Bitcoin</h1>
-        <p class="tag">Un sistema autónomo que opera, se vigila y se valida solo — en producción 24/7.</p>
+        <h1>Algorithmic Bitcoin Trading Bot</h1>
+        <p class="tag">An autonomous system that trades, monitors and validates itself — live 24/7.</p>
         <div class="tb-chips">
           <span class="tb-chip">Python</span>
           <span class="tb-chip">DuckDB</span>
           <span class="tb-chip">Streamlit</span>
         </div>
         <div class="tb-hero-cta">
-          <a class="tb-btn" href="/contact/">Hablemos del proyecto</a>
+          <a class="tb-btn" href="/en/contact/">Let's talk about it</a>
         </div>
-        <p style="font-size: .82rem; color: var(--muted); margin-top: 14px;">Proyecto personal · código privado, disponible bajo petición.</p>
+        <p style="font-size: .82rem; color: var(--muted); margin-top: 14px;">Personal project · private code, available on request.</p>
       </div>
       <div class="tb-hero-media tb-frame">
         <img src="/assets/images/trading-bot/02_market_data.png" loading="lazy" decoding="async"
-             alt="Pipeline de datos de mercado: order flow agregado de más de 150 mercados" onerror="tbPH(this)">
+             alt="Market data pipeline: aggregated order flow across 150+ markets" onerror="tbPH(this)">
       </div>
     </section>
 
     <!-- Stats -->
     <section class="tb-stats tb-reveal" style="margin-top: 64px;">
-      <div class="tb-stat"><div class="tb-stat-num"><span class="tb-count" data-to="150">0</span>+</div><div class="tb-stat-lbl">mercados agregados</div></div>
-      <div class="tb-stat"><div class="tb-stat-num">24/7</div><div class="tb-stat-lbl">en producción</div></div>
-      <div class="tb-stat"><div class="tb-stat-num"><span class="tb-count" data-to="100">0</span>%</div><div class="tb-stat-lbl">Python, desde cero</div></div>
-      <div class="tb-stat"><div class="tb-stat-num"><span class="tb-count" data-to="0">0</span></div><div class="tb-stat-lbl">intervención manual</div></div>
+      <div class="tb-stat"><div class="tb-stat-num"><span class="tb-count" data-to="150">0</span>+</div><div class="tb-stat-lbl">aggregated markets</div></div>
+      <div class="tb-stat"><div class="tb-stat-num">24/7</div><div class="tb-stat-lbl">live in production</div></div>
+      <div class="tb-stat"><div class="tb-stat-num"><span class="tb-count" data-to="100">0</span>%</div><div class="tb-stat-lbl">Python, from scratch</div></div>
+      <div class="tb-stat"><div class="tb-stat-num"><span class="tb-count" data-to="0">0</span></div><div class="tb-stat-lbl">manual intervention</div></div>
     </section>
 
-    <!-- 2. RESUMEN -->
+    <!-- 2. OVERVIEW -->
     <section class="tb-reveal">
-      <span class="tb-eyebrow">Resumen</span>
-      <h2>Qué es</h2>
-      <p class="tb-lead">Sistema de trading automático para Bitcoin construido íntegramente en Python. Recoge datos de mercado en tiempo real desde varias fuentes, los procesa y decide cuándo operar siguiendo estrategias programadas, mientras gestiona el riesgo de forma automática. Funciona sin intervención 24/7 en un servidor en la nube y se supervisa desde un panel de control web en directo. Cada estrategia se valida antes contra años de datos históricos con métodos estadísticos rigurosos.</p>
+      <span class="tb-eyebrow">Overview</span>
+      <h2>What it is</h2>
+      <p class="tb-lead">A fully Python-built automated trading system for Bitcoin. It collects real-time market data from multiple sources, processes it and decides when to trade following programmed strategies, all while managing risk automatically. It runs unattended 24/7 on a cloud server and is monitored through a live web dashboard. Every strategy is first validated against years of historical data using rigorous statistical methods.</p>
     </section>
 
     <!-- 3. HIGHLIGHTS -->
     <section class="tb-reveal">
-      <span class="tb-eyebrow">Lo que demuestra</span>
-      <h2>Competencias clave</h2>
+      <span class="tb-eyebrow">What it shows</span>
+      <h2>Key skills</h2>
       <div class="tb-grid" style="margin-top: 30px;">
-        <div class="tb-card tb-reveal"><span class="ico" aria-hidden="true">🐍</span><h3>Backend en Python</h3><p>Sistema asíncrono y modular construido desde cero.</p></div>
-        <div class="tb-card tb-reveal"><span class="ico" aria-hidden="true">🔗</span><h3>Ingeniería de datos</h3><p>Pipeline que ingiere y normaliza datos de varias APIs de mercado.</p></div>
-        <div class="tb-card tb-reveal"><span class="ico" aria-hidden="true">🚀</span><h3>Despliegue 24/7</h3><p>Corre en un servidor Linux en la nube como servicio gestionado, con auto-recuperación.</p></div>
-        <div class="tb-card tb-reveal"><span class="ico" aria-hidden="true">📊</span><h3>Dashboard en tiempo real</h3><p>Panel web para monitorizar el bot, los mercados y el rendimiento.</p></div>
-        <div class="tb-card tb-reveal"><span class="ico" aria-hidden="true">🧪</span><h3>Validación rigurosa</h3><p>Backtesting walk-forward y Monte Carlo para probar (o descartar) cada estrategia.</p></div>
-        <div class="tb-card tb-reveal"><span class="ico" aria-hidden="true">🛡️</span><h3>Gestión de riesgo</h3><p>Un «kill switch» detiene la operativa ante pérdidas o errores anómalos.</p></div>
-        <div class="tb-card tb-reveal"><span class="ico" aria-hidden="true">✅</span><h3>Buenas prácticas</h3><p>Git/GitHub, tests automatizados y tipado estricto.</p></div>
+        <div class="tb-card tb-reveal"><span class="ico" aria-hidden="true">🐍</span><h3>Python Backend</h3><p>Asynchronous, modular system built from scratch.</p></div>
+        <div class="tb-card tb-reveal"><span class="ico" aria-hidden="true">🔗</span><h3>Data Engineering</h3><p>A pipeline that ingests and normalizes data from multiple market APIs.</p></div>
+        <div class="tb-card tb-reveal"><span class="ico" aria-hidden="true">🚀</span><h3>24/7 Deployment</h3><p>Runs on a Linux cloud server as a managed service with auto-recovery.</p></div>
+        <div class="tb-card tb-reveal"><span class="ico" aria-hidden="true">📊</span><h3>Real-time Dashboard</h3><p>A web panel to monitor the bot, markets and performance.</p></div>
+        <div class="tb-card tb-reveal"><span class="ico" aria-hidden="true">🧪</span><h3>Rigorous Validation</h3><p>Walk-forward and Monte Carlo backtesting to prove (or discard) each strategy.</p></div>
+        <div class="tb-card tb-reveal"><span class="ico" aria-hidden="true">🛡️</span><h3>Risk Management</h3><p>A kill switch halts trading on abnormal losses or errors.</p></div>
+        <div class="tb-card tb-reveal"><span class="ico" aria-hidden="true">✅</span><h3>Best Practices</h3><p>Git/GitHub, automated tests and strict typing.</p></div>
       </div>
     </section>
 
-    <!-- 4. ARQUITECTURA -->
+    <!-- 4. ARCHITECTURE -->
     <section class="tb-reveal tb-arch">
-      <span class="tb-eyebrow">Cómo encaja todo</span>
-      <h2>Arquitectura del sistema</h2>
+      <span class="tb-eyebrow">How it fits together</span>
+      <h2>System Architecture</h2>
       <div class="tb-frame" style="margin-top: 30px;">
-        <img loading="lazy" decoding="async" src="/assets/images/trading-bot/architecture-es.svg" alt="Diagrama de arquitectura del bot de trading" onerror="tbPH(this)">
+        <img loading="lazy" decoding="async" src="/assets/images/trading-bot/architecture-en.svg" alt="Trading bot architecture diagram" onerror="tbPH(this)">
       </div>
     </section>
 
-    <!-- 5. GALERÍA -->
+    <!-- 5. GALLERY -->
     <section class="tb-reveal">
-      <span class="tb-eyebrow">En acción</span>
-      <h2>El sistema por dentro</h2>
+      <span class="tb-eyebrow">In action</span>
+      <h2>Inside the system</h2>
       <div class="tb-gallery" style="margin-top: 30px;">
 
         <figure class="tb-fig tb-reveal">
-          <button type="button" class="tb-shot" data-full="/assets/images/trading-bot/02_market_data.png" data-cap="Pipeline de datos multi-fuente: order flow agregado de +150 mercados (CVD, interés abierto, liquidaciones).">
-            <span class="tb-frame"><img src="/assets/images/trading-bot/02_market_data.png" loading="lazy" decoding="async" alt="Pipeline de datos multi-fuente con order flow agregado" onerror="tbPH(this)"></span>
+          <button type="button" class="tb-shot" data-full="/assets/images/trading-bot/02_market_data.png" data-cap="Multi-source data pipeline: aggregated order flow across 150+ markets (CVD, open interest, liquidations).">
+            <span class="tb-frame"><img src="/assets/images/trading-bot/02_market_data.png" loading="lazy" decoding="async" alt="Multi-source data pipeline with aggregated order flow" onerror="tbPH(this)"></span>
           </button>
-          <figcaption>Pipeline de datos multi-fuente: order flow agregado de +150 mercados (CVD, interés abierto, liquidaciones).</figcaption>
+          <figcaption>Multi-source data pipeline: aggregated order flow across 150+ markets (CVD, open interest, liquidations).</figcaption>
         </figure>
 
         <figure class="tb-fig tb-reveal">
-          <button type="button" class="tb-shot" data-full="/assets/images/trading-bot/04_backtests.png" data-cap="Motor de backtesting y validación: comparativa de estrategias con métricas de robustez.">
-            <span class="tb-frame"><img src="/assets/images/trading-bot/04_backtests.png" loading="lazy" decoding="async" alt="Motor de backtesting con comparativa de estrategias y curva de equity" onerror="tbPH(this)"></span>
+          <button type="button" class="tb-shot" data-full="/assets/images/trading-bot/04_backtests.png" data-cap="Backtesting &amp; validation engine: strategy comparison with robustness metrics.">
+            <span class="tb-frame"><img src="/assets/images/trading-bot/04_backtests.png" loading="lazy" decoding="async" alt="Backtesting engine with strategy comparison and equity curve" onerror="tbPH(this)"></span>
           </button>
-          <figcaption>Motor de backtesting y validación: comparativa de estrategias con métricas de robustez.</figcaption>
+          <figcaption>Backtesting &amp; validation engine: strategy comparison with robustness metrics.</figcaption>
         </figure>
 
         <figure class="tb-fig tb-reveal">
-          <button type="button" class="tb-shot" data-full="/assets/images/trading-bot/05_risk_engine.png" data-cap="Motor de riesgo: máquina de estados del kill-switch, disparadores de parada y validación de órdenes.">
-            <span class="tb-frame"><img src="/assets/images/trading-bot/05_risk_engine.png" loading="lazy" decoding="async" alt="Motor de riesgo con máquina de estados del kill-switch" onerror="tbPH(this)"></span>
+          <button type="button" class="tb-shot" data-full="/assets/images/trading-bot/05_risk_engine.png" data-cap="Risk engine: kill-switch state machine, halt triggers and order validation.">
+            <span class="tb-frame"><img src="/assets/images/trading-bot/05_risk_engine.png" loading="lazy" decoding="async" alt="Risk engine with kill-switch state machine" onerror="tbPH(this)"></span>
           </button>
-          <figcaption>Motor de riesgo: máquina de estados del kill-switch, disparadores de parada y validación de órdenes.</figcaption>
+          <figcaption>Risk engine: kill-switch state machine, halt triggers and order validation.</figcaption>
         </figure>
 
         <figure class="tb-fig tb-reveal">
-          <button type="button" class="tb-shot" data-full="/assets/images/trading-bot/03_signal_lab.png" data-cap="Laboratorio de señales: detectores propios (NPOC, divergencias, liquidaciones) con stream en vivo.">
-            <span class="tb-frame"><img src="/assets/images/trading-bot/03_signal_lab.png" loading="lazy" decoding="async" alt="Laboratorio de señales con detectores propios y stream en vivo" onerror="tbPH(this)"></span>
+          <button type="button" class="tb-shot" data-full="/assets/images/trading-bot/03_signal_lab.png" data-cap="Signal lab: custom detectors (NPOC, divergences, liquidations) with a live stream.">
+            <span class="tb-frame"><img src="/assets/images/trading-bot/03_signal_lab.png" loading="lazy" decoding="async" alt="Signal lab with custom detectors and a live stream" onerror="tbPH(this)"></span>
           </button>
-          <figcaption>Laboratorio de señales: detectores propios (NPOC, divergencias, liquidaciones) con stream en vivo.</figcaption>
+          <figcaption>Signal lab: custom detectors (NPOC, divergences, liquidations) with a live stream.</figcaption>
         </figure>
 
         <figure class="tb-fig tb-reveal">
-          <button type="button" class="tb-shot" data-full="/assets/images/trading-bot/01_cockpit.png" data-cap="Panel de control en vivo: estado del bot, kill-switch, equity y parámetros de la estrategia.">
-            <span class="tb-frame"><img src="/assets/images/trading-bot/01_cockpit.png" loading="lazy" decoding="async" alt="Panel de control en vivo con estado del bot y equity" onerror="tbPH(this)"></span>
+          <button type="button" class="tb-shot" data-full="/assets/images/trading-bot/01_cockpit.png" data-cap="Live control panel: bot status, kill-switch, equity and strategy parameters.">
+            <span class="tb-frame"><img src="/assets/images/trading-bot/01_cockpit.png" loading="lazy" decoding="async" alt="Live control panel with bot status and equity" onerror="tbPH(this)"></span>
           </button>
-          <figcaption>Panel de control en vivo: estado del bot, kill-switch, equity y parámetros de la estrategia.</figcaption>
+          <figcaption>Live control panel: bot status, kill-switch, equity and strategy parameters.</figcaption>
         </figure>
 
       </div>
@@ -183,12 +185,12 @@ description: "Bot de trading algorítmico para Bitcoin construido en Python: pip
 
     <!-- 6. STACK -->
     <section class="tb-reveal">
-      <span class="tb-eyebrow">Herramientas</span>
-      <h2>Stack técnico</h2>
+      <span class="tb-eyebrow">Tooling</span>
+      <h2>Tech Stack</h2>
       <div class="tb-chips" style="margin-top: 26px;">
         <span class="tb-badge">Python</span><span class="tb-badge">asyncio</span><span class="tb-badge">DuckDB</span>
         <span class="tb-badge">Polars</span><span class="tb-badge">Pydantic</span><span class="tb-badge">Streamlit</span>
-        <span class="tb-badge">APIs REST</span><span class="tb-badge">Git/GitHub</span><span class="tb-badge">Linux</span>
+        <span class="tb-badge">REST APIs</span><span class="tb-badge">Git/GitHub</span><span class="tb-badge">Linux</span>
         <span class="tb-badge">systemd</span><span class="tb-badge">VPS (Cloud)</span><span class="tb-badge">pytest</span>
       </div>
     </section>
@@ -196,24 +198,24 @@ description: "Bot de trading algorítmico para Bitcoin construido en Python: pip
     <!-- 7. CTA -->
     <section class="tb-reveal">
       <div class="tb-cta">
-        <h2>¿Hablamos de ingeniería?</h2>
-        <p style="max-width: 560px; margin: 0 auto;">Escríbeme si quieres conocer más detalles del sistema o ver el código.</p>
+        <h2>Let's talk engineering</h2>
+        <p style="max-width: 560px; margin: 0 auto;">Get in touch if you'd like to know more about the system or see the code.</p>
         <div class="row">
-          <a class="tb-btn" href="/contact/">Contacto</a>
+          <a class="tb-btn" href="/en/contact/">Contact</a>
         </div>
-        <p style="font-size: .82rem; color: var(--muted); margin-top: 16px;">Código privado · disponible bajo petición.</p>
+        <p style="font-size: .82rem; color: var(--muted); margin-top: 16px;">Private code · available on request.</p>
       </div>
 
       <div style="text-align: center; margin-top: 40px;">
-        <a href="/proyectos/">⬅️ Volver a mis proyectos</a>
+        <a href="/en/projects/">⬅️ Back to my projects</a>
       </div>
     </section>
 
   </div>
 
   <!-- Lightbox -->
-  <div class="tb-lb" id="tb-lb" role="dialog" aria-modal="true" aria-label="Vista ampliada">
-    <button type="button" class="tb-lb-close" id="tb-lb-close" aria-label="Cerrar">&times;</button>
+  <div class="tb-lb" id="tb-lb" role="dialog" aria-modal="true" aria-label="Enlarged view">
+    <button type="button" class="tb-lb-close" id="tb-lb-close" aria-label="Close">&times;</button>
     <img id="tb-lb-img" src="" alt="">
     <p class="tb-lb-cap" id="tb-lb-cap"></p>
   </div>
@@ -226,10 +228,9 @@ description: "Bot de trading algorítmico para Bitcoin construido en Python: pip
 
   window.tbPH = function(el){
     el.onerror = null;
-    el.src = "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' width='800' height='500'><rect width='800' height='500' fill='%23121821'/><rect x='1' y='1' width='798' height='498' fill='none' stroke='%23232c38' stroke-width='2'/><g fill='none' stroke='%233ddc97' stroke-width='5' opacity='.8'><rect x='320' y='190' width='160' height='120' rx='10'/><circle cx='365' cy='230' r='14'/><path d='M325 305 L390 255 L430 285 L475 240 L475 305 Z' fill='%233ddc97' fill-opacity='.18'/></g><text x='400' y='360' fill='%2393a1b1' font-family='Segoe UI,Arial' font-size='24' text-anchor='middle'>preview · captura en preparación</text></svg>";
+    el.src = "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' width='800' height='500'><rect width='800' height='500' fill='%23121821'/><rect x='1' y='1' width='798' height='498' fill='none' stroke='%23232c38' stroke-width='2'/><g fill='none' stroke='%233ddc97' stroke-width='5' opacity='.8'><rect x='320' y='190' width='160' height='120' rx='10'/><circle cx='365' cy='230' r='14'/><path d='M325 305 L390 255 L430 285 L475 240 L475 305 Z' fill='%233ddc97' fill-opacity='.18'/></g><text x='400' y='360' fill='%2393a1b1' font-family='Segoe UI,Arial' font-size='24' text-anchor='middle'>preview · screenshot coming soon</text></svg>";
   };
 
-  /* Lightbox */
   var lb = document.getElementById('tb-lb'), lbImg = document.getElementById('tb-lb-img'),
       lbCap = document.getElementById('tb-lb-cap'), lbClose = document.getElementById('tb-lb-close'), lastFocus = null;
   function openLB(btn){ lastFocus = btn; lbImg.setAttribute('src', btn.getAttribute('data-full')); var cap = btn.getAttribute('data-cap') || ''; lbImg.setAttribute('alt', cap); lbCap.textContent = cap; lb.classList.add('open'); lbClose.focus(); }
@@ -239,7 +240,6 @@ description: "Bot de trading algorítmico para Bitcoin construido en Python: pip
   lb.addEventListener('click', function(e){ if (e.target === lb) closeLB(); });
   document.addEventListener('keydown', function(e){ if (e.key === 'Escape' && lb.classList.contains('open')) closeLB(); });
 
-  /* Contadores + reveal */
   function countUp(el){ var to = parseInt(el.getAttribute('data-to'), 10) || 0, start = null, dur = 1100;
     function step(ts){ if (!start) start = ts; var p = Math.min((ts - start) / dur, 1); el.textContent = Math.floor(p * to).toString(); if (p < 1) requestAnimationFrame(step); }
     requestAnimationFrame(step); }
@@ -251,7 +251,6 @@ description: "Bot de trading algorítmico para Bitcoin construido en Python: pip
     reveals.forEach(function(el){ io.observe(el); });
   } else { reveals.forEach(function(el){ el.classList.add('is-visible'); }); tb.querySelectorAll('.tb-count').forEach(countUp); }
 
-  /* Zoom sutil en el hero */
   var heroImg = tb.querySelector('.tb-hero-media img');
   if (heroImg && !window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
     window.addEventListener('scroll', function(){ var y = Math.min(window.scrollY || 0, 500); heroImg.style.transform = 'scale(' + (1 + y * 0.00016) + ')'; }, { passive: true });

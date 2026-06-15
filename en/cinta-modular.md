@@ -3,6 +3,7 @@ layout: default
 title: Parametric Design · Modular Conveyor
 permalink: /en/cinta-modular/
 lang: en
+alt: /cinta-modular
 description: "A modular conveyor belt designed in SolidWorks with parametric design: it adjusts its length through equations and is rendered in SolidWorks Visualize."
 ---
 

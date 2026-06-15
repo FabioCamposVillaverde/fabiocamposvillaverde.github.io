@@ -3,6 +3,7 @@ layout: default
 title: DIY Direct Drive Sim Rig
 permalink: /en/simulador-racing/
 lang: en
+alt: /simulador-racing
 description: "A 15 Nm Direct Drive sim rig designed and built part by part: FFBeast, load-cell pedals, LED telemetry and bass shakers."
 ---
 
