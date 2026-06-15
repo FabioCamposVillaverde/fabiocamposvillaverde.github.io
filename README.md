@@ -37,7 +37,7 @@ description: "Portafolio de ingeniería mecánica de Fabio Campos: diseño param
     <h3 style="color: var(--muted); font-weight: normal; margin-top: 0; font-size: 1.25rem;">Ingeniería Mecánica · Universidad de Vigo · Graduación 2026</h3>
 
     <p style="font-size: 1.15em; line-height: 1.7; color: #b9c2cf; margin-top: 20px;">
-      Mención en <strong style="color: var(--text);">Diseño y Fabricación</strong>. Me gusta coger un proyecto y llevarlo de principio a fin: del modelo CAD al prototipo que funciona.
+      Mención en <strong style="color: var(--text);">Diseño y Fabricación</strong>. Disfruto del desarrollo completo de producto, desde el diseño CAD hasta la creación del prototipo funcional.
       Combino la mecánica clásica con electrónica e IoT y, lo que aún no domino, lo aprendo construyéndolo.
     </p>
     <p style="font-size: 1em; color: #cdd6e0; background: var(--panel); padding: 12px 16px; border-left: 4px solid var(--accent); border-radius: 0 8px 8px 0;">
@@ -78,7 +78,7 @@ description: "Portafolio de ingeniería mecánica de Fabio Campos: diseño param
   <div class="skill-card">
     <h4 style="color: #4aa8ff; margin-top: 0; font-size: 1.3rem;">🏭 Fabricación Real</h4>
     <p style="font-size: 1em; color: #b9c2cf; line-height: 1.7;">
-      Del ordenador al taller. Diseño de piezas funcionales para <strong style="color:var(--text);">impresión 3D</strong>, mecanizado CNC básico y montaje estructural en obra. Disfruto cuando una idea acaba siendo una pieza real.
+      Del ordenador al taller. Diseño de piezas funcionales para <strong style="color:var(--text);">impresión 3D</strong>, mecanizado CNC básico y montaje estructural en obra. Me motiva ver cómo una simple idea se convierte en una pieza real.
     </p>
   </div>
 
@@ -127,7 +127,7 @@ description: "Portafolio de ingeniería mecánica de Fabio Campos: diseño param
 <div id="sobre-mi" style="max-width: 760px;">
   <h2 style="font-size: 1.9rem; margin-bottom: 14px; color: var(--text);">Sobre mí</h2>
   <p style="font-size: 1.1em; color: #b9c2cf; line-height: 1.8;">
-    Soy un ingeniero al que le gusta ensuciarse las manos. Aprendí electrónica, programación e impresión 3D por mi cuenta, a base de prototipos que fallaban hasta que funcionaban. Vengo de la escalada y la cultura maker, y de ahí me llevo la constancia para resolver un problema hasta el final. No lo sé todo, pero con tiempo y trabajo aprendo lo que haga falta para sacar un proyecto adelante.
+    Soy un ingeniero polivalente y de mentalidad práctica (hands-on), con capacidad autodidacta en electrónica, programación e impresión 3D a través de la metodología de prueba y error. Mi experiencia en la escalada y la cultura maker me han aportado la constancia y resiliencia necesarias para resolver problemas complejos de principio a fin. Me motiva la mejora continua: no pretendo saberlo todo, pero poseo la disciplina y la capacidad de aprendizaje rápido para dominar cualquier tecnología necesaria y sacar un proyecto adelante.
   </p>
 </div>
 
