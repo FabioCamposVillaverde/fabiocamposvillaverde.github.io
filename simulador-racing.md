@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Simulador Direct Drive DIY
+alt: /en/simulador-racing/
 description: "Simulador de conducción Direct Drive (15 Nm) diseñado y fabricado pieza a pieza: FFBeast, pedales con célula de carga, telemetría LED y bass shakers."
 ---
 

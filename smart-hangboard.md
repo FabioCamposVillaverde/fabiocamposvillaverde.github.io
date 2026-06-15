@@ -1,6 +1,7 @@
 ---
 layout: default
 title: IoT Smart Climbing Trainer
+alt: /en/smart-hangboard/
 description: "Medidor portátil de fuerza de agarre para escalada: diseño mecánico (CNC/3D), electrónica embebida con ESP32 y BLE, y app móvil propia."
 ---
 

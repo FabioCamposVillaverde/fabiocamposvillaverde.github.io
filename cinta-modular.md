@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Diseño Paramétrico · Cinta Modular
+alt: /en/cinta-modular/
 description: "Cinta transportadora modular diseñada en SolidWorks con diseño paramétrico: ajusta su longitud por ecuaciones y se renderiza en SolidWorks Visualize."
 ---
 
