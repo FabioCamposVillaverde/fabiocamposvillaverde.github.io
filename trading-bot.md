@@ -177,7 +177,7 @@ description: "Bot de trading algorítmico para Bitcoin construido en Python: pip
             <span data-l="es">Ver en GitHub</span><span data-l="en">View on GitHub</span></a> -->
       </div>
       <div class="tb-hero-media tb-frame">
-        <img src="/assets/trading-bot/market-data.png" loading="lazy" decoding="async"
+        <img src="/assets/images/trading-bot/02_market_data.png" loading="lazy" decoding="async"
              data-alt-es="Pipeline de datos de mercado: order flow agregado de más de 150 mercados"
              data-alt-en="Market data pipeline: aggregated order flow across 150+ markets"
              alt="Pipeline de datos de mercado: order flow agregado de más de 150 mercados"
@@ -262,9 +262,9 @@ description: "Bot de trading algorítmico para Bitcoin construido en Python: pip
       <h2><span data-l="es">Arquitectura del sistema</span><span data-l="en">System Architecture</span></h2>
       <div class="tb-frame" style="margin-top: 30px;">
         <img id="tb-arch-img" loading="lazy" decoding="async"
-             data-src-es="/assets/trading-bot/architecture-es.svg"
-             data-src-en="/assets/trading-bot/architecture-en.svg"
-             src="/assets/trading-bot/architecture-es.svg"
+             data-src-es="/assets/images/trading-bot/architecture-es.svg"
+             data-src-en="/assets/images/trading-bot/architecture-en.svg"
+             src="/assets/images/trading-bot/architecture-es.svg"
              data-alt-es="Diagrama de arquitectura del bot de trading"
              data-alt-en="Trading bot architecture diagram"
              alt="Diagrama de arquitectura del bot de trading"
@@ -279,10 +279,10 @@ description: "Bot de trading algorítmico para Bitcoin construido en Python: pip
       <div class="tb-gallery" style="margin-top: 30px;">
 
         <figure class="tb-fig tb-reveal">
-          <button type="button" class="tb-shot" data-full="/assets/trading-bot/market-data.png"
+          <button type="button" class="tb-shot" data-full="/assets/images/trading-bot/02_market_data.png"
                   data-cap-es="Pipeline de datos multi-fuente: order flow agregado de +150 mercados (CVD, interés abierto, liquidaciones)."
                   data-cap-en="Multi-source data pipeline: aggregated order flow across 150+ markets (CVD, open interest, liquidations).">
-            <span class="tb-frame"><img src="/assets/trading-bot/market-data.png" loading="lazy" decoding="async" alt="Pipeline de datos multi-fuente con order flow agregado" onerror="tbPH(this)"></span>
+            <span class="tb-frame"><img src="/assets/images/trading-bot/02_market_data.png" loading="lazy" decoding="async" alt="Pipeline de datos multi-fuente con order flow agregado" onerror="tbPH(this)"></span>
           </button>
           <figcaption>
             <span data-l="es">Pipeline de datos multi-fuente: order flow agregado de +150 mercados (CVD, interés abierto, liquidaciones).</span>
@@ -291,10 +291,10 @@ description: "Bot de trading algorítmico para Bitcoin construido en Python: pip
         </figure>
 
         <figure class="tb-fig tb-reveal">
-          <button type="button" class="tb-shot" data-full="/assets/trading-bot/backtesting.png"
+          <button type="button" class="tb-shot" data-full="/assets/images/trading-bot/04_backtests.png"
                   data-cap-es="Motor de backtesting y validación: comparativa de estrategias con métricas de robustez."
                   data-cap-en="Backtesting & validation engine: strategy comparison with robustness metrics.">
-            <span class="tb-frame"><img src="/assets/trading-bot/backtesting.png" loading="lazy" decoding="async" alt="Motor de backtesting con comparativa de estrategias y curva de equity" onerror="tbPH(this)"></span>
+            <span class="tb-frame"><img src="/assets/images/trading-bot/04_backtests.png" loading="lazy" decoding="async" alt="Motor de backtesting con comparativa de estrategias y curva de equity" onerror="tbPH(this)"></span>
           </button>
           <figcaption>
             <span data-l="es">Motor de backtesting y validación: comparativa de estrategias con métricas de robustez.</span>
@@ -303,10 +303,10 @@ description: "Bot de trading algorítmico para Bitcoin construido en Python: pip
         </figure>
 
         <figure class="tb-fig tb-reveal">
-          <button type="button" class="tb-shot" data-full="/assets/trading-bot/risk-engine.png"
+          <button type="button" class="tb-shot" data-full="/assets/images/trading-bot/05_risk_engine.png"
                   data-cap-es="Motor de riesgo: máquina de estados del kill-switch, disparadores de parada y validación de órdenes."
                   data-cap-en="Risk engine: kill-switch state machine, halt triggers and order validation.">
-            <span class="tb-frame"><img src="/assets/trading-bot/risk-engine.png" loading="lazy" decoding="async" alt="Motor de riesgo con máquina de estados del kill-switch" onerror="tbPH(this)"></span>
+            <span class="tb-frame"><img src="/assets/images/trading-bot/05_risk_engine.png" loading="lazy" decoding="async" alt="Motor de riesgo con máquina de estados del kill-switch" onerror="tbPH(this)"></span>
           </button>
           <figcaption>
             <span data-l="es">Motor de riesgo: máquina de estados del kill-switch, disparadores de parada y validación de órdenes.</span>
@@ -315,10 +315,10 @@ description: "Bot de trading algorítmico para Bitcoin construido en Python: pip
         </figure>
 
         <figure class="tb-fig tb-reveal">
-          <button type="button" class="tb-shot" data-full="/assets/trading-bot/signal-lab.png"
+          <button type="button" class="tb-shot" data-full="/assets/images/trading-bot/03_signal_lab.png"
                   data-cap-es="Laboratorio de señales: detectores propios (NPOC, divergencias, liquidaciones) con stream en vivo."
                   data-cap-en="Signal lab: custom detectors (NPOC, divergences, liquidations) with a live stream.">
-            <span class="tb-frame"><img src="/assets/trading-bot/signal-lab.png" loading="lazy" decoding="async" alt="Laboratorio de señales con detectores propios y stream en vivo" onerror="tbPH(this)"></span>
+            <span class="tb-frame"><img src="/assets/images/trading-bot/03_signal_lab.png" loading="lazy" decoding="async" alt="Laboratorio de señales con detectores propios y stream en vivo" onerror="tbPH(this)"></span>
           </button>
           <figcaption>
             <span data-l="es">Laboratorio de señales: detectores propios (NPOC, divergencias, liquidaciones) con stream en vivo.</span>
@@ -327,10 +327,10 @@ description: "Bot de trading algorítmico para Bitcoin construido en Python: pip
         </figure>
 
         <figure class="tb-fig tb-reveal">
-          <button type="button" class="tb-shot" data-full="/assets/trading-bot/cockpit.png"
+          <button type="button" class="tb-shot" data-full="/assets/images/trading-bot/01_cockpit.png"
                   data-cap-es="Panel de control en vivo: estado del bot, kill-switch, equity y parámetros de la estrategia."
                   data-cap-en="Live control panel: bot status, kill-switch, equity and strategy parameters.">
-            <span class="tb-frame"><img src="/assets/trading-bot/cockpit.png" loading="lazy" decoding="async" alt="Panel de control en vivo con estado del bot y equity" onerror="tbPH(this)"></span>
+            <span class="tb-frame"><img src="/assets/images/trading-bot/01_cockpit.png" loading="lazy" decoding="async" alt="Panel de control en vivo con estado del bot y equity" onerror="tbPH(this)"></span>
           </button>
           <figcaption>
             <span data-l="es">Panel de control en vivo: estado del bot, kill-switch, equity y parámetros de la estrategia.</span>

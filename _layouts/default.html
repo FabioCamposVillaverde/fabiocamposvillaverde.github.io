@@ -25,7 +25,14 @@
       margin: 0;
       padding: 0;
       color: #333;
-      background-color: #ffffff;
+      background-color: #eceff3;
+      background-image:
+        radial-gradient(900px circle at 12% -5%, rgba(3,102,214,.07), transparent 45%),
+        radial-gradient(800px circle at 100% 8%, rgba(46,164,79,.06), transparent 42%),
+        linear-gradient(rgba(40,52,71,.035) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(40,52,71,.035) 1px, transparent 1px);
+      background-size: 100% 100%, 100% 100%, 30px 30px, 30px 30px;
+      background-attachment: fixed;
       line-height: 1.6;
     }
 
@@ -110,6 +117,26 @@
       padding: 0 20px;
       min-height: 80vh;
     }
+
+    /* ===== Pulido visual común a todas las páginas ===== */
+    /* Imágenes "sueltas" de las páginas de proyecto: borde redondeado + sombra */
+    main img { border-radius: 8px; box-shadow: 0 10px 26px rgba(20,30,50,.10); }
+    /* En contenedores que ya tienen su propio marco, anulamos el efecto para no duplicarlo */
+    .tb img, .tb-frame img, .pj-frame img { box-shadow: none; }
+    .tb-frame img, .pj-frame img, .card-image, .home-card .thumb img { border-radius: 0; box-shadow: none; }
+
+    /* Tablas (fichas técnicas) con aspecto de tarjeta */
+    main table { border-collapse: collapse; width: 100%; margin: 26px 0; background: #fff;
+                 border-radius: 10px; overflow: hidden; box-shadow: 0 8px 22px rgba(20,30,50,.06); }
+    main th { background: #24292e; color: #fff; text-align: left; padding: 12px 15px; font-size: .95rem; }
+    main td { padding: 11px 15px; border-top: 1px solid #eef0f2; }
+    main tbody tr:nth-child(even) { background: #fafbfc; }
+
+    /* Citas / taglines de las páginas de proyecto */
+    main blockquote { border-left: 4px solid #0366d6; background: #fff; margin: 26px 0;
+                      padding: 16px 22px; border-radius: 0 10px 10px 0; color: #3a424c;
+                      box-shadow: 0 8px 22px rgba(20,30,50,.05); }
+    main blockquote p { margin: 6px 0; }
 
     /* PIE DE PÁGINA */
     footer {
