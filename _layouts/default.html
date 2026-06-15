@@ -138,6 +138,52 @@
                       box-shadow: 0 8px 22px rgba(20,30,50,.05); }
     main blockquote p { margin: 6px 0; }
 
+    /* ===== Sistema de páginas de proyecto (.pj-*) ===== */
+    .pj { --accent:#0366d6; --ink:#24292e; --muted:#6b7480; }
+    .pj h1 { font-size:2.4rem; line-height:1.15; margin:0 0 12px; color:var(--ink); }
+    .pj h2 { font-size:1.6rem; color:var(--ink); border-left:5px solid var(--accent); padding-left:14px; margin:0 0 26px; }
+    .pj h3 { font-size:1.25rem; color:var(--ink); margin:0 0 8px; }
+    .pj > p, .pj-txt p, .pj-two p, .pj-lead { color:#444; line-height:1.75; }
+    .pj-frame { width:100%; border-radius:12px; overflow:hidden; background:#eef1f4; box-shadow:0 14px 34px rgba(20,30,50,.14); }
+    .pj-frame img { width:100%; height:100%; object-fit:cover; display:block; }
+    .ar-16x9 { aspect-ratio:16/9; } .ar-16x10 { aspect-ratio:16/10; } .ar-4x3 { aspect-ratio:4/3; } .ar-1x1 { aspect-ratio:1/1; }
+    .pj-hero { margin-bottom:60px; }
+    .pj-hero-body { margin-top:28px; }
+    .pj-kicker { display:inline-block; background:#e1f5fe; color:#0277bd; padding:5px 12px; border-radius:4px; font-size:.8rem; font-weight:700; text-transform:uppercase; letter-spacing:1px; }
+    .pj-sub { font-size:1.2rem; color:#555; max-width:760px; margin:6px 0 22px; }
+    .pj-chips { display:flex; flex-wrap:wrap; gap:10px; }
+    .pj .chip, .chip { background:#f1f3f6; border:1px solid #e2e6ea; color:#3a424c; border-radius:30px; padding:6px 14px; font-size:.85rem; font-weight:600; }
+    .pj-block { margin:70px 0; }
+    .pj-lead { font-size:1.12rem; max-width:760px; }
+    .pj-two { display:flex; flex-wrap:wrap; gap:40px; align-items:center; }
+    .pj-two > * { flex:1 1 360px; }
+    .pj-sol { display:flex; flex-wrap:wrap; gap:40px; align-items:center; margin-bottom:48px; }
+    .pj-sol > .pj-frame, .pj-sol > .pj-shot, .pj-sol > .pj-txt { flex:1 1 360px; }
+    .pj-sol.alt { flex-direction:row-reverse; }
+    .pj-txt .why { color:var(--muted); font-size:.85rem; text-transform:uppercase; letter-spacing:1px; font-weight:700; margin-bottom:6px; }
+    .pj-grid2 { display:grid; grid-template-columns:repeat(auto-fit, minmax(280px,1fr)); gap:30px; }
+    .pj-cap { font-size:.92rem; color:#555; margin-top:12px; }
+    .pj-results { background:#fff; border:1px solid #e9edf1; border-radius:12px; padding:30px 34px; box-shadow:0 8px 22px rgba(20,30,50,.05); }
+    .pj-results ul { margin:0; padding-left:20px; } .pj-results li { margin-bottom:10px; color:#3a424c; }
+    .pj-btn { display:inline-block; margin-top:8px; background:var(--ink); color:#fff !important; padding:12px 26px; border-radius:30px; font-weight:600; text-decoration:none; }
+    .pj-gallery { display:grid; grid-template-columns:repeat(auto-fit, minmax(240px,1fr)); gap:22px; }
+    .pj-fig { margin:0; }
+    .pj-shot { display:block; width:100%; padding:0; border:0; background:none; cursor:zoom-in; }
+    .pj-shot:focus-visible { outline:3px solid var(--accent); outline-offset:3px; }
+    .pj-shot img { transition:transform .4s; }
+    .pj-shot:hover img { transform:scale(1.04); }
+    .pj-fig figcaption { color:#666; font-size:.88rem; margin-top:10px; line-height:1.5; }
+    .pj-reveal { transition:opacity .7s ease, transform .7s ease; }
+    html.js .pj-reveal { opacity:0; transform:translateY(24px); }
+    html.js .pj-reveal.is-visible { opacity:1; transform:none; }
+    @media (prefers-reduced-motion: reduce){ html.js .pj-reveal { opacity:1; transform:none; } }
+    .pj-lb { position:fixed; inset:0; z-index:4000; background:rgba(15,20,28,.92); display:none; align-items:center; justify-content:center; flex-direction:column; padding:30px; }
+    .pj-lb.open { display:flex; }
+    .pj-lb img { max-width:92vw; max-height:80vh; border-radius:10px; box-shadow:0 30px 80px rgba(0,0,0,.6); }
+    .pj-lb-cap { color:#e6edf3; margin-top:16px; max-width:760px; text-align:center; font-size:.95rem; }
+    .pj-lb-close { position:absolute; top:20px; right:24px; width:44px; height:44px; border-radius:50%; border:1px solid rgba(255,255,255,.3); background:rgba(255,255,255,.12); color:#fff; font-size:1.5rem; cursor:pointer; }
+    @media (max-width: 768px){ .pj h1 { font-size:1.9rem; } .pj-sol.alt { flex-direction:column; } }
+
     /* PIE DE PÁGINA */
     footer {
       text-align: center;
@@ -155,6 +201,7 @@
       nav ul { gap: 15px; margin-top: 15px; flex-wrap: wrap; justify-content: center; }
     }
   </style>
+  <script>document.documentElement.classList.add('js');</script>
 </head>
 <body>
 
@@ -192,6 +239,44 @@
     <p>&copy; {{ 'now' | date: "%Y" }} Fabio Campos Villaverde. {% if is_en %}Built with GitHub Pages.{% else %}Construido con GitHub Pages.{% endif %}</p>
     <a href="https://linkedin.com/in/fabio-campos-villaverde-23543b352" target="_blank" rel="noopener"><i class="fab fa-linkedin"></i> LinkedIn</a>
   </footer>
+
+  <script>
+  /* Utilidades compartidas por las páginas de proyecto (.pj-*) */
+  (function(){
+    // Imagen aún no subida -> panel "en preparación" (evita icono roto)
+    window.pjPH = window.pjPH || function(el){
+      el.onerror = null; el.classList.add('is-ph');
+      el.src = "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' width='800' height='600'><defs><linearGradient id='g' x1='0' y1='0' x2='1' y2='1'><stop offset='0' stop-color='%23e9edf2'/><stop offset='1' stop-color='%23d4dae2'/></linearGradient></defs><rect width='800' height='600' fill='url(%23g)'/><g fill='none' stroke='%239aa6b3' stroke-width='6'><rect x='300' y='235' width='200' height='150' rx='10'/><path d='M300 235 L350 195 L550 195 L500 235 M500 385 L550 345 L550 195'/></g><text x='400' y='450' fill='%238a93a0' font-family='Segoe UI,Arial' font-size='28' text-anchor='middle'>Imagen en preparación</text></svg>";
+    };
+
+    // Aparición suave al hacer scroll
+    var reveals = document.querySelectorAll('.pj-reveal');
+    if (reveals.length){
+      if ('IntersectionObserver' in window){
+        var io = new IntersectionObserver(function(entries){
+          entries.forEach(function(en){ if (en.isIntersecting){ en.target.classList.add('is-visible'); io.unobserve(en.target); } });
+        }, { threshold: 0.12 });
+        reveals.forEach(function(el){ io.observe(el); });
+      } else { reveals.forEach(function(el){ el.classList.add('is-visible'); }); }
+    }
+
+    // Lightbox para imágenes con .pj-shot
+    var shots = document.querySelectorAll('.pj-shot');
+    if (shots.length){
+      var lb = document.createElement('div');
+      lb.className = 'pj-lb'; lb.setAttribute('role','dialog'); lb.setAttribute('aria-modal','true'); lb.setAttribute('aria-label','Vista ampliada / Enlarged view');
+      lb.innerHTML = '<button type="button" class="pj-lb-close" aria-label="Cerrar / Close">&times;</button><img alt=""><p class="pj-lb-cap"></p>';
+      document.body.appendChild(lb);
+      var lbImg = lb.querySelector('img'), lbCap = lb.querySelector('.pj-lb-cap'), lbClose = lb.querySelector('.pj-lb-close'), last = null;
+      function open(btn){ last = btn; var im = btn.querySelector('img'); lbImg.src = btn.getAttribute('data-full') || (im && im.src) || ''; var cap = btn.getAttribute('data-cap') || (im && im.alt) || ''; lbImg.alt = cap; lbCap.textContent = cap; lb.classList.add('open'); lbClose.focus(); }
+      function close(){ lb.classList.remove('open'); if (last) last.focus(); }
+      shots.forEach(function(b){ b.addEventListener('click', function(){ open(b); }); });
+      lbClose.addEventListener('click', close);
+      lb.addEventListener('click', function(e){ if (e.target === lb) close(); });
+      document.addEventListener('keydown', function(e){ if (e.key === 'Escape' && lb.classList.contains('open')) close(); });
+    }
+  })();
+  </script>
 
 </body>
 </html>
