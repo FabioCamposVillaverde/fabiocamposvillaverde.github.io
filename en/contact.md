@@ -23,7 +23,7 @@ description: "Get in touch with Fabio Campos Villaverde — Junior Mechanical En
   </div>
 
   <div style="flex: 1; min-width: 300px; background: var(--panel); padding: 30px; border-radius: 14px; border: 1px solid var(--line);">
-    <form action="https://formspree.io/f/xbjnqyjz" method="POST">
+    <form action="https://formspree.io/f/xpqebqzo" method="POST">
       <label style="color: #cdd6e0; font-weight: 600;">Name:</label>
       <input type="text" name="name" style="width: 100%; padding: 11px; margin: 6px 0 16px; border: 1px solid var(--line); border-radius: 6px; background: #0e141c; color: var(--text);">
 
