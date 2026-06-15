@@ -115,7 +115,7 @@ permalink: /en/projects/
 <div class="projects-header">
   <h1>My Projects</h1>
   <p style="color: #666; max-width: 600px; margin: 0 auto;">
-    A collection of my most notable work in mechanical engineering, CAD design, and mechatronics.
+    Projects I've taken from start to finish, combining mechanical design, electronics and plenty of workshop hours.
   </p>
 </div>
 
@@ -131,6 +131,18 @@ permalink: /en/projects/
       <h3 class="project-title">Sensor supports · DUNE ND-GAr (BSc Thesis)</h3>
       <p class="project-desc">Cryogenic optical module (ΔT −47 °C) for the international DUNE neutrino experiment. SolidWorks design with structural and thermal FEM validation.</p>
       <span class="card-link">View progress ➔</span>
+    </div>
+  </a>
+
+  <a href="/trading-bot#en" class="project-card">
+    <div class="card-image-container">
+      <img src="/assets/trading-bot/market-data.png" alt="Algorithmic Trading Bot" class="card-image" loading="lazy" onerror="this.onerror=null;this.src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22600%22%20height=%22400%22%3E%3Crect%20width=%22600%22%20height=%22400%22%20fill=%22%23121821%22/%3E%3Ctext%20x=%22300%22%20y=%22205%22%20fill=%22%233ddc97%22%20font-family=%22Segoe%20UI,Arial%22%20font-size=%2226%22%20text-anchor=%22middle%22%3ETrading%20Bot%3C/text%3E%3C/svg%3E'">
+    </div>
+    <div class="card-content">
+      <span class="project-tag">Python · Data · DevOps</span>
+      <h3 class="project-title">Algorithmic Trading Bot</h3>
+      <p class="project-desc">Autonomous Python system trading Bitcoin 24/7: data pipeline, cloud deployment, live dashboard, backtesting and risk management.</p>
+      <span class="card-link">View details ➔</span>
     </div>
   </a>
 

@@ -115,7 +115,7 @@ permalink: /proyectos/
 <div class="projects-header">
   <h1>Mis Proyectos</h1>
   <p style="color: #666; max-width: 600px; margin: 0 auto;">
-    Una colección de mis trabajos más destacados en ingeniería mecánica, diseño CAD y mecatrónica.
+    Proyectos que he sacado adelante de principio a fin, combinando diseño mecánico, electrónica y muchas horas de taller.
   </p>
 </div>
 
@@ -131,6 +131,18 @@ permalink: /proyectos/
       <h3 class="project-title">Soportes para sensores · DUNE ND-GAr (TFG)</h3>
       <p class="project-desc">Módulo óptico criogénico (ΔT −47 °C) para el experimento internacional de neutrinos DUNE. Diseño en SolidWorks y validación FEM estructural y térmica.</p>
       <span class="card-link">Ver progreso ➔</span>
+    </div>
+  </a>
+
+  <a href="/trading-bot" class="project-card">
+    <div class="card-image-container">
+      <img src="/assets/trading-bot/market-data.png" alt="Bot de Trading Algorítmico" class="card-image" loading="lazy" onerror="this.onerror=null;this.src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22600%22%20height=%22400%22%3E%3Crect%20width=%22600%22%20height=%22400%22%20fill=%22%23121821%22/%3E%3Ctext%20x=%22300%22%20y=%22205%22%20fill=%22%233ddc97%22%20font-family=%22Segoe%20UI,Arial%22%20font-size=%2226%22%20text-anchor=%22middle%22%3ETrading%20Bot%3C/text%3E%3C/svg%3E'">
+    </div>
+    <div class="card-content">
+      <span class="project-tag">Python · Datos · DevOps</span>
+      <h3 class="project-title">Bot de Trading Algorítmico</h3>
+      <p class="project-desc">Sistema autónomo en Python que opera Bitcoin 24/7: pipeline de datos, despliegue en la nube, dashboard en vivo, backtesting y gestión de riesgo.</p>
+      <span class="card-link">Ver detalles ➔</span>
     </div>
   </a>
 
