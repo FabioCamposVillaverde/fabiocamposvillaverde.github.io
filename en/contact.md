@@ -18,7 +18,7 @@ If you have a job opportunity, a question about my projects, or simply want to t
     <p><strong>Location:</strong> Vigo, Spain</p>
     <p><strong>LinkedIn:</strong> <a href="https://linkedin.com/in/fabio-campos-villaverde-23543b352">View Profile</a></p>
     <br>
-    <p>I'm currently looking for opportunities as a Junior Engineer or an internship in mechanical design.</p>
+    <p>I'm currently looking for my first role as a junior mechanical engineer.</p>
   </div>
 
   <div style="flex: 1; min-width: 300px; background: #f9f9f9; padding: 30px; border-radius: 10px;">

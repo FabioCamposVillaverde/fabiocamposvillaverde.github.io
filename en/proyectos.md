@@ -124,7 +124,7 @@ permalink: /en/projects/
   <a href="/en/tfg-dune" class="project-card">
     <span class="wip-badge">🚧 WORK IN PROGRESS</span>
     <div class="card-image-container">
-      <img src="/assets/images/dune-cad-v1.jpg" alt="DUNE Structure BSc Thesis" class="card-image">
+      <img src="/assets/images/tfg/hero_render.png" alt="DUNE Structure BSc Thesis" class="card-image">
     </div>
     <div class="card-content">
       <span class="project-tag">Thermo-structural design</span>
@@ -136,7 +136,7 @@ permalink: /en/projects/
 
   <a href="/trading-bot#en" class="project-card">
     <div class="card-image-container">
-      <img src="/assets/trading-bot/market-data.png" alt="Algorithmic Trading Bot" class="card-image" loading="lazy" onerror="this.onerror=null;this.src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22600%22%20height=%22400%22%3E%3Crect%20width=%22600%22%20height=%22400%22%20fill=%22%23121821%22/%3E%3Ctext%20x=%22300%22%20y=%22205%22%20fill=%22%233ddc97%22%20font-family=%22Segoe%20UI,Arial%22%20font-size=%2226%22%20text-anchor=%22middle%22%3ETrading%20Bot%3C/text%3E%3C/svg%3E'">
+      <img src="/assets/images/trading-bot/02_market_data.png" alt="Algorithmic Trading Bot" class="card-image" loading="lazy" onerror="this.onerror=null;this.src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22600%22%20height=%22400%22%3E%3Crect%20width=%22600%22%20height=%22400%22%20fill=%22%23121821%22/%3E%3Ctext%20x=%22300%22%20y=%22205%22%20fill=%22%233ddc97%22%20font-family=%22Segoe%20UI,Arial%22%20font-size=%2226%22%20text-anchor=%22middle%22%3ETrading%20Bot%3C/text%3E%3C/svg%3E'">
     </div>
     <div class="card-content">
       <span class="project-tag">Python · Data · DevOps</span>
