@@ -3,7 +3,7 @@ layout: default
 title: BSc Thesis · Sensor supports for DUNE ND-GAr
 permalink: /en/tfg-dune/
 lang: en
-alt: /tfg-dune/
+alt: /tfg-dune
 description: "Thermo-structural design of an optical module for the international DUNE neutrino experiment (ND-GAr): SolidWorks, structural & thermal FEM, cryogenic design."
 ---
 

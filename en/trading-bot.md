@@ -3,7 +3,7 @@ layout: default
 title: Algorithmic Trading Bot
 permalink: /en/trading-bot/
 lang: en
-alt: /trading-bot/
+alt: /trading-bot
 description: "Algorithmic Bitcoin trading bot built in Python: data pipeline, 24/7 deployment, real-time dashboard, backtesting and risk management."
 ---
 
