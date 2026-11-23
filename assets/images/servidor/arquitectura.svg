@@ -1,0 +1,111 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" font-family="IBM Plex Sans, Segoe UI, Helvetica, Arial, sans-serif">
+  <defs>
+    <marker id="f" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0 0 L10 5 L0 10 z" fill="#8a8984"/>
+    </marker>
+    <style>
+      .caja { fill: #ffffff; stroke: #d6d5cf; stroke-width: 1.5; }
+      .grupo { fill: #f7f7f4; stroke: #e2e1db; stroke-width: 1.2; }
+      .srv { fill: #fbfbf9; stroke: #1c1c1a; stroke-width: 1.8; }
+      .t { fill: #1c1c1a; font-size: 15px; }
+      .tb { fill: #1c1c1a; font-size: 15px; font-weight: 600; }
+      .h { fill: #1c1c1a; font-size: 17px; font-weight: 600; }
+      .s { fill: #5c5b56; font-size: 13px; }
+      .k { fill: #7a7972; font-size: 12px; letter-spacing: 1.2px; font-weight: 600; }
+      .l { stroke: #8a8984; stroke-width: 1.6; fill: none; }
+      .lp { stroke: #8a8984; stroke-width: 1.6; fill: none; stroke-dasharray: 5 5; }
+      .e { fill: #5c5b56; font-size: 12.5px; }
+    </style>
+  </defs>
+
+  <rect width="1200" height="630" fill="#ffffff"/>
+
+  <!-- EN CASA -->
+  <text x="20" y="40" class="k">EN EL PISO</text>
+  <rect x="20" y="56" width="262" height="74" rx="10" class="caja"/>
+  <text x="36" y="86" class="tb">Sensores Zigbee</text>
+  <text x="36" y="108" class="s">temperatura, humedad, puertas,</text>
+  <text x="36" y="124" class="s">movimiento, presencia por radar</text>
+
+  <rect x="20" y="146" width="262" height="58" rx="10" class="caja"/>
+  <text x="36" y="174" class="tb">Luces</text>
+  <text x="36" y="194" class="s">relés Zigbee y bombillas por LAN</text>
+
+  <rect x="20" y="220" width="262" height="58" rx="10" class="caja"/>
+  <text x="36" y="248" class="tb">Radiadores y enchufes</text>
+  <text x="36" y="268" class="s">por la red local, sin nube</text>
+
+  <rect x="20" y="294" width="262" height="58" rx="10" class="caja"/>
+  <text x="36" y="322" class="tb">Robot, tele, báscula</text>
+  <text x="36" y="342" class="s">integraciones locales</text>
+
+  <!-- SERVIDOR -->
+  <rect x="318" y="56" width="560" height="560" rx="14" class="srv"/>
+  <text x="344" y="90" class="h">Mini PC · Dell OptiPlex 3070 Micro</text>
+  <text x="344" y="112" class="s">i5-9500T · 16 GB · Debian 12 · Docker (27 contenedores)</text>
+
+  <rect x="344" y="132" width="252" height="196" rx="10" class="grupo"/>
+  <text x="360" y="156" class="k">CASA</text>
+  <text x="360" y="184" class="t">Home Assistant</text>
+  <text x="360" y="208" class="t">Zigbee2MQTT + Mosquitto</text>
+  <text x="360" y="232" class="t">Matter</text>
+  <text x="360" y="256" class="t">Voz local (Whisper + Piper)</text>
+  <text x="360" y="288" class="s">~120 automatizaciones</text>
+  <text x="360" y="306" class="s">y scripts</text>
+
+  <rect x="612" y="132" width="244" height="196" rx="10" class="grupo"/>
+  <text x="628" y="156" class="k">RED</text>
+  <text x="628" y="184" class="t">Pi-hole + Unbound (DNS)</text>
+  <text x="628" y="208" class="t">Tailscale (VPN)</text>
+  <text x="628" y="232" class="t">Uptime Kuma (avisos)</text>
+  <text x="628" y="256" class="t">Portainer</text>
+  <text x="628" y="288" class="s">sin puertos abiertos</text>
+  <text x="628" y="306" class="s">a internet</text>
+
+  <rect x="344" y="344" width="252" height="196" rx="10" class="grupo"/>
+  <text x="360" y="368" class="k">MIS APLICACIONES</text>
+  <text x="360" y="396" class="t">Bot de trading</text>
+  <text x="360" y="420" class="t">Calorías por Telegram</text>
+  <text x="360" y="444" class="t">Alemán con dibujos</text>
+  <text x="360" y="468" class="t">Gastos personales</text>
+  <text x="360" y="492" class="t">Armario y entrenos</text>
+
+  <rect x="612" y="344" width="244" height="196" rx="10" class="grupo"/>
+  <text x="628" y="368" class="k">OCIO</text>
+  <text x="628" y="396" class="t">Jellyfin</text>
+  <text x="628" y="420" class="t">Servidores de juegos</text>
+
+  <rect x="344" y="556" width="512" height="40" rx="8" class="grupo"/>
+  <text x="360" y="581" class="t">Copias a un disco USB · toda la configuración en Git</text>
+
+  <!-- DERECHA -->
+  <text x="916" y="40" class="k">FUERA DEL SERVIDOR</text>
+  <rect x="916" y="56" width="264" height="92" rx="10" class="caja"/>
+  <text x="932" y="86" class="tb">PC de sobremesa (GPU)</text>
+  <text x="932" y="108" class="s">modelos de IA locales (Ollama)</text>
+  <text x="932" y="124" class="s">para fotos de comida y ropa; se</text>
+  <text x="932" y="140" class="s">enciende por red cuando hace falta</text>
+
+  <rect x="916" y="220" width="264" height="74" rx="10" class="caja"/>
+  <text x="932" y="250" class="tb">Móvil, fuera de casa</text>
+  <text x="932" y="272" class="s">entra por Tailscale</text>
+
+  <rect x="916" y="392" width="264" height="92" rx="10" class="caja"/>
+  <text x="932" y="422" class="tb">Internet</text>
+  <text x="932" y="444" class="s">exchange (KuCoin), previsión</text>
+  <text x="932" y="460" class="s">del tiempo, bots de Telegram</text>
+
+  <!-- CONEXIONES -->
+  <path d="M282 93 L344 172" class="l" marker-end="url(#f)"/>
+  <path d="M282 175 L344 200" class="l" marker-end="url(#f)"/>
+  <path d="M282 249 L344 230" class="l" marker-end="url(#f)"/>
+  <path d="M282 323 L344 262" class="l" marker-end="url(#f)"/>
+  <text x="20" y="384" class="e">Todo por Zigbee o por la red local:</text>
+  <text x="20" y="402" class="e">casi todo sigue en pie si se cae internet.</text>
+
+  <path d="M878 102 L916 102" class="lp" marker-end="url(#f)"/>
+  <text x="880" y="168" class="e" text-anchor="start"></text>
+  <path d="M878 257 L916 257" class="l" marker-end="url(#f)" marker-start="url(#f)"/>
+  <path d="M878 438 L916 438" class="l" marker-end="url(#f)" marker-start="url(#f)"/>
+  <text x="932" y="176" class="e">↑ lo despierta el servidor (Wake-on-LAN)</text>
+</svg>

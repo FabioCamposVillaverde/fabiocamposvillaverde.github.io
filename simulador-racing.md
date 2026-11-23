@@ -1,140 +1,108 @@
 ---
 layout: default
-title: Simulador Direct Drive DIY
+title: Simulador de conducción
 alt: /en/simulador-racing/
-description: "Simulador de conducción Direct Drive (15 Nm) diseñado y fabricado pieza a pieza: FFBeast, pedales con célula de carga, telemetría LED y bass shakers."
+image: /assets/images/tarjetas/simulador.jpg
+description: "Simulador de conducción hecho en casa: volante direct drive de 15 Nm con el motor de un patinete y FFBeast, pedales con célula de carga, cambio secuencial, freno de mano, botonera con LED y vibradores."
 ---
 
-<div class="pj" markdown="0">
+<p class="ruta"><a href="/proyectos/">Proyectos</a> / Simulador de conducción</p>
 
-  <!-- HERO -->
-  <section class="pj-hero pj-reveal">
-    <button class="pj-shot pj-frame ar-16x9" data-cap="Conjunto completo del simulador Direct Drive">
-      <img src="/assets/images/01_full_rig.jpg" alt="Simulador de conducción Direct Drive completo" loading="lazy">
-    </button>
-    <div class="pj-hero-body">
-      <span class="pj-kicker">Proyecto personal · Mecatrónica</span>
-      <h1>Simulador Direct Drive · DIY</h1>
-      <p class="pj-sub">Un ecosistema de simulación de competición diseñado y fabricado desde cero para replicar las fuerzas de un coche real.</p>
-      <div class="pj-chips">
-        <span class="chip">FFBeast</span>
-        <span class="chip">Force Feedback 15 Nm</span>
-        <span class="chip">Arduino</span>
-        <span class="chip">SimHub</span>
-        <span class="chip">Impresión 3D</span>
-        <span class="chip">Células de carga</span>
-        <span class="chip">Ingeniería inversa</span>
-      </div>
-    </div>
-  </section>
-
-  <!-- INTRO -->
-  <section class="pj-block pj-reveal">
-    <p class="pj-lead">En vez de comprar una base comercial cerrada, monté un sistema completo combinando un proyecto open-source de Force Feedback, impresión 3D y electrónica programada a medida. Cada periférico está pensado, diseñado en CAD y ajustado a mano.</p>
-  </section>
-
-  <!-- BLOQUES -->
-  <section class="pj-block pj-reveal">
-    <h2>El corazón: proyecto FFBeast</h2>
-    <div class="pj-sol">
-      <button class="pj-shot pj-frame ar-4x3" data-cap="Base del motor con carcasa impresa en 3D y refrigeración forzada">
-        <img src="/assets/images/03_motor_base.jpg" alt="Base del motor del simulador" loading="lazy">
-      </button>
-      <div class="pj-txt">
-        <p class="why">Force Feedback</p>
-        <p>El Force Feedback se basa en el proyecto open-source <strong>FFBeast</strong>, capaz de gestionar pares de fuerza altos con gran fidelidad.</p>
-        <ul>
-          <li><strong>Motor:</strong> recuperado de un patinete eléctrico, con picos de <strong>15 Nm</strong>.</li>
-          <li><strong>Suavidad:</strong> el software elimina el <em>cogging</em> del motor, logrando un tacto comparable al de bases Direct Drive de gama alta.</li>
-          <li><strong>Refrigeración:</strong> carcasa impresa en 3D con flujo de aire forzado.</li>
-        </ul>
-      </div>
-    </div>
-
-    <div class="pj-sol alt">
-      <button class="pj-shot pj-frame ar-4x3" data-cap="Pedales con cuerpo en PETG y célula de carga">
-        <img src="/assets/images/04_pedals_profile.jpg" alt="Perfil de los pedales del simulador" loading="lazy">
-      </button>
-      <div class="pj-txt">
-        <p class="why">Pedales</p>
-        <h3>Frenada por presión, no por recorrido</h3>
-        <p>Pedales inspirados en la ingeniería de <em>Heusinkveld</em>, con placas de acero y cuerpos en PETG al 100 % de relleno.</p>
-        <ul>
-          <li><strong>Freno:</strong> mide presión con una <strong>célula de carga de 100 kg</strong>.</li>
-          <li><strong>Tacto ajustable:</strong> elastómeros de distinta dureza para simular desde un coche de calle hasta un F1.</li>
-          <li><strong>Acelerador:</strong> sensor Hall magnético sin contacto, durabilidad total.</li>
-        </ul>
-      </div>
-    </div>
-
-    <div class="pj-sol">
-      <button class="pj-shot pj-frame ar-4x3" data-cap="Volante con matriz LED y botonera, gestionado por SimHub">
-        <img src="/assets/images/02_cockpit_layout.jpg" alt="Volante con telemetría LED" loading="lazy">
-      </button>
-      <div class="pj-txt">
-        <p class="why">Telemetría visual</p>
-        <h3>Información en el volante con SimHub</h3>
-        <ul>
-          <li><strong>Matriz LED central:</strong> muestra la marcha engranada.</li>
-          <li><strong>Barra de revoluciones:</strong> una tira RGB marca el punto de cambio.</li>
-          <li><strong>Banderas y spotter:</strong> los LED laterales avisan de banderas de pista y ángulo muerto.</li>
-          <li><strong>Botonera:</strong> matriz de botones + joystick para los menús del coche.</li>
-        </ul>
-      </div>
-    </div>
-  </section>
-
-  <!-- RALLY & DRIFT -->
-  <section class="pj-block pj-reveal">
-    <h2>Control para rally y drift</h2>
-    <p class="pj-lead">Para disciplinas más agresivas fabriqué dos periféricos dedicados en metal e impresión 3D.</p>
-    <div class="pj-gallery" style="margin-top:24px;">
-      <figure class="pj-fig">
-        <button class="pj-shot pj-frame ar-4x3" data-cap="Cambio secuencial con mecanismo de leva interna">
-          <img src="/assets/images/05_shifter_detail.jpg" alt="Detalle del cambio secuencial" loading="lazy">
-        </button>
-        <figcaption><strong>Cambio secuencial:</strong> mecanismo de leva interna con muelles de alta tensión y un «clack» metálico real.</figcaption>
-      </figure>
-      <figure class="pj-fig">
-        <button class="pj-shot pj-frame ar-4x3" data-cap="Freno de mano con célula de carga de 20 kg para drift">
-          <img src="/assets/images/06_handbrake_detail.jpg" alt="Detalle del freno de mano" loading="lazy">
-        </button>
-        <figcaption><strong>Freno de mano:</strong> usa una <strong>célula de carga de 20 kg</strong> para modular la frenada trasera con precisión en el drift.</figcaption>
-      </figure>
-    </div>
-  </section>
-
-  <!-- BASS SHAKERS -->
-  <section class="pj-block pj-reveal">
-    <h2>Inmersión háptica: bass shakers</h2>
-    <div class="pj-sol alt">
-      <button class="pj-shot pj-frame ar-4x3" data-cap="Bass shaker fabricado con altavoces reciclados">
-        <img src="/assets/images/08_bass_shaker.jpg" alt="Bass shaker bajo el asiento" loading="lazy">
-      </button>
-      <div class="pj-txt">
-        <p>El Force Feedback te dice lo que hacen las ruedas delanteras; los <strong>bass shakers</strong> transmiten el resto del chasis. Los construí con altavoces reciclados convertidos en pistones de vibración, anclados bajo el asiento y los pedales.</p>
-        <p>Se sienten los baches, los cambios de marcha, la vibración al ralentí y el bloqueo de ruedas: la diferencia entre jugar y conducir.</p>
-      </div>
-    </div>
-  </section>
-
-  <!-- ESPECIFICACIONES -->
-  <section class="pj-block pj-reveal">
-    <h2>Resumen de especificaciones</h2>
-    <table>
-      <thead><tr><th>Componente</th><th>Tecnología</th><th>Software / Driver</th></tr></thead>
-      <tbody>
-        <tr><td><strong>Base</strong></td><td>Motor de patinete modificado (15 Nm)</td><td>Proyecto <strong>FFBeast</strong></td></tr>
-        <tr><td><strong>Pedales</strong></td><td>Célula de carga 100 kg</td><td>Arduino Joystick Lib</td></tr>
-        <tr><td><strong>Freno de mano</strong></td><td>Célula de carga 20 kg</td><td>Amplificador HX711</td></tr>
-        <tr><td><strong>Dashboard</strong></td><td>Matriz LED + WS2812b</td><td><strong>SimHub</strong></td></tr>
-        <tr><td><strong>Estructura</strong></td><td>Madera reforzada + acero</td><td>Diseño propio CAD</td></tr>
-      </tbody>
-    </table>
-  </section>
-
-  <div style="text-align:center; margin-top:50px;">
-    <a href="/proyectos/" style="text-decoration:none; font-weight:bold; color:#0366d6; font-size:1.05em; border:1px solid #0366d6; padding:10px 22px; border-radius:30px;">⬅️ Volver a mis proyectos</a>
+<div class="cabecera">
+  <h1>Simulador de conducción direct drive</h1>
+  <p class="entradilla">Un simulador con force feedback de 15 Nm hecho con el motor de un patinete eléctrico, pedales que miden fuerza, cambio secuencial, freno de mano y vibradores bajo el asiento. Montado pieza a pieza en el garaje de casa.</p>
+  <div class="datos">
+    <div><b>Herramientas</b>CAD, impresión 3D en PETG, Arduino, FFBeast, SimHub</div>
   </div>
+</div>
+
+<figure class="portada" style="max-width: 640px;"><img src="/assets/images/simulador/rig-completo.jpg" alt="El simulador completo: asiento, tablero con volante, cambio, freno de mano y pedales"></figure>
+
+<div class="habilidades">
+  <div class="hab"><h3>Mecánica</h3><p>Piezas impresas que aguantan carga, muelles y elastómeros, soportes y la estructura del puesto.</p></div>
+  <div class="hab"><h3>Electrónica</h3><p>Células de carga con amplificador HX711, Arduino como mando USB y sensores Hall sin contacto.</p></div>
+  <div class="hab"><h3>Integración</h3><p>El firmware abierto FFBeast para el motor y SimHub para los LED y los vibradores.</p></div>
+</div>
+
+<div class="texto" markdown="1">
+
+## Por qué
+
+Una base direct drive comercial, en la que el volante va montado directamente sobre el eje del motor, cuesta cientos de euros. Leí que se podía hacer con el motor de buje de un patinete eléctrico y el proyecto abierto FFBeast, y quise ver hasta dónde llegaba haciéndolo yo.
+
+## La base del volante
 
 </div>
+
+<div class="fila">
+<div markdown="1">
+
+FFBeast controla el motor y compensa el *cogging*, los pequeños tirones magnéticos que se notan al girar un motor de imanes, para que el volante se sienta suave. Le diseñé la carcasa con ventilación forzada y el soporte al tablero. Da picos de 15 Nm.
+
+Encima va una matriz de LED que marca la marcha y las revoluciones, y detrás del volante, levas para cambiar.
+
+</div>
+{% include fig.html src="/assets/images/simulador/base-motor.jpg" pie="La base: motor de patinete dentro de una carcasa impresa con ventilación, y la matriz de LED encima." %}
+</div>
+
+<div class="galeria dos">
+{% include fig.html src="/assets/images/simulador/volante.jpg" pie="El volante." %}
+{% include fig.html src="/assets/images/simulador/levas.jpg" pie="Leva de cambio detrás del volante." %}
+</div>
+
+<div class="texto" markdown="1">
+
+## Pedales
+
+Los pedales parten de un diseño abierto que combina piezas impresas en PETG con placas. El freno no mide cuánto se hunde el pedal sino cuánta fuerza haces, con una célula de carga de 100 kg, como en un coche real. El tacto se cambia con elastómeros de distinta dureza. El acelerador usa un sensor Hall, sin contacto, para que no se desgaste.
+
+</div>
+
+<div class="galeria dos">
+{% include fig.html src="/assets/images/simulador/pedales.jpg" pie="Freno con célula de carga y elastómeros, y acelerador." %}
+{% include fig.html src="/assets/images/simulador/pedales-34.jpg" pie="Los pedales con su caja de electrónica." %}
+</div>
+
+<div class="texto" markdown="1">
+
+## Cambio secuencial y freno de mano
+
+El cambio secuencial usa una leva con muelle que da el golpe de cada marcha. El freno de mano lleva una célula de carga de 20 kg, así que también se modula por fuerza, que es lo que hace falta para derrapar con control.
+
+</div>
+
+<div class="galeria">
+{% include fig.html src="/assets/images/simulador/cambio-y-freno.jpg" pie="Cambio y freno de mano montados en el lateral." %}
+{% include fig.html src="/assets/images/simulador/cambio-secuencial.jpg" pie="Cambio secuencial." %}
+{% include fig.html src="/assets/images/simulador/freno-de-mano.jpg" pie="Freno de mano con célula de carga." %}
+</div>
+
+<div class="texto" markdown="1">
+
+## Botonera, LED y vibración
+
+La botonera tiene interruptores y botones para los menús del coche. Con SimHub, los LED muestran la marcha, las revoluciones y las banderas de carrera.
+
+Debajo del asiento y de los pedales hay dos altavoces viejos usados como vibradores (*bass shakers*). El force feedback cuenta lo que hacen las ruedas delanteras; los vibradores, el resto: baches, el motor al ralentí o una rueda que se bloquea.
+
+</div>
+
+<div class="galeria">
+{% include fig.html src="/assets/images/simulador/botonera.jpg" pie="Botonera y matriz de LED." %}
+{% include fig.html src="/assets/images/simulador/electronica.jpg" pie="Fuente de alimentación, placas y cableado." %}
+{% include fig.html src="/assets/images/simulador/vista-superior.jpg" pie="El puesto visto desde arriba." %}
+</div>
+
+<div class="texto" markdown="1">
+
+| Parte | Cómo funciona | Electrónica y software |
+|---|---|---|
+| Base | Motor de buje de patinete, 15 Nm de pico | FFBeast |
+| Pedales | Célula de carga de 100 kg en el freno, Hall en el acelerador | Arduino como mando USB |
+| Freno de mano | Célula de carga de 20 kg | Arduino Pro Micro + HX711 |
+| LED | Matriz y tira RGB | SimHub |
+| Vibración | Altavoces reciclados como vibradores | SimHub |
+
+</div>
+
+<div class="volver"><a href="/trading-bot">← Anterior: bot de trading</a><a href="/smart-hangboard">Siguiente: sensor de fuerza →</a></div>

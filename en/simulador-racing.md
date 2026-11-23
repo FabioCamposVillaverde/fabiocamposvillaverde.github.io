@@ -1,142 +1,109 @@
 ---
 layout: default
-title: DIY Direct Drive Sim Rig
+title: Sim racing rig
 permalink: /en/simulador-racing/
-lang: en
 alt: /simulador-racing
-description: "A 15 Nm Direct Drive sim rig designed and built part by part: FFBeast, load-cell pedals, LED telemetry and bass shakers."
+image: /assets/images/tarjetas/simulador.jpg
+description: "A home-built sim racing rig: 15 Nm direct-drive wheel on an e-scooter motor with FFBeast, load-cell pedals, sequential shifter, handbrake, LED button box and bass shakers."
 ---
 
-<div class="pj" markdown="0">
+<p class="ruta"><a href="/en/projects/">Projects</a> / Sim racing rig</p>
 
-  <!-- HERO -->
-  <section class="pj-hero pj-reveal">
-    <button class="pj-shot pj-frame ar-16x9" data-cap="The complete Direct Drive sim rig">
-      <img src="/assets/images/01_full_rig.jpg" alt="Complete Direct Drive sim rig" loading="lazy">
-    </button>
-    <div class="pj-hero-body">
-      <span class="pj-kicker">Personal project · Mechatronics</span>
-      <h1>Direct Drive Sim Rig · DIY</h1>
-      <p class="pj-sub">A full motorsport simulation setup, designed and built from scratch to replicate the forces of a real car.</p>
-      <div class="pj-chips">
-        <span class="chip">FFBeast</span>
-        <span class="chip">Force Feedback 15 Nm</span>
-        <span class="chip">Arduino</span>
-        <span class="chip">SimHub</span>
-        <span class="chip">3D Printing</span>
-        <span class="chip">Load cells</span>
-        <span class="chip">Reverse engineering</span>
-      </div>
-    </div>
-  </section>
-
-  <!-- INTRO -->
-  <section class="pj-block pj-reveal">
-    <p class="pj-lead">Instead of buying a closed commercial base, I built a complete system by combining an open-source Force Feedback project, 3D printing and custom-programmed electronics. Every peripheral was designed in CAD and fine-tuned by hand.</p>
-  </section>
-
-  <!-- BLOCKS -->
-  <section class="pj-block pj-reveal">
-    <h2>The heart: FFBeast project</h2>
-    <div class="pj-sol">
-      <button class="pj-shot pj-frame ar-4x3" data-cap="Motor base with 3D-printed housing and forced-air cooling">
-        <img src="/assets/images/03_motor_base.jpg" alt="Sim rig motor base" loading="lazy">
-      </button>
-      <div class="pj-txt">
-        <p class="why">Force Feedback</p>
-        <p>The Force Feedback is based on the open-source <strong>FFBeast</strong> project, able to handle high torque with great fidelity.</p>
-        <ul>
-          <li><strong>Motor:</strong> repurposed from an electric scooter, with peaks of <strong>15 Nm</strong>.</li>
-          <li><strong>Smoothness:</strong> the software removes the motor's <em>cogging</em>, achieving a feel comparable to high-end Direct Drive bases.</li>
-          <li><strong>Cooling:</strong> 3D-printed housing with forced airflow.</li>
-        </ul>
-      </div>
-    </div>
-
-    <div class="pj-sol alt">
-      <button class="pj-shot pj-frame ar-4x3" data-cap="Pedals with PETG bodies and a load cell">
-        <img src="/assets/images/04_pedals_profile.jpg" alt="Sim rig pedals profile" loading="lazy">
-      </button>
-      <div class="pj-txt">
-        <p class="why">Pedals</p>
-        <h3>Braking by pressure, not by travel</h3>
-        <p>Pedals inspired by <em>Heusinkveld</em> engineering, with steel plates and PETG bodies at 100% infill.</p>
-        <ul>
-          <li><strong>Brake:</strong> measures pressure with a <strong>100 kg load cell</strong>.</li>
-          <li><strong>Adjustable feel:</strong> elastomers of different hardness, from a road car to an F1.</li>
-          <li><strong>Throttle:</strong> contactless magnetic Hall sensor, full durability.</li>
-        </ul>
-      </div>
-    </div>
-
-    <div class="pj-sol">
-      <button class="pj-shot pj-frame ar-4x3" data-cap="Wheel with LED matrix and button box, driven by SimHub">
-        <img src="/assets/images/02_cockpit_layout.jpg" alt="Wheel with LED telemetry" loading="lazy">
-      </button>
-      <div class="pj-txt">
-        <p class="why">Visual telemetry</p>
-        <h3>On-wheel information with SimHub</h3>
-        <ul>
-          <li><strong>Central LED matrix:</strong> shows the engaged gear.</li>
-          <li><strong>RPM bar:</strong> an RGB strip marks the shift point.</li>
-          <li><strong>Flags &amp; spotter:</strong> side LEDs warn about track flags and blind spots.</li>
-          <li><strong>Button box:</strong> button matrix + joystick for the car menus.</li>
-        </ul>
-      </div>
-    </div>
-  </section>
-
-  <!-- RALLY & DRIFT -->
-  <section class="pj-block pj-reveal">
-    <h2>Control for rally and drift</h2>
-    <p class="pj-lead">For more aggressive disciplines I built two dedicated peripherals in metal and 3D print.</p>
-    <div class="pj-gallery" style="margin-top:24px;">
-      <figure class="pj-fig">
-        <button class="pj-shot pj-frame ar-4x3" data-cap="Sequential shifter with an internal cam mechanism">
-          <img src="/assets/images/05_shifter_detail.jpg" alt="Sequential shifter detail" loading="lazy">
-        </button>
-        <figcaption><strong>Sequential shifter:</strong> internal cam mechanism with high-tension springs and a real metallic "clack".</figcaption>
-      </figure>
-      <figure class="pj-fig">
-        <button class="pj-shot pj-frame ar-4x3" data-cap="Handbrake with a 20 kg load cell for drift">
-          <img src="/assets/images/06_handbrake_detail.jpg" alt="Handbrake detail" loading="lazy">
-        </button>
-        <figcaption><strong>Handbrake:</strong> uses a <strong>20 kg load cell</strong> to modulate rear braking with precision while drifting.</figcaption>
-      </figure>
-    </div>
-  </section>
-
-  <!-- BASS SHAKERS -->
-  <section class="pj-block pj-reveal">
-    <h2>Haptic immersion: bass shakers</h2>
-    <div class="pj-sol alt">
-      <button class="pj-shot pj-frame ar-4x3" data-cap="Bass shaker built from recycled speakers">
-        <img src="/assets/images/08_bass_shaker.jpg" alt="Bass shaker under the seat" loading="lazy">
-      </button>
-      <div class="pj-txt">
-        <p>Force Feedback tells you what the front wheels are doing; the <strong>bass shakers</strong> convey the rest of the chassis. I built them from recycled speakers turned into vibration pistons, anchored under the seat and pedals.</p>
-        <p>You feel bumps, gear changes, idle vibration and wheel lock-up: the difference between playing and driving.</p>
-      </div>
-    </div>
-  </section>
-
-  <!-- SPECS -->
-  <section class="pj-block pj-reveal">
-    <h2>Specs summary</h2>
-    <table>
-      <thead><tr><th>Component</th><th>Technology</th><th>Software / Driver</th></tr></thead>
-      <tbody>
-        <tr><td><strong>Base</strong></td><td>Modded scooter motor (15 Nm)</td><td><strong>FFBeast</strong> project</td></tr>
-        <tr><td><strong>Pedals</strong></td><td>100 kg load cell</td><td>Arduino Joystick Lib</td></tr>
-        <tr><td><strong>Handbrake</strong></td><td>20 kg load cell</td><td>HX711 amplifier</td></tr>
-        <tr><td><strong>Dashboard</strong></td><td>LED matrix + WS2812b</td><td><strong>SimHub</strong></td></tr>
-        <tr><td><strong>Structure</strong></td><td>Reinforced wood + steel</td><td>Custom CAD design</td></tr>
-      </tbody>
-    </table>
-  </section>
-
-  <div style="text-align:center; margin-top:50px;">
-    <a href="/en/projects/" style="text-decoration:none; font-weight:bold; color:#0366d6; font-size:1.05em; border:1px solid #0366d6; padding:10px 22px; border-radius:30px;">⬅️ Back to my projects</a>
+<div class="cabecera">
+  <h1>Direct-drive sim racing rig</h1>
+  <p class="entradilla">A driving simulator with 15 Nm of force feedback built on an electric scooter motor, pedals that measure force, a sequential shifter, a handbrake and shakers under the seat. Put together piece by piece in my garage at home.</p>
+  <div class="datos">
+    <div><b>Tools</b>CAD, PETG 3D printing, Arduino, FFBeast, SimHub</div>
   </div>
+</div>
+
+<figure class="portada" style="max-width: 640px;"><img src="/assets/images/simulador/rig-completo.jpg" alt="The complete rig: seat, desk with wheel, shifter, handbrake and pedals"></figure>
+
+<div class="habilidades">
+  <div class="hab"><h3>Mechanical</h3><p>Printed parts that take load, springs and elastomers, mounts and the rig structure.</p></div>
+  <div class="hab"><h3>Electronics</h3><p>Load cells with HX711 amplifiers, Arduino as a USB controller and contactless Hall sensors.</p></div>
+  <div class="hab"><h3>Integration</h3><p>The open-source FFBeast firmware for the motor and SimHub for the LEDs and shakers.</p></div>
+</div>
+
+<div class="texto" markdown="1">
+
+## Why
+
+A commercial direct-drive base, where the wheel is mounted straight onto the motor shaft, costs hundreds of euros. I read that you could build one with the hub motor of an electric scooter and the open-source FFBeast project, and I wanted to see how far I could get doing it myself.
+
+## The wheel base
 
 </div>
+
+<div class="fila">
+<div markdown="1">
+
+FFBeast drives the motor and compensates for *cogging*, the small magnetic notches you feel when turning a permanent-magnet motor, so the wheel feels smooth. I designed its housing with forced ventilation and the mount to the desk. It peaks at 15 Nm.
+
+On top sits an LED matrix showing gear and revs, and behind the wheel there are shift paddles.
+
+</div>
+{% include fig.html src="/assets/images/simulador/base-motor.jpg" pie="The base: scooter motor inside a ventilated printed housing, with the LED matrix on top." %}
+</div>
+
+<div class="galeria dos">
+{% include fig.html src="/assets/images/simulador/volante.jpg" pie="The wheel." %}
+{% include fig.html src="/assets/images/simulador/levas.jpg" pie="Shift paddle behind the wheel." %}
+</div>
+
+<div class="texto" markdown="1">
+
+## Pedals
+
+The pedals are based on an open design that combines PETG printed parts with plates. The brake doesn't measure how far the pedal travels but how hard you press, with a 100 kg load cell, like a real car. The feel is tuned with elastomers of different hardness. The throttle uses a contactless Hall sensor so it doesn't wear.
+
+</div>
+
+<div class="galeria dos">
+{% include fig.html src="/assets/images/simulador/pedales.jpg" pie="Load-cell brake with elastomers, and throttle." %}
+{% include fig.html src="/assets/images/simulador/pedales-34.jpg" pie="The pedals with their electronics box." %}
+</div>
+
+<div class="texto" markdown="1">
+
+## Sequential shifter and handbrake
+
+The sequential shifter uses a spring-loaded cam that gives each gear its click. The handbrake has a 20 kg load cell, so it is also modulated by force, which is what you need to drift with control.
+
+</div>
+
+<div class="galeria">
+{% include fig.html src="/assets/images/simulador/cambio-y-freno.jpg" pie="Shifter and handbrake mounted on the side." %}
+{% include fig.html src="/assets/images/simulador/cambio-secuencial.jpg" pie="Sequential shifter." %}
+{% include fig.html src="/assets/images/simulador/freno-de-mano.jpg" pie="Load-cell handbrake." %}
+</div>
+
+<div class="texto" markdown="1">
+
+## Button box, LEDs and vibration
+
+The button box has switches and buttons for the car's menus. Through SimHub the LEDs show gear, revs and race flags.
+
+Under the seat and the pedals there are two old speakers used as bass shakers. Force feedback tells you what the front wheels are doing; the shakers tell you the rest: bumps, the engine at idle or a locking wheel.
+
+</div>
+
+<div class="galeria">
+{% include fig.html src="/assets/images/simulador/botonera.jpg" pie="Button box and LED matrix." %}
+{% include fig.html src="/assets/images/simulador/electronica.jpg" pie="Power supply, boards and wiring." %}
+{% include fig.html src="/assets/images/simulador/vista-superior.jpg" pie="The rig from above." %}
+</div>
+
+<div class="texto" markdown="1">
+
+| Part | How it works | Electronics and software |
+|---|---|---|
+| Base | E-scooter hub motor, 15 Nm peak | FFBeast |
+| Pedals | 100 kg load cell on the brake, Hall sensor on the throttle | Arduino as a USB controller |
+| Handbrake | 20 kg load cell | Arduino Pro Micro + HX711 |
+| LEDs | Matrix and RGB strip | SimHub |
+| Vibration | Recycled speakers as shakers | SimHub |
+
+</div>
+
+<div class="volver"><a href="/en/trading-bot/">← Previous: trading bot</a><a href="/en/smart-hangboard/">Next: force sensor →</a></div>

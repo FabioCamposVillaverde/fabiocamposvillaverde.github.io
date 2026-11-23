@@ -1,125 +1,78 @@
 ---
 layout: default
-title: IoT Smart Climbing Trainer
+title: Climbing force sensor
 permalink: /en/smart-hangboard/
-lang: en
 alt: /smart-hangboard
-description: "Portable grip-strength meter for climbing: mechanical design (CNC/3D), embedded electronics with ESP32 and BLE, and a custom mobile app."
+image: /assets/images/tarjetas/hangboard.jpg
+description: "A portable finger-strength sensor for climbing: three versions, an aluminium transducer that didn't work, and an industrial load cell with ESP32 and Bluetooth compatible with commercial apps."
 ---
 
-<div class="pj" markdown="0">
+<p class="ruta"><a href="/en/projects/">Projects</a> / Climbing force sensor</p>
 
-  <!-- HERO -->
-  <section class="pj-hero pj-reveal">
-    <button class="pj-shot pj-frame ar-16x9" data-cap="Final climbing sensor (V3)">
-      <img src="/assets/images/climbing_sensor_main.jpg" alt="Smart climbing sensor" loading="lazy">
-    </button>
-    <div class="pj-hero-body">
-      <span class="pj-kicker">Personal project · IoT &amp; Mechatronics</span>
-      <h1>Smart Climbing Sensor (IoT)</h1>
-      <p class="pj-sub">Digitalizing grip strength: a portable device built from scratch, combining mechanical design, embedded electronics and mobile software.</p>
-      <div class="pj-chips">
-        <span class="chip">ESP32</span>
-        <span class="chip">Bluetooth LE</span>
-        <span class="chip">HX711</span>
-        <span class="chip">Load cell</span>
-        <span class="chip">3D Printing</span>
-        <span class="chip">CNC</span>
-        <span class="chip">MIT App Inventor</span>
-      </div>
-    </div>
-  </section>
-
-  <!-- INTRO -->
-  <section class="pj-block pj-reveal">
-    <p class="pj-lead">The project started with the challenge of building my own ecosystem to measure finger strength. I developed it over several versions, learning (sometimes the hard way) until I reached a homemade device with professional-grade precision.</p>
-  </section>
-
-  <!-- PHASE 1 -->
-  <section class="pj-block pj-reveal">
-    <h2>Phase 1 · Prototyping &amp; software</h2>
-    <p class="pj-lead">Before perfecting the mechanics, it was vital to validate the electronics and software.</p>
-    <div class="pj-gallery" style="margin-top:24px;">
-      <figure class="pj-fig">
-        <button class="pj-shot pj-frame ar-4x3" data-cap="Android app (V2): real-time force and CSV export">
-          <img src="/assets/images/app_dev_v2.jpg" alt="Mobile app interface" loading="lazy">
-        </button>
-        <figcaption><strong>Software (V1/V2):</strong> an Android app (MIT App Inventor) that plots force in real time and exports CSV data.</figcaption>
-      </figure>
-      <figure class="pj-fig">
-        <button class="pj-shot pj-frame ar-4x3" data-cap="V1 prototype: proof of concept and Bluetooth communication">
-          <img src="/assets/images/v1_prototype.jpg" alt="V1 prototype of the sensor" loading="lazy">
-        </button>
-        <figcaption><strong>Hardware V1:</strong> a proof of concept to test Bluetooth communication.</figcaption>
-      </figure>
-    </div>
-  </section>
-
-  <!-- PHASE 2 -->
-  <section class="pj-block pj-reveal">
-    <h2>Phase 2 · Reverse engineering &amp; CNC</h2>
-    <div class="pj-sol">
-      <button class="pj-shot pj-frame ar-4x3" data-cap="V2 internals: 3D housing + machined aluminium core">
-        <img src="/assets/images/v2_internal_cnc.jpg" alt="V2 internals with aluminium core" loading="lazy">
-      </button>
-      <div class="pj-txt">
-        <p class="why">The key lesson</p>
-        <p>For the V2 I tried to build my own force transducer machined in aluminium. The strain calculations <strong>didn't properly account for the material's hysteresis</strong>, so readings were inconsistent when unloading weight.</p>
-        <p>That "failure" was key: for lab-grade precision it's more efficient to integrate calibrated industrial sensors than to build them from scratch.</p>
-      </div>
-    </div>
-  </section>
-
-  <!-- PHASE 3 -->
-  <section class="pj-block pj-reveal">
-    <h2>Phase 3 · Final version (V3)</h2>
-    <div class="pj-sol alt">
-      <button class="pj-shot pj-frame ar-4x3" data-cap="V3 sensor: industrial load cell and ESP32 firmware">
-        <img src="/assets/images/climbing_sensor_main.jpg" alt="V3 climbing sensor" loading="lazy">
-      </button>
-      <div class="pj-txt">
-        <p class="why">Mature product</p>
-        <p>V3 solves the previous issues and is the final product.</p>
-        <ul>
-          <li><strong>Robust hardware:</strong> industrial-grade load cell (full Wheatstone bridge).</li>
-          <li><strong>Advanced firmware:</strong> migration to <strong>ESP32</strong>, emulating the BLE protocol of professional sensors (Tindeq).</li>
-          <li><strong>Result:</strong> professional precision, compatible with third-party training apps.</li>
-        </ul>
-      </div>
-    </div>
-  </section>
-
-  <!-- FIXED SYSTEM -->
-  <section class="pj-block pj-reveal">
-    <h2>Innovation · Fixed modular system</h2>
-    <div class="pj-sol">
-      <button class="pj-shot pj-frame ar-4x3" data-cap="Fixed station with interchangeable 3D-printed inserts">
-        <img src="/assets/images/fixed_system_3d.jpg" alt="Fixed modular system for climbing gyms" loading="lazy">
-      </button>
-      <div class="pj-txt">
-        <p>In parallel I developed a fixed station for climbing gyms with a competitive edge: <strong>interchangeable inserts</strong>.</p>
-        <p>Instead of buying several sensors for different edge depths, a 3D-printed quick-coupling system lets you switch between 10 mm, 20 mm or rounded edges in seconds, using a single sensor core.</p>
-      </div>
-    </div>
-  </section>
-
-  <!-- SPEC SHEET -->
-  <section class="pj-block pj-reveal">
-    <h2>Tech sheet</h2>
-    <table>
-      <thead><tr><th>Domain</th><th>Technologies</th></tr></thead>
-      <tbody>
-        <tr><td><strong>Microcontroller</strong></td><td>ESP32 (C++ / Arduino IDE)</td></tr>
-        <tr><td><strong>Sensors</strong></td><td>Load cells + HX711 amplifier</td></tr>
-        <tr><td><strong>Connectivity</strong></td><td>Bluetooth Low Energy (BLE)</td></tr>
-        <tr><td><strong>Manufacturing</strong></td><td>3D printing (PETG) + CNC machining</td></tr>
-        <tr><td><strong>Software</strong></td><td>MIT App Inventor + protocol emulation</td></tr>
-      </tbody>
-    </table>
-  </section>
-
-  <div style="text-align:center; margin-top:50px;">
-    <a href="/en/projects/" style="text-decoration:none; font-weight:bold; color:#0366d6; font-size:1.05em; border:1px solid #0366d6; padding:10px 22px; border-radius:30px;">⬅️ Back to my projects</a>
+<div class="cabecera">
+  <h1>Climbing force sensor</h1>
+  <p class="entradilla">A portable finger-strength meter for training. It took three versions: the first only tested the communication, the second, with a sensor I machined in aluminium, didn't measure properly, and the third is the one I use.</p>
+  <div class="datos">
+    <div><b>Tools</b>ESP32, HX711, Bluetooth LE, MIT App Inventor, 3D printing, CNC</div>
   </div>
+</div>
+
+<figure class="portada" style="max-width: 760px;"><img src="/assets/images/climbing_sensor_main.jpg" alt="The force sensor hanging between two carabiners"></figure>
+
+<div class="habilidades">
+  <div class="hab"><h3>Mechanical design</h3><p>Sensor body, an aluminium transducer machined on a CNC and interchangeable 3D-printed edges.</p></div>
+  <div class="hab"><h3>Electronics</h3><p>Full Wheatstone bridge load cell, HX711 amplifier and ESP32.</p></div>
+  <div class="hab"><h3>Software</h3><p>My own Android app and firmware that mimics the Bluetooth protocol of a commercial sensor.</p></div>
+</div>
+
+<div class="texto" markdown="1">
+
+## Why
+
+In climbing you train finger strength by hanging from edges. Measuring it tells you whether you're improving and keeps you from overdoing it, but commercial sensors are expensive and closed. I wanted my own and to understand how they work inside.
+
+## Version 1: testing the communication
+
+Before thinking about the mechanics I wanted to know whether I could read a load cell and see the force on my phone in real time. The first version was a plastic box with a board, a battery and wires, plus an Android app made with MIT App Inventor that plots the force curve and exports the data to CSV.
 
 </div>
+
+<div class="galeria tres">
+{% include fig.html src="/assets/images/v1_prototype.jpg" pie="Version 1: a proof of concept with no mechanical ambitions." %}
+{% include fig.html src="/assets/images/app_dev_v2.jpg" pie="The app: live force, sets and rests." %}
+</div>
+
+<div class="texto" markdown="1">
+
+## Version 2: the aluminium transducer that didn't work
+
+For the second version I wanted to make my own force sensor: a CNC-machined aluminium part that acts as a transducer by deforming under load. The readings weren't consistent: when the load came off they didn't return to the same value. My deformation calculations hadn't properly accounted for hysteresis.
+
+I could have kept refining the design, but I realised that making a reliable transducer is a project in itself. To measure well, it made more sense to use a calibrated industrial load cell and spend the effort on everything else.
+
+</div>
+
+{% include fig.html src="/assets/images/v2_internal_cnc.jpg" clase="estrecha" pie="Inside version 2, with the machined transducer." %}
+
+<div class="texto" markdown="1">
+
+## Version 3: the one I use
+
+It has an industrial load cell (full Wheatstone bridge), an HX711 and an ESP32. The firmware mimics the Bluetooth protocol of a commercial climbing sensor, so it works with existing training apps as well as with mine. It samples at 50 Hz.
+
+In parallel I made a fixed version for the climbing gym with interchangeable 3D-printed edges. Instead of one sensor per edge depth, a single sensor core and a quick-release mount switch between 10 mm, 20 mm or a sloper in seconds.
+
+</div>
+
+{% include fig.html src="/assets/images/fixed_system_3d.jpg" clase="estrecha" pie="The interchangeable edges of the fixed version." %}
+
+<div class="texto" markdown="1">
+
+## What I learned
+
+- To separate what adds value from what is better bought. The commercial load cell gave me the accuracy, and my own design is in everything around it.
+- To test the riskiest part first. Version 1 was ugly, but it confirmed the electronics and app worked before I spent anything on machining.
+
+</div>
+
+<div class="volver"><a href="/en/simulador-racing/">← Previous: sim rig</a><a href="/en/cinta-modular/">Next: parametric conveyor →</a></div>

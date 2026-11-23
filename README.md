@@ -1,138 +1,82 @@
 ---
 layout: default
-title: Home
+title: Inicio
 permalink: /
-order: 1
 alt: /en/
-description: "Portafolio de ingeniería mecánica de Fabio Campos: diseño paramétrico en SolidWorks, mecatrónica y fabricación. Del CAD al prototipo funcional."
+description: "Fabio Campos, estudiante de último curso de Ingeniería Mecánica en la Universidad de Vigo. Proyectos de diseño mecánico, fabricación, electrónica y software."
 ---
 
 <style>
-  .home-cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(270px, 1fr)); gap: 26px; margin-top: 30px; }
-  .home-card { background: var(--panel); border: 1px solid var(--line); border-radius: 14px; overflow: hidden; text-decoration: none; color: inherit; display: flex; flex-direction: column; transition: transform .25s, box-shadow .25s, border-color .25s; }
-  .home-card:hover { transform: translateY(-6px); box-shadow: 0 22px 44px rgba(0,0,0,.5); border-color: rgba(61,220,151,.5); }
-  .home-card .thumb { height: 190px; overflow: hidden; background: #0e141c; }
-  .home-card .thumb img { width: 100%; height: 100%; object-fit: cover; transition: transform .5s; }
-  .home-card:hover .thumb img { transform: scale(1.05); }
-  .home-card .body { padding: 22px; flex-grow: 1; display: flex; flex-direction: column; }
-  .home-card .tag { font-size: .72rem; text-transform: uppercase; letter-spacing: 1px; color: var(--accent-2); font-weight: 700; margin-bottom: 8px; }
-  .home-card h4 { margin: 0 0 8px; font-size: 1.1rem; color: var(--text); }
-  .home-card p { margin: 0; font-size: .92rem; color: var(--muted); line-height: 1.6; }
-  .skill-card { flex: 1 1 280px; padding: 30px; background: var(--panel); border: 1px solid var(--line); border-radius: 14px; transition: transform .2s, border-color .2s; }
-  .skill-card:hover { transform: translateY(-4px); border-color: rgba(61,220,151,.4); }
-  .home-cta-band { background: linear-gradient(135deg, #10212a, #131c12); border: 1px solid var(--line); border-radius: 16px; padding: 44px 28px; text-align: center; margin: 10px 0 50px; }
-  .hero-btn-primary { background: var(--accent); color: #07120c; padding: 12px 28px; text-decoration: none; border-radius: 8px; font-weight: 700; font-size: 1.05rem; display: inline-block; }
-  .hero-btn-ghost { background: transparent; color: var(--text); border: 1px solid var(--line); padding: 11px 24px; text-decoration: none; border-radius: 8px; font-weight: 600; font-size: 1.05rem; display: inline-block; }
+  .hola { display: grid; grid-template-columns: 300px 1fr; gap: 46px; align-items: center; margin-bottom: 70px; }
+  .hola img { width: 100%; aspect-ratio: 4 / 5; object-fit: cover; border-radius: 14px; border: 1px solid var(--linea); }
+  .hola h1 { font-size: 2.6rem; margin: 0 0 18px; }
+  .hola p { font-size: 1.1rem; color: #33322e; margin: 0 0 14px; max-width: 640px; }
+  .hola .botones { display: flex; gap: 12px; flex-wrap: wrap; margin-top: 24px; }
+  .seccion-titulo { text-align: center; margin: 0 0 8px; font-size: 1.6rem; }
+  .seccion-sub { text-align: center; color: var(--gris); margin: 0 0 30px; }
+  .sobre { display: grid; grid-template-columns: 1.2fr 1fr; gap: 46px; margin-top: 80px; }
+  .sobre h2 { font-size: 1.6rem; margin: 0 0 14px; }
+  .sobre p { color: #33322e; }
+  .herramientas { background: var(--papel); border: 1px solid var(--linea); border-radius: 14px; padding: 22px 26px; }
+  .herramientas h3 { font-size: 1rem; margin: 0 0 12px; }
+  .herramientas dl { margin: 0; font-size: .93rem; }
+  .herramientas dt { font-weight: 600; margin-top: 10px; }
+  .herramientas dd { margin: 2px 0 0; color: var(--tinta-2); }
+  .contacto { text-align: center; margin-top: 80px; padding: 40px 20px; background: var(--papel); border: 1px solid var(--linea); border-radius: 14px; }
+  .contacto h2 { margin: 0 0 8px; font-size: 1.5rem; }
+  .contacto p { color: var(--tinta-2); margin: 0 0 20px; }
+  @media (max-width: 760px) { .hola, .sobre { grid-template-columns: 1fr; } .hola img { max-width: 280px; } .hola h1 { font-size: 2rem; } }
 </style>
 
-<div style="display: flex; flex-wrap: wrap; align-items: center; gap: 50px; margin-bottom: 60px;">
-
-  <div style="flex: 1; min-width: 280px;">
-    <img src="/assets/images/mifoto.jpg" alt="Fabio Campos" style="border-radius: 16px; width: 100%; max-width: 350px; box-shadow: 0 20px 50px rgba(0,0,0,.5); object-fit: cover;">
-  </div>
-
-  <div style="flex: 2; min-width: 300px;">
-    <span style="background: rgba(61,220,151,.12); color: var(--accent-2); padding: 5px 12px; border-radius: 30px; font-size: .8rem; font-weight: bold; text-transform: uppercase; letter-spacing: 1px;">Ingeniería Mecánica</span>
-    <h1 style="margin-top: 16px; margin-bottom: 10px; font-size: 2.9rem; line-height: 1.1; color: var(--text);">Hola, soy<br>Fabio Campos.</h1>
-    <h3 style="color: var(--muted); font-weight: normal; margin-top: 0; font-size: 1.25rem;">Ingeniería Mecánica · Universidad de Vigo · Graduación 2026</h3>
-
-    <p style="font-size: 1.15em; line-height: 1.7; color: #b9c2cf; margin-top: 20px;">
-      Mención en <strong style="color: var(--text);">Diseño y Fabricación</strong>. Disfruto del desarrollo completo de producto, desde el diseño CAD hasta la creación del prototipo funcional.
-      Combino la mecánica clásica con electrónica e IoT y, lo que aún no domino, lo aprendo construyéndolo.
-    </p>
-    <p style="font-size: 1em; color: #cdd6e0; background: var(--panel); padding: 12px 16px; border-left: 4px solid var(--accent); border-radius: 0 8px 8px 0;">
-      🎓 Actualmente desarrollando mi TFG: el diseño termo-estructural de un módulo óptico para el experimento internacional de neutrinos DUNE.
-    </p>
-
-    <div style="display: flex; gap: 15px; flex-wrap: wrap; margin-top: 24px;">
-      <a href="./proyectos/" class="hero-btn-primary">Ver Proyectos</a>
-      <a href="./resume/" class="hero-btn-ghost">📄 Ver Currículum</a>
+<section class="hola">
+  <img src="/assets/images/mifoto.jpg" alt="Fabio Campos escalando">
+  <div>
+    <h1>Hola, soy Fabio.</h1>
+    <p>Estudio Ingeniería Mecánica en la Universidad de Vigo, con la mención en Diseño y Fabricación, y solo me queda el TFG: el diseño de un criostato modular para los sensores de luz del experimento de neutrinos DUNE.</p>
+    <p>En el trabajo uso Autodesk Inventor y hago certificados de eficiencia energética con CE3X. Fuera de él construyo cosas: un simulador de conducción con el motor de un patinete, un servidor que lleva la domótica de mi casa o un bot de trading que me enseñó más por lo que falló que por lo que ganó.</p>
+    <p>En cada proyecto cuento cómo lo hice, qué salió mal y qué aprendí.</p>
+    <div class="botones">
+      <a class="boton lleno" href="/proyectos/">Ver proyectos</a>
+      <a class="boton" href="/resume/">Currículum</a>
     </div>
   </div>
+</section>
 
+<h2 class="seccion-titulo">Proyectos</h2>
+<p class="seccion-sub">Elige uno para ver los detalles.</p>
+
+<div class="tarjetas">
+{% include tarjeta.html url="/tfg-dune" titulo="Criostato modular para DUNE" img="/assets/images/tarjetas/tfg.jpg" texto="Mi TFG: el módulo que protege los sensores de luz de un detector de neutrinos y el bastidor que sostiene 145 de ellos." tipo="TFG · SolidWorks · 2026" %}
+{% include tarjeta.html url="/servidor-casero" titulo="Un servidor en casa" img="/assets/images/tarjetas/servidor.jpg" texto="Un mini PC que lleva la domótica del piso, mis aplicaciones y el bot. Con un modelo térmico de la casa sacado de sus sensores." tipo="Linux · Docker · Home Assistant" %}
+{% include tarjeta.html url="/trading-bot" titulo="Bot de trading" img="/assets/images/tarjetas/trading-bot.jpg" texto="Operó con dinero real unos meses y no gana. Averiguar por qué fue lo más útil del proyecto." tipo="Python · datos · validación" %}
+{% include tarjeta.html url="/simulador-racing" titulo="Simulador de conducción" img="/assets/images/tarjetas/simulador.jpg" texto="Volante con force feedback de 15 Nm sobre el motor de un patinete, pedales con célula de carga y cambio secuencial." tipo="Mecatrónica · impresión 3D" %}
+{% include tarjeta.html url="/smart-hangboard" titulo="Sensor de fuerza para escalada" img="/assets/images/tarjetas/hangboard.jpg" texto="Tres versiones hasta medir bien la fuerza de dedos. La segunda, mecanizada en aluminio, no servía." tipo="ESP32 · Bluetooth · CNC" %}
+{% include tarjeta.html url="/cinta-modular" titulo="Cinta transportadora paramétrica" img="/assets/images/tarjetas/cinta.jpg" texto="El proyecto final del título propio de SolidWorks: una cinta que cambia de longitud cambiando un parámetro." tipo="SolidWorks" %}
 </div>
 
-<hr style="border: 0; border-top: 1px solid var(--line); margin: 60px 0;">
-
-<div style="text-align: center; margin-bottom: 40px;">
-  <h2 style="margin-bottom: 10px; font-size: 2rem; color: var(--text);">Competencias Técnicas</h2>
-  <p style="color: var(--muted); font-size: 1.1em;">Un perfil híbrido entre la mecánica tradicional y la tecnología digital, con muchas horas de taller y de código detrás.</p>
-</div>
-
-<div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 26px; text-align: left;">
-
-  <div class="skill-card">
-    <h4 style="color: var(--accent); margin-top: 0; font-size: 1.3rem;">📐 Ingeniería & CAD</h4>
-    <p style="font-size: 1em; color: #b9c2cf; line-height: 1.7;">
-      Diseño paramétrico y de chapa metálica en <strong style="color:var(--text);">SolidWorks</strong> y Fusion 360. Experiencia en simulación FEA (ANSYS / SW Simulation) y cálculo de estructuras aplicada a mis proyectos.
-    </p>
+<section class="sobre" id="sobre-mi">
+  <div>
+    <h2>Sobre mí</h2>
+    <p>Me gusta entender las cosas construyéndolas. Lo que no sé lo aprendo por el camino, y casi siempre equivocándome primero: el sensor de fuerza que mecanicé en aluminio no medía bien, el backtest de mi bot daba ganancias imposibles y el termómetro de casa estaba al sol. De cada error salió algo que ahora hago de otra manera.</p>
+    <p>Escalo desde hace años y entreno como voluntario a escaladores de competición en el Grupo de Montaña Alud. De ahí salió, por ejemplo, el sensor de fuerza de dedos.</p>
+    <p>Antes de la carrera trabajé varios veranos en construcción y mantenimiento, montando estructuras en obra.</p>
   </div>
-
-  <div class="skill-card">
-    <h4 style="color: #ff6b9d; margin-top: 0; font-size: 1.3rem;">⚡ Electrónica & IoT</h4>
-    <p style="font-size: 1em; color: #b9c2cf; line-height: 1.7;">
-      Integro microcontroladores (<strong style="color:var(--text);">ESP32/Arduino</strong>) con sensores industriales (células de carga, encoders) y programo en C++ y Python. Electrónica que he aprendido por mi cuenta para dar vida a mis diseños.
-    </p>
+  <div class="herramientas">
+    <h3>Con qué trabajo</h3>
+    <dl>
+      <dt>Diseño</dt><dd>SolidWorks, Autodesk Inventor, Fusion 360, AutoCAD. Planos de fabricación.</dd>
+      <dt>Cálculo</dt><dd>Uniones atornilladas y estructuras a mano y con modelos de barras en Python. Nociones de FEA (ANSYS, SolidWorks Simulation).</dd>
+      <dt>Energía</dt><dd>Certificación energética de edificios con CE3X.</dd>
+      <dt>Fabricación</dt><dd>Impresión 3D, montaje mecánico, mecanizado CNC básico.</dd>
+      <dt>Electrónica</dt><dd>Arduino y ESP32, células de carga, Bluetooth LE.</dd>
+      <dt>Software</dt><dd>Python, Linux, Docker, Home Assistant, Git.</dd>
+      <dt>Idiomas</dt><dd>Español y gallego (nativos), inglés (B1 certificado, lo uso a diario), alemán (empezando).</dd>
+    </dl>
   </div>
+</section>
 
-  <div class="skill-card">
-    <h4 style="color: #4aa8ff; margin-top: 0; font-size: 1.3rem;">🏭 Fabricación Real</h4>
-    <p style="font-size: 1em; color: #b9c2cf; line-height: 1.7;">
-      Del ordenador al taller. Diseño de piezas funcionales para <strong style="color:var(--text);">impresión 3D</strong>, mecanizado CNC básico y montaje estructural en obra. Me motiva ver cómo una simple idea se convierte en una pieza real.
-    </p>
-  </div>
-
-</div>
-
-<br><br>
-
-<div style="text-align: center; margin-bottom: 6px;">
-  <h2 style="font-size: 2rem; margin-bottom: 8px; color: var(--text);">Proyectos destacados</h2>
-  <p style="color: var(--muted);">Una muestra de en qué he estado trabajando. <a href="./proyectos/" style="font-weight: 600;">Ver todos ➔</a></p>
-</div>
-
-<div class="home-cards">
-
-  <a href="./tfg-dune" class="home-card">
-    <div class="thumb"><img src="/assets/images/tfg/hero_render.png" alt="TFG · Soportes para sensores del experimento DUNE ND-GAr" loading="lazy"></div>
-    <div class="body">
-      <span class="tag">TFG · Diseño termo-estructural</span>
-      <h4>Soportes para sensores · DUNE</h4>
-      <p>Módulo óptico criogénico para un experimento internacional de neutrinos. SolidWorks y validación FEM.</p>
-    </div>
-  </a>
-
-  <a href="./trading-bot" class="home-card">
-    <div class="thumb"><img src="/assets/images/trading-bot/02_market_data.png" alt="Bot de Trading Algorítmico para Bitcoin" loading="lazy" onerror="this.onerror=null;this.src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22600%22%20height=%22400%22%3E%3Crect%20width=%22600%22%20height=%22400%22%20fill=%22%23121821%22/%3E%3Ctext%20x=%22300%22%20y=%22205%22%20fill=%22%233ddc97%22%20font-family=%22Segoe%20UI,Arial%22%20font-size=%2226%22%20text-anchor=%22middle%22%3ETrading%20Bot%3C/text%3E%3C/svg%3E'"></div>
-    <div class="body">
-      <span class="tag">Python · Datos · DevOps</span>
-      <h4>Bot de Trading Algorítmico</h4>
-      <p>Sistema autónomo en Python que opera Bitcoin 24/7, con dashboard en vivo y gestión de riesgo.</p>
-    </div>
-  </a>
-
-  <a href="./simulador-racing" class="home-card">
-    <div class="thumb"><img src="/assets/images/01_full_rig.jpg" alt="Simulador Direct Drive de 15 Nm" loading="lazy"></div>
-    <div class="body">
-      <span class="tag">Mecatrónica</span>
-      <h4>Simulador Direct Drive 15 Nm</h4>
-      <p>Volante Force Feedback construido por ingeniería inversa, con pedales de célula de carga y telemetría propia.</p>
-    </div>
-  </a>
-
-</div>
-
-<hr style="border: 0; border-top: 1px solid var(--line); margin: 60px 0;">
-
-<div id="sobre-mi" style="max-width: 760px;">
-  <h2 style="font-size: 1.9rem; margin-bottom: 14px; color: var(--text);">Sobre mí</h2>
-  <p style="font-size: 1.1em; color: #b9c2cf; line-height: 1.8;">
-    Soy un ingeniero polivalente y de mentalidad práctica (hands-on), con capacidad autodidacta en electrónica, programación e impresión 3D a través de la metodología de prueba y error. Mi experiencia en la escalada y la cultura maker me han aportado la constancia y resiliencia necesarias para resolver problemas complejos de principio a fin. Me motiva la mejora continua: no pretendo saberlo todo, pero poseo la disciplina y la capacidad de aprendizaje rápido para dominar cualquier tecnología necesaria y sacar un proyecto adelante.
-  </p>
-</div>
-
-<div class="home-cta-band">
-  <h2 style="font-size: 1.7rem; margin: 0 0 10px; color: var(--text);">¿Tienes un proyecto o una oportunidad en mente?</h2>
-  <p style="color: var(--muted); margin: 0 0 24px;">Busco mi primera oportunidad como ingeniero mecánico junior.</p>
-  <a href="./contact/" class="hero-btn-primary">Hablemos ➔</a>
-</div>
+<section class="contacto">
+  <h2>Contacto</h2>
+  <p>Si quieres preguntarme por algún proyecto o hablar de trabajo, escríbeme a <a href="mailto:fabio11fcv@gmail.com">fabio11fcv@gmail.com</a> o por <a href="https://linkedin.com/in/fabio-campos-villaverde-23543b352" target="_blank" rel="noopener">LinkedIn</a>.</p>
+  <a class="boton" href="/contact/">Formulario de contacto</a>
+</section>

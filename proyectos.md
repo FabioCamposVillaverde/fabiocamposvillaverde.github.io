@@ -3,92 +3,19 @@ layout: default
 title: Proyectos
 permalink: /proyectos/
 alt: /en/projects/
+description: "Proyectos de Fabio Campos: TFG para el experimento DUNE, servidor casero y domótica, bot de trading, simulador de conducción, sensor de fuerza para escalada y cinta transportadora paramétrica."
 ---
 
-<style>
-  .projects-header { text-align: center; margin-bottom: 50px; padding: 20px; }
-  .projects-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 30px; padding-bottom: 50px; }
-  .project-card { background: var(--panel); border: 1px solid var(--line); border-radius: 12px; overflow: hidden; text-decoration: none; color: inherit; transition: all .3s ease; display: flex; flex-direction: column; height: 100%; position: relative; }
-  .project-card:hover { transform: translateY(-6px); box-shadow: 0 22px 44px rgba(0,0,0,.5); border-color: rgba(61,220,151,.5); }
-  .card-image-container { width: 100%; height: 220px; background-color: #0e141c; overflow: hidden; position: relative; border-bottom: 1px solid var(--line); }
-  .card-image { width: 100%; height: 100%; object-fit: cover; object-position: center; transition: transform .5s; }
-  .project-card:hover .card-image { transform: scale(1.05); }
-  .wip-badge { position: absolute; top: 10px; right: 10px; background: var(--accent); color: #07120c; font-size: .75rem; font-weight: bold; padding: 4px 10px; border-radius: 20px; box-shadow: 0 2px 8px rgba(0,0,0,.4); z-index: 10; }
-  .card-content { padding: 25px; flex-grow: 1; display: flex; flex-direction: column; }
-  .project-tag { font-size: .8rem; text-transform: uppercase; letter-spacing: 1px; color: var(--accent-2); font-weight: 600; margin-bottom: 10px; }
-  .project-title { margin: 0 0 10px 0; font-size: 1.25rem; color: var(--text); }
-  .project-desc { font-size: .95rem; color: var(--muted); line-height: 1.6; margin-bottom: 20px; }
-  .card-link { margin-top: auto; font-weight: 600; color: var(--accent); font-size: .9rem; }
-</style>
-
-<div class="projects-header">
-  <h1>Mis Proyectos</h1>
-  <p style="color: var(--muted); max-width: 600px; margin: 0 auto;">
-    Proyectos que he sacado adelante de principio a fin, combinando diseño mecánico, electrónica y muchas horas de taller.
-  </p>
+<div class="cabecera" style="margin: 0 auto 34px; text-align: center;">
+  <h1>Proyectos</h1>
+  <p class="entradilla">La universidad, el trabajo y lo que hago por mi cuenta. Elige uno para ver cómo lo hice.</p>
 </div>
 
-<div class="projects-grid">
-
-  <a href="/tfg-dune" class="project-card">
-    <span class="wip-badge">🚧 EN DESARROLLO</span>
-    <div class="card-image-container">
-      <img src="/assets/images/tfg/hero_render.png" alt="Estructura DUNE TFG" class="card-image">
-    </div>
-    <div class="card-content">
-      <span class="project-tag">Diseño termo-estructural</span>
-      <h3 class="project-title">Soportes para sensores · DUNE ND-GAr (TFG)</h3>
-      <p class="project-desc">Módulo óptico criogénico (ΔT −47 °C) para el experimento internacional de neutrinos DUNE. Diseño en SolidWorks y validación FEM estructural y térmica.</p>
-      <span class="card-link">Ver progreso ➔</span>
-    </div>
-  </a>
-
-  <a href="/trading-bot" class="project-card">
-    <div class="card-image-container">
-      <img src="/assets/images/trading-bot/02_market_data.png" alt="Bot de Trading Algorítmico" class="card-image" loading="lazy" onerror="this.onerror=null;this.src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22600%22%20height=%22400%22%3E%3Crect%20width=%22600%22%20height=%22400%22%20fill=%22%23121821%22/%3E%3Ctext%20x=%22300%22%20y=%22205%22%20fill=%22%233ddc97%22%20font-family=%22Segoe%20UI,Arial%22%20font-size=%2226%22%20text-anchor=%22middle%22%3ETrading%20Bot%3C/text%3E%3C/svg%3E'">
-    </div>
-    <div class="card-content">
-      <span class="project-tag">Python · Datos · DevOps</span>
-      <h3 class="project-title">Bot de Trading Algorítmico</h3>
-      <p class="project-desc">Sistema autónomo en Python que opera Bitcoin 24/7: pipeline de datos, despliegue en la nube, dashboard en vivo, backtesting y gestión de riesgo.</p>
-      <span class="card-link">Ver detalles ➔</span>
-    </div>
-  </a>
-
-  <a href="/simulador-racing" class="project-card">
-    <div class="card-image-container">
-      <img src="/assets/images/04_pedals_profile.jpg" alt="Simulador Direct Drive" class="card-image">
-    </div>
-    <div class="card-content">
-      <span class="project-tag">Mecatrónica</span>
-      <h3 class="project-title">Simulador Direct Drive</h3>
-      <p class="project-desc">Diseño y construcción de un volante Force Feedback de 15 Nm reutilizando un motor industrial. Ingeniería inversa y fabricación aditiva.</p>
-      <span class="card-link">Ver detalles ➔</span>
-    </div>
-  </a>
-
-  <a href="/cinta-modular" class="project-card">
-    <div class="card-image-container">
-      <img src="/assets/images/cinta_full_render.jpg" alt="Cinta Modular Render" class="card-image">
-    </div>
-    <div class="card-content">
-      <span class="project-tag">Diseño Mecánico</span>
-      <h3 class="project-title">Cinta Transportadora Modular</h3>
-      <p class="project-desc">Sistema de transporte de áridos escalable. Diseño paramétrico en SolidWorks que permite adaptar la longitud sin rediseño.</p>
-      <span class="card-link">Ver detalles ➔</span>
-    </div>
-  </a>
-
-  <a href="/smart-hangboard" class="project-card">
-    <div class="card-image-container">
-      <img src="/assets/images/fixed_system_3d.jpg" alt="Entrenador Inteligente" class="card-image">
-    </div>
-    <div class="card-content">
-      <span class="project-tag">IoT & Desarrollo App</span>
-      <h3 class="project-title">Entrenador de Escalada IoT</h3>
-      <p class="project-desc">Dispositivo conectado para medir fuerza de dedos. Células de carga, ESP32 y app móvil para visualización en tiempo real.</p>
-      <span class="card-link">Ver detalles ➔</span>
-    </div>
-  </a>
-
+<div class="tarjetas">
+{% include tarjeta.html url="/tfg-dune" titulo="Criostato modular para DUNE" img="/assets/images/tarjetas/tfg.jpg" texto="Mi TFG: el módulo que protege los sensores de luz de un detector de neutrinos y el bastidor que sostiene 145 de ellos." tipo="TFG · SolidWorks · 2026" %}
+{% include tarjeta.html url="/servidor-casero" titulo="Un servidor en casa" img="/assets/images/tarjetas/servidor.jpg" texto="Un mini PC que lleva la domótica del piso, mis aplicaciones y el bot. Con un modelo térmico de la casa sacado de sus sensores." tipo="Linux · Docker · Home Assistant" %}
+{% include tarjeta.html url="/trading-bot" titulo="Bot de trading" img="/assets/images/tarjetas/trading-bot.jpg" texto="Operó con dinero real unos meses y no gana. Averiguar por qué fue lo más útil del proyecto." tipo="Python · datos · validación" %}
+{% include tarjeta.html url="/simulador-racing" titulo="Simulador de conducción" img="/assets/images/tarjetas/simulador.jpg" texto="Volante con force feedback de 15 Nm sobre el motor de un patinete, pedales con célula de carga y cambio secuencial." tipo="Mecatrónica · impresión 3D" %}
+{% include tarjeta.html url="/smart-hangboard" titulo="Sensor de fuerza para escalada" img="/assets/images/tarjetas/hangboard.jpg" texto="Tres versiones hasta medir bien la fuerza de dedos. La segunda, mecanizada en aluminio, no servía." tipo="ESP32 · Bluetooth · CNC" %}
+{% include tarjeta.html url="/cinta-modular" titulo="Cinta transportadora paramétrica" img="/assets/images/tarjetas/cinta.jpg" texto="El proyecto final del título propio de SolidWorks: una cinta que cambia de longitud cambiando un parámetro." tipo="SolidWorks" %}
 </div>
