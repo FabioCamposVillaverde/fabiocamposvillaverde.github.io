@@ -78,6 +78,6 @@ description: "Fabio Campos, mechanical engineer in the design office of EINGAL (
 
 <section class="contacto">
   <h2>Contact</h2>
-  <p>If you'd like to ask about a project or talk about work, email me at <a href="mailto:fabio11fcv@gmail.com">fabio11fcv@gmail.com</a> or reach me on <a href="https://linkedin.com/in/fabio-campos-villaverde-23543b352" target="_blank" rel="noopener">LinkedIn</a>.</p>
+  <p>If you'd like to ask about a project or talk about work, email me at {% include correo.html %} or reach me on <a href="https://linkedin.com/in/fabio-campos-villaverde-23543b352" target="_blank" rel="noopener">LinkedIn</a>.</p>
   <a class="boton" href="/en/contact/">Contact form</a>
 </section>

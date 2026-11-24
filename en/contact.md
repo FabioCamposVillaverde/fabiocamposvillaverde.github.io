@@ -22,7 +22,7 @@ description: "How to contact Fabio Campos."
 
 <div class="contacto-rejilla">
   <div>
-    <p><b>Email</b><br><a href="mailto:fabio11fcv@gmail.com">fabio11fcv@gmail.com</a></p>
+    <p><b>Email</b><br>{% include correo.html %}</p>
     <p><b>LinkedIn</b><br><a href="https://linkedin.com/in/fabio-campos-villaverde-23543b352" target="_blank" rel="noopener">Fabio Campos Villaverde</a></p>
     <p><b>Where</b><br>Vigo, Galicia (Spain)</p>
   </div>

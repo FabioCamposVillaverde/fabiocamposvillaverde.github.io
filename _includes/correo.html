@@ -1,0 +1,5 @@
+{%- comment -%}
+Correo sin «@» ni mailto en el HTML: los robots que recogen direcciones no lo ven.
+El script del layout lo monta al cargar; sin JavaScript se lee «fabio11fcv (arroba) gmail.com».
+{%- endcomment -%}
+<a class="correo" data-u="fabio11fcv" data-d="gmail.com">fabio11fcv ({% if page.url contains '/en/' %}at{% else %}arroba{% endif %}) gmail.com</a>

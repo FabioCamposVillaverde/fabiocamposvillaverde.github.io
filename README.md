@@ -78,6 +78,6 @@ description: "Fabio Campos, ingeniero mecánico en la oficina técnica de EINGAL
 
 <section class="contacto">
   <h2>Contacto</h2>
-  <p>Si quieres preguntarme por algún proyecto o hablar de trabajo, escríbeme a <a href="mailto:fabio11fcv@gmail.com">fabio11fcv@gmail.com</a> o por <a href="https://linkedin.com/in/fabio-campos-villaverde-23543b352" target="_blank" rel="noopener">LinkedIn</a>.</p>
+  <p>Si quieres preguntarme por algún proyecto o hablar de trabajo, escríbeme a {% include correo.html %} o por <a href="https://linkedin.com/in/fabio-campos-villaverde-23543b352" target="_blank" rel="noopener">LinkedIn</a>.</p>
   <a class="boton" href="/contact/">Formulario de contacto</a>
 </section>

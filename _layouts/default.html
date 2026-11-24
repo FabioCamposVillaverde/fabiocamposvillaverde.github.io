@@ -176,9 +176,17 @@
   <footer>
     <div class="pie">
       <span>Fabio Campos Villaverde · {% if is_en %}Mechanical engineer, Vigo (Spain){% else %}Ingeniero mecánico, Vigo{% endif %}</span>
-      <span><a href="mailto:fabio11fcv@gmail.com">fabio11fcv@gmail.com</a> · <a href="https://linkedin.com/in/fabio-campos-villaverde-23543b352" target="_blank" rel="noopener">LinkedIn</a></span>
+      <span>{% include correo.html %} · <a href="https://linkedin.com/in/fabio-campos-villaverde-23543b352" target="_blank" rel="noopener">LinkedIn</a></span>
     </div>
   </footer>
+
+  <script>
+  /* Correo: se monta aquí para que no esté entero en el HTML (ver _includes/correo.html) */
+  document.querySelectorAll('a.correo').forEach(function(a){
+    var m = a.getAttribute('data-u') + '@' + a.getAttribute('data-d');
+    a.href = 'mailto:' + m; a.textContent = m;
+  });
+  </script>
 
   <script>
   /* Visor: cualquier figura con enlace a su imagen se amplía en la misma página */
