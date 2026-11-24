@@ -59,7 +59,7 @@ description: "Fabio Campos, ingeniero mecánico en la oficina técnica de EINGAL
   <div>
     <h2>Sobre mí</h2>
     <p>Me gusta entender las cosas construyéndolas. Lo que no sé lo aprendo por el camino, y casi siempre equivocándome primero: el sensor de fuerza que mecanicé en aluminio no medía bien, el backtest de mi bot daba ganancias imposibles y el termómetro de casa estaba al sol. De cada error salió algo que ahora hago de otra manera.</p>
-    <p>Escalo desde hace años y entreno como voluntario a escaladores de competición en el Grupo de Montaña Alud. De ahí salió, por ejemplo, el sensor de fuerza de dedos.</p>
+    <p>Empecé a escalar en 2020 y, de septiembre de 2024 a julio de 2026, entrené como voluntario al equipo de competición del Grupo de Montaña Alud. De ahí salió, por ejemplo, el sensor de fuerza de dedos.</p>
     <p>Antes de la carrera trabajé varios veranos en construcción y mantenimiento, montando estructuras en obra.</p>
   </div>
   <div class="herramientas">
@@ -78,6 +78,6 @@ description: "Fabio Campos, ingeniero mecánico en la oficina técnica de EINGAL
 
 <section class="contacto">
   <h2>Contacto</h2>
-  <p>Si quieres preguntarme por algún proyecto o hablar de trabajo, escríbeme a {% include correo.html %} o por <a href="https://linkedin.com/in/fabio-campos-villaverde-23543b352" target="_blank" rel="noopener">LinkedIn</a>.</p>
+  <p>Si quieres preguntarme por algún proyecto o hablar de trabajo, escríbeme a {% include correo.html %} o por <a href="https://linkedin.com/in/fabiocamposvillaverde" target="_blank" rel="noopener">LinkedIn</a>.</p>
   <a class="boton" href="/contact/">Formulario de contacto</a>
 </section>

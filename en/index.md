@@ -59,7 +59,7 @@ description: "Fabio Campos, mechanical engineer in the design office of EINGAL (
   <div>
     <h2>About me</h2>
     <p>I like to understand things by building them. Whatever I don't know I learn along the way, usually by getting it wrong first: the force sensor I machined in aluminium didn't measure properly, my bot's backtest showed impossible profits and the thermometer outside my flat was sitting in the sun. Each of those mistakes changed how I work.</p>
-    <p>I've been climbing for years and I volunteer as a coach for competition climbers at Grupo de Montaña Alud. That's where the finger-strength sensor came from.</p>
+    <p>I started climbing in 2020 and, from September 2024 to July 2026, volunteered as coach of the competition team at Grupo de Montaña Alud. That's where the finger-strength sensor came from.</p>
     <p>Before university I spent several summers working in construction and maintenance, assembling structures on site.</p>
   </div>
   <div class="herramientas">
@@ -78,6 +78,6 @@ description: "Fabio Campos, mechanical engineer in the design office of EINGAL (
 
 <section class="contacto">
   <h2>Contact</h2>
-  <p>If you'd like to ask about a project or talk about work, email me at {% include correo.html %} or reach me on <a href="https://linkedin.com/in/fabio-campos-villaverde-23543b352" target="_blank" rel="noopener">LinkedIn</a>.</p>
+  <p>If you'd like to ask about a project or talk about work, email me at {% include correo.html %} or reach me on <a href="https://linkedin.com/in/fabiocamposvillaverde" target="_blank" rel="noopener">LinkedIn</a>.</p>
   <a class="boton" href="/en/contact/">Contact form</a>
 </section>
