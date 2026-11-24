@@ -60,7 +60,7 @@ description: "Fabio Campos, ingeniero mecánico en la oficina técnica de EINGAL
     <h2>Sobre mí</h2>
     <p>Me gusta entender las cosas construyéndolas. Lo que no sé lo aprendo por el camino, y casi siempre equivocándome primero: el sensor de fuerza que mecanicé en aluminio no medía bien, el backtest de mi bot daba ganancias imposibles y el termómetro de casa estaba al sol. De cada error salió algo que ahora hago de otra manera.</p>
     <p>Empecé a escalar en 2020 y, de septiembre de 2024 a julio de 2026, entrené como voluntario al equipo de competición del Grupo de Montaña Alud. De ahí salió, por ejemplo, el sensor de fuerza de dedos.</p>
-    <p>Antes de la carrera trabajé varios veranos en construcción y mantenimiento, montando estructuras en obra.</p>
+    <p>De 2018 a 2025 trabajé todos los veranos de peón de albañil: hacer masa, mover material y ayudar al capataz.</p>
   </div>
   <div class="herramientas">
     <h3>Con qué trabajo</h3>
