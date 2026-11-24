@@ -3,7 +3,7 @@ layout: default
 title: Home
 permalink: /en/
 alt: /
-description: "Fabio Campos, final-year Mechanical Engineering student at the University of Vigo. Projects in mechanical design, fabrication, electronics and software."
+description: "Fabio Campos, mechanical engineer in the design office of EINGAL (Pontevedra, Spain). Projects in mechanical design, analysis, fabrication, electronics and software."
 ---
 
 <style>
@@ -33,7 +33,7 @@ description: "Fabio Campos, final-year Mechanical Engineering student at the Uni
   <div>
     <h1>Hi, I'm Fabio.</h1>
     <p>I study Mechanical Engineering at the University of Vigo (Spain), specialising in Design and Manufacturing, and all I have left is my final-year project: the design of a modular cryostat for the light sensors of the DUNE neutrino experiment.</p>
-    <p>At work I use Autodesk Inventor and produce building energy certificates with CE3X. Outside work I build things: a sim racing rig driven by an e-scooter motor, a home server that runs my flat, and a trading bot that taught me more by failing than by winning.</p>
+    <p>I work as a mechanical engineer at <a href="/en/design-office/">EINGAL</a>, a design office in Pontevedra: I design in Inventor, run analyses in Nastran and produce building energy certificates with CE3X. Outside work I build things: a sim racing rig driven by an e-scooter motor, a home server that runs my flat, and a trading bot that taught me more by failing than by winning.</p>
     <p>For each project I explain how I built it, what went wrong and what I learned.</p>
     <div class="botones">
       <a class="boton lleno" href="/en/projects/">See projects</a>
@@ -46,6 +46,7 @@ description: "Fabio Campos, final-year Mechanical Engineering student at the Uni
 <p class="seccion-sub">Pick one to see the details.</p>
 
 <div class="tarjetas">
+{% include tarjeta.html url="/en/design-office/" titulo="My job at EINGAL" img="/assets/images/tarjetas/trabajo-en.jpg" texto="A truck-mounted stage with a demountable sphere, FEA for clients and an AI assistant that produces drawings and reports." tipo="Inventor · Nastran · CE3X" %}
 {% include tarjeta.html url="/en/tfg-dune/" titulo="Modular cryostat for DUNE" img="/assets/images/tarjetas/tfg.jpg" texto="My final-year project: the module that protects the light sensors of a neutrino detector, and the frame that holds 145 of them." tipo="Thesis · SolidWorks · 2026" %}
 {% include tarjeta.html url="/en/home-server/" titulo="A server at home" img="/assets/images/tarjetas/servidor.jpg" texto="A mini PC that runs my flat's home automation, my own apps and the bot. Includes a thermal model of the flat built from its sensors." tipo="Linux · Docker · Home Assistant" %}
 {% include tarjeta.html url="/en/trading-bot/" titulo="Trading bot" img="/assets/images/tarjetas/trading-bot.jpg" texto="It traded real money for a few months and doesn't make any. Finding out why was the most useful part." tipo="Python · data · validation" %}
@@ -64,12 +65,12 @@ description: "Fabio Campos, final-year Mechanical Engineering student at the Uni
   <div class="herramientas">
     <h3>What I work with</h3>
     <dl>
-      <dt>Design</dt><dd>SolidWorks, Autodesk Inventor, Fusion 360, AutoCAD. Manufacturing drawings.</dd>
-      <dt>Analysis</dt><dd>Bolted joints and structures by hand and with my own beam models in Python. Basic FEA (ANSYS, SolidWorks Simulation).</dd>
+      <dt>Design</dt><dd>Autodesk Inventor, SolidWorks, Fusion 360, AutoCAD. Manufacturing drawings.</dd>
+      <dt>Analysis</dt><dd>Linear and non-linear FEA in Inventor Nastran; also ANSYS, SolidWorks Simulation and CYPE. Bolted joints (VDI 2230, Rötscher) and beam models in Python.</dd>
       <dt>Energy</dt><dd>Building energy certification with CE3X.</dd>
-      <dt>Fabrication</dt><dd>3D printing, mechanical assembly, basic CNC machining.</dd>
+      <dt>Fabrication</dt><dd>Design for manufacturing (CNC, welding, sheet metal, fibreglass), 3D printing, mechanical assembly.</dd>
       <dt>Electronics</dt><dd>Arduino and ESP32, load cells, Bluetooth LE.</dd>
-      <dt>Software</dt><dd>Python, Linux, Docker, Home Assistant, Git.</dd>
+      <dt>Software</dt><dd>Python, PowerShell, Linux, Docker, Home Assistant, Git. Claude Code to automate CAD and analysis work.</dd>
       <dt>Languages</dt><dd>Spanish and Galician (native), English (B1 certified, used daily), German (beginner).</dd>
     </dl>
   </div>

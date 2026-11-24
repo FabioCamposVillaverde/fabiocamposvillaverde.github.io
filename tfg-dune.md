@@ -126,7 +126,7 @@ La norma de accesos (EN ISO 14122-2) pide 2,1 m de altura libre, y con niveles c
 
 ## Los planos
 
-Hice 16 planos A3: conjunto, bastidor, plataforma y todas las piezas que no son comerciales, con tolerancias y listas de materiales. El CAD cambiaba a menudo, así que los generé con scripts de Python que manejan SolidWorks por su API (escritos con ayuda de Claude Code, una herramienta de IA) y que comprueban cada cota contra el valor esperado antes de guardar.
+Hice 16 planos A3: conjunto, bastidor, plataforma y todas las piezas que no son comerciales, con tolerancias y listas de materiales. El CAD cambiaba a menudo, así que los generé con scripts de Python que manejan SolidWorks por su API (los escribí con Claude Code, un asistente de IA) y que comprueban cada cota contra el valor esperado antes de guardar.
 
 </div>
 
@@ -142,4 +142,4 @@ Hice 16 planos A3: conjunto, bastidor, plataforma y todas las piezas que no son 
 
 </div>
 
-<div class="volver"><a href="/proyectos/">← Todos los proyectos</a><a href="/servidor-casero">Siguiente: un servidor en casa →</a></div>
+<div class="volver"><a href="/oficina-tecnica">← Anterior: mi trabajo</a><a href="/servidor-casero">Siguiente: un servidor en casa →</a></div>

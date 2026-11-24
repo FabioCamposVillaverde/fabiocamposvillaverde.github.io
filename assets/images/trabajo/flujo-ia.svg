@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1020 262" font-family="IBM Plex Sans, Segoe UI, Helvetica, Arial, sans-serif">
+<rect width="100%" height="100%" fill="#fcfcfb"/>
+<defs><marker id="f" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#52514e"/></marker></defs>
+<rect x="10" y="34" width="170" height="136" rx="10" fill="#ffffff" stroke="#c9c8c1" stroke-width="1.3"/>
+<text x="95.0" y="66" text-anchor="middle" font-size="16" font-weight="600" fill="#1c1c1a">Tarea</text>
+<text x="95.0" y="94" text-anchor="middle" font-size="13" fill="#52514e">un plano, un modelo</text>
+<text x="95.0" y="113" text-anchor="middle" font-size="13" fill="#52514e">FEM, un informe</text>
+<text x="95.0" y="132" text-anchor="middle" font-size="13" fill="#52514e">o una oferta</text>
+<line x1="183" y1="102" x2="213" y2="102" stroke="#52514e" stroke-width="1.6" marker-end="url(#f)"/>
+<rect x="217" y="34" width="170" height="136" rx="10" fill="#ffffff" stroke="#2a78d6" stroke-width="2"/>
+<text x="302.0" y="66" text-anchor="middle" font-size="16" font-weight="600" fill="#1c1c1a">Asistente de IA</text>
+<text x="302.0" y="94" text-anchor="middle" font-size="13" fill="#52514e">Claude Code, con sus</text>
+<text x="302.0" y="113" text-anchor="middle" font-size="13" fill="#52514e">reglas, memoria</text>
+<text x="302.0" y="132" text-anchor="middle" font-size="13" fill="#52514e">y procedimientos</text>
+<line x1="390" y1="102" x2="420" y2="102" stroke="#52514e" stroke-width="1.6" marker-end="url(#f)"/>
+<rect x="424" y="34" width="170" height="136" rx="10" fill="#ffffff" stroke="#c9c8c1" stroke-width="1.3"/>
+<text x="509.0" y="66" text-anchor="middle" font-size="16" font-weight="600" fill="#1c1c1a">Programas</text>
+<text x="509.0" y="94" text-anchor="middle" font-size="13" fill="#52514e">Inventor, Nastran</text>
+<text x="509.0" y="113" text-anchor="middle" font-size="13" fill="#52514e">y Office, controlados</text>
+<text x="509.0" y="132" text-anchor="middle" font-size="13" fill="#52514e">por scripts propios</text>
+<line x1="597" y1="102" x2="627" y2="102" stroke="#52514e" stroke-width="1.6" marker-end="url(#f)"/>
+<rect x="631" y="34" width="170" height="136" rx="10" fill="#ffffff" stroke="#1c1c1a" stroke-width="2"/>
+<text x="716.0" y="66" text-anchor="middle" font-size="16" font-weight="600" fill="#1c1c1a">Revisión</text>
+<text x="716.0" y="94" text-anchor="middle" font-size="13" fill="#52514e">compruebo cotas,</text>
+<text x="716.0" y="113" text-anchor="middle" font-size="13" fill="#52514e">resultados y formato</text>
+<text x="716.0" y="132" text-anchor="middle" font-size="13" fill="#52514e">antes de que salga</text>
+<line x1="804" y1="102" x2="834" y2="102" stroke="#52514e" stroke-width="1.6" marker-end="url(#f)"/>
+<rect x="838" y="34" width="170" height="136" rx="10" fill="#ffffff" stroke="#c9c8c1" stroke-width="1.3"/>
+<text x="923.0" y="66" text-anchor="middle" font-size="16" font-weight="600" fill="#1c1c1a">Taller o cliente</text>
+<text x="923.0" y="94" text-anchor="middle" font-size="13" fill="#52514e">planos para fabricar</text>
+<text x="923.0" y="113" text-anchor="middle" font-size="13" fill="#52514e">e informes</text>
+<text x="923.0" y="132" text-anchor="middle" font-size="13" fill="#52514e">para entregar</text>
+<path d="M716.0,172 V212 H302.0 V176" fill="none" stroke="#eb6834" stroke-width="1.6" stroke-dasharray="5 4" marker-end="url(#f)"/>
+<text x="509.0" y="236" text-anchor="middle" font-size="13" fill="#52514e">si algo no cumple, vuelve con las correcciones</text>
+</svg>

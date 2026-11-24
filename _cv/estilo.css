@@ -1,0 +1,30 @@
+/* Currículum en A4. Se imprime a PDF con generar.sh (Chromium headless). */
+@page { size: A4; margin: 13mm 15mm 12mm; }
+:root { --azul: #1f3a68; --tinta: #1c1c1a; --gris: #5b5a55; --linea: #c9cfdb; }
+* { box-sizing: border-box; }
+html, body { margin: 0; padding: 0; }
+body { font-family: "IBM Plex Sans", "Carlito", sans-serif; font-size: 9.6pt; line-height: 1.4; color: var(--tinta); }
+a { color: var(--azul); text-decoration: none; }
+
+header { display: flex; justify-content: space-between; align-items: flex-start; gap: 18px; padding-bottom: 8px; border-bottom: 1.4px solid var(--azul); }
+header h1 { font-size: 20pt; letter-spacing: .03em; color: var(--azul); margin: 0 0 3px; font-weight: 700; }
+header .rol { font-size: 10.4pt; color: var(--gris); margin: 0 0 6px; }
+header .contacto { font-size: 8.6pt; color: var(--gris); margin: 0; }
+header .contacto span + span::before { content: "  |  "; white-space: pre; color: #a8a7a1; }
+header img { width: 27mm; height: 27mm; object-fit: cover; border-radius: 3px; flex: none; }
+
+h2 { font-size: 9.8pt; text-transform: uppercase; letter-spacing: .03em; color: var(--azul); margin: 13px 0 6px; padding-bottom: 2px; border-bottom: 1px solid var(--linea); font-weight: 700; }
+h2 { break-after: avoid; page-break-after: avoid; }
+p { margin: 0 0 4px; }
+.perfil { text-align: justify; }
+
+.entrada { margin: 0 0 7px; break-inside: avoid; }
+.titulo { display: flex; justify-content: space-between; gap: 12px; align-items: baseline; }
+.titulo b { font-weight: 600; }
+.titulo .fecha { font-style: italic; color: var(--gris); white-space: nowrap; font-size: 8.6pt; }
+.sub { font-style: italic; color: var(--gris); font-size: 8.6pt; margin: 0 0 2px; }
+ul { margin: 2px 0 0; padding: 0 0 0 13px; list-style: none; }
+li { position: relative; margin: 0 0 2.5px; }
+li::before { content: "–"; position: absolute; left: -11px; color: var(--gris); }
+li b { font-weight: 600; }
+.ver { font-size: 8.2pt; font-style: italic; white-space: nowrap; }

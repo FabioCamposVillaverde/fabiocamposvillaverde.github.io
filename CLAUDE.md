@@ -33,7 +33,9 @@ Las páginas ES de proyecto se sirven sin extensión (`/tfg-dune`): un servidor 
 
 ### Páginas de proyecto
 
-`tfg-dune.md`, `servidor-casero.md`, `trading-bot.md`, `simulador-racing.md`, `smart-hangboard.md`, `cinta-modular.md`. Las ES no llevan `permalink` (se sirven en `/nombre`, sin barra final); las EN sí (`/en/nombre/`, el servidor es `/en/home-server/`). Proyecto nuevo = página ES + página EN con `alt:` cruzados, tarjeta en `README.md`, `en/index.md`, `proyectos.md` y `en/proyectos.md`, y enlaces anterior/siguiente en `.volver`.
+`oficina-tecnica.md` (su trabajo en EINGAL), `tfg-dune.md`, `servidor-casero.md`, `trading-bot.md`, `simulador-racing.md`, `smart-hangboard.md`, `cinta-modular.md`. Las ES no llevan `permalink` (se sirven en `/nombre`, sin barra final); las EN sí (`/en/nombre/`; excepciones: el servidor es `/en/home-server/` y el trabajo `/en/design-office/`). Proyecto nuevo = página ES + página EN con `alt:` cruzados, tarjeta en `README.md`, `en/index.md`, `proyectos.md` y `en/proyectos.md`, y enlaces anterior/siguiente en `.volver`.
+
+**Trabajo (EINGAL): confidencial.** Nada de clientes, proveedores, nombres o códigos de proyecto, precios, compañeros ni imágenes, renders, planos o capturas de modelos de la empresa. Solo texto genérico y esquemas hechos a propósito (`assets/images/trabajo/`).
 
 ### Bilingüe
 
@@ -45,4 +47,4 @@ Español en la raíz, inglés en `/en/`, todo traducido. El selector usa `alt:` 
 - **Antes de subir una foto: máx. 1600 px de lado y sin EXIF** (las del móvil llevan GPS; el historial se limpió el 23/11/2026 con git-filter-repo).
 - Fotos del simulador: recortadas con rembg (BiRefNet) en fabiopc (`C:\PortfolioFotos`) y montadas sobre fondo de estudio; el objeto no se retoca.
 - Las gráficas (`servidor/inercia-termica.png`, `trading-bot/backtest-vs-replay.png`) salen de datos reales: estadísticas horarias de Home Assistant y `scripts/replay_1m.py` del repo del bot.
-- `assets/pdfs/`: currículums ES y EN.
+- `assets/pdfs/`: currículums ES y EN. **No se editan a mano:** la fuente es `_cv/cv-es.html` y `_cv/cv-en.html` (con `_cv/estilo.css`) y `_cv/generar.sh` los imprime a PDF con Chromium en Docker. Sin teléfono: el PDF es público.

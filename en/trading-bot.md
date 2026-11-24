@@ -82,7 +82,7 @@ The only thing that holds up is following the daily trend: buying when the price
 - To write down the success criterion before looking at the results, and to always compare against chance.
 - That silent failures cost more than a bad strategy. Almost everything I lost was due to programming errors, not the market.
 - That with a small account, the rented server cost more than the strategy could make in the best case.
-- I wrote much of the code with Claude Code, an AI tool. I learned to review it with the same distrust as the backtest.
+- That the code I write with an AI assistant (Claude Code) needs the same distrust as the backtest.
 
 </div>
 

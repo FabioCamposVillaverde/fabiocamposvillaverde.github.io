@@ -3,7 +3,7 @@ layout: default
 title: Resume
 permalink: /en/resume/
 alt: /resume/
-description: "Resume of Fabio Campos Villaverde, mechanical engineering (University of Vigo)."
+description: "Resume of Fabio Campos Villaverde, mechanical engineer at EINGAL (Pontevedra, Spain)."
 ---
 
 <style>
@@ -13,7 +13,7 @@ description: "Resume of Fabio Campos Villaverde, mechanical engineering (Univers
 
 <div class="cabecera">
   <h1>Resume</h1>
-  <p class="entradilla">Education, projects and experience on one page.</p>
+  <p class="entradilla">Experience, education and projects on two pages. Updated in November 2026.</p>
   <p style="margin-top: 20px;"><a class="boton lleno" href="/assets/pdfs/curriculum-fabio-eng.pdf" download>Download PDF</a> &nbsp; <a class="boton" href="/assets/pdfs/curriculum-fabio-esp.pdf" download>Versión en español</a></p>
 </div>
 

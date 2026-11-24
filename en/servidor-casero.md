@@ -109,7 +109,7 @@ Before, next to the window frame, the sensor read about 2 °C high day and night
 
 - That the hard part isn't getting a service running, it's finding out when it quietly stops working.
 - To measure before automating. The data disproved half of my climate rules.
-- I wrote much of the code and configuration with Claude Code, an AI tool. My job was deciding what to do, measuring the result and reviewing what it did, and that's where I learned the most.
+- To work with an AI assistant, Claude Code, to write code and configuration. I decide what gets done and to what standard, measure the result and review what it delivers. It's the same way I now work in the design office.
 
 </div>
 

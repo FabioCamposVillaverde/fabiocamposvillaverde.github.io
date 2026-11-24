@@ -55,7 +55,7 @@ On top sits an LED matrix showing gear and revs, and behind the wheel there are 
 
 ## Pedals
 
-The pedals are based on an open design that combines PETG printed parts with plates. The brake doesn't measure how far the pedal travels but how hard you press, with a 100 kg load cell, like a real car. The feel is tuned with elastomers of different hardness. The throttle uses a contactless Hall sensor so it doesn't wear.
+I designed the pedals combining PETG printed parts with plates. The brake doesn't measure how far the pedal travels but how hard you press, with a 100 kg load cell, like a real car. The feel is tuned with elastomers of different hardness. The throttle uses a contactless Hall sensor so it doesn't wear.
 
 </div>
 
@@ -103,6 +103,14 @@ Under the seat and the pedals there are two old speakers used as bass shakers. F
 | Handbrake | 20 kg load cell | Arduino Pro Micro + HX711 |
 | LEDs | Matrix and RGB strip | SimHub |
 | Vibration | Recycled speakers as shakers | SimHub |
+
+## What went wrong
+
+The Arduino side caused the most trouble. The pedals, the handbrake and the other controls run on several boards plugged into the PC over USB, and with so many at once they started failing: they couldn't capture all the information from every side.
+
+## What I learned
+
+- That connecting things is harder than building them. Each part worked on its own; the problems appeared when they all had to work together.
 
 </div>
 

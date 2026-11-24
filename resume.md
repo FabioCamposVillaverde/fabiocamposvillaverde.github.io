@@ -3,7 +3,7 @@ layout: default
 title: Currículum
 permalink: /resume/
 alt: /en/resume/
-description: "Currículum de Fabio Campos Villaverde, ingeniería mecánica (Universidad de Vigo)."
+description: "Currículum de Fabio Campos Villaverde, ingeniero mecánico en EINGAL (Pontevedra)."
 ---
 
 <style>
@@ -13,7 +13,7 @@ description: "Currículum de Fabio Campos Villaverde, ingeniería mecánica (Uni
 
 <div class="cabecera">
   <h1>Currículum</h1>
-  <p class="entradilla">Formación, proyectos y experiencia en una página.</p>
+  <p class="entradilla">Experiencia, formación y proyectos en dos páginas. Actualizado en noviembre de 2026.</p>
   <p style="margin-top: 20px;"><a class="boton lleno" href="/assets/pdfs/curriculum-fabio-esp.pdf" download>Descargar PDF</a> &nbsp; <a class="boton" href="/assets/pdfs/curriculum-fabio-eng.pdf" download>English version</a></p>
 </div>
 

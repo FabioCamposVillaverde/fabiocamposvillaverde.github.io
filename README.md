@@ -3,7 +3,7 @@ layout: default
 title: Inicio
 permalink: /
 alt: /en/
-description: "Fabio Campos, estudiante de último curso de Ingeniería Mecánica en la Universidad de Vigo. Proyectos de diseño mecánico, fabricación, electrónica y software."
+description: "Fabio Campos, ingeniero mecánico en la oficina técnica de EINGAL (Pontevedra). Proyectos de diseño mecánico, cálculo, fabricación, electrónica y software."
 ---
 
 <style>
@@ -33,7 +33,7 @@ description: "Fabio Campos, estudiante de último curso de Ingeniería Mecánica
   <div>
     <h1>Hola, soy Fabio.</h1>
     <p>Estudio Ingeniería Mecánica en la Universidad de Vigo, con la mención en Diseño y Fabricación, y solo me queda el TFG: el diseño de un criostato modular para los sensores de luz del experimento de neutrinos DUNE.</p>
-    <p>En el trabajo uso Autodesk Inventor y hago certificados de eficiencia energética con CE3X. Fuera de él construyo cosas: un simulador de conducción con el motor de un patinete, un servidor que lleva la domótica de mi casa o un bot de trading que me enseñó más por lo que falló que por lo que ganó.</p>
+    <p>Trabajo como ingeniero mecánico en <a href="/oficina-tecnica">EINGAL</a>, una oficina técnica de Pontevedra: diseño en Inventor, calculo con Nastran y hago certificados energéticos con CE3X. Fuera del trabajo construyo cosas: un simulador de conducción con el motor de un patinete, un servidor que lleva la domótica de mi casa o un bot de trading que me enseñó más por lo que falló que por lo que ganó.</p>
     <p>En cada proyecto cuento cómo lo hice, qué salió mal y qué aprendí.</p>
     <div class="botones">
       <a class="boton lleno" href="/proyectos/">Ver proyectos</a>
@@ -46,6 +46,7 @@ description: "Fabio Campos, estudiante de último curso de Ingeniería Mecánica
 <p class="seccion-sub">Elige uno para ver los detalles.</p>
 
 <div class="tarjetas">
+{% include tarjeta.html url="/oficina-tecnica" titulo="Mi trabajo en EINGAL" img="/assets/images/tarjetas/trabajo.jpg" texto="Un escenario sobre camión con una esfera desmontable, cálculo FEM para clientes y un asistente de IA que saca planos e informes." tipo="Inventor · Nastran · CE3X" %}
 {% include tarjeta.html url="/tfg-dune" titulo="Criostato modular para DUNE" img="/assets/images/tarjetas/tfg.jpg" texto="Mi TFG: el módulo que protege los sensores de luz de un detector de neutrinos y el bastidor que sostiene 145 de ellos." tipo="TFG · SolidWorks · 2026" %}
 {% include tarjeta.html url="/servidor-casero" titulo="Un servidor en casa" img="/assets/images/tarjetas/servidor.jpg" texto="Un mini PC que lleva la domótica del piso, mis aplicaciones y el bot. Con un modelo térmico de la casa sacado de sus sensores." tipo="Linux · Docker · Home Assistant" %}
 {% include tarjeta.html url="/trading-bot" titulo="Bot de trading" img="/assets/images/tarjetas/trading-bot.jpg" texto="Operó con dinero real unos meses y no gana. Averiguar por qué fue lo más útil del proyecto." tipo="Python · datos · validación" %}
@@ -64,12 +65,12 @@ description: "Fabio Campos, estudiante de último curso de Ingeniería Mecánica
   <div class="herramientas">
     <h3>Con qué trabajo</h3>
     <dl>
-      <dt>Diseño</dt><dd>SolidWorks, Autodesk Inventor, Fusion 360, AutoCAD. Planos de fabricación.</dd>
-      <dt>Cálculo</dt><dd>Uniones atornilladas y estructuras a mano y con modelos de barras en Python. Nociones de FEA (ANSYS, SolidWorks Simulation).</dd>
+      <dt>Diseño</dt><dd>Autodesk Inventor, SolidWorks, Fusion 360, AutoCAD. Planos de fabricación.</dd>
+      <dt>Cálculo</dt><dd>FEM lineal y no lineal con Inventor Nastran; también ANSYS, SolidWorks Simulation y CYPE. Uniones atornilladas (VDI 2230, Rötscher) y modelos de barras en Python.</dd>
       <dt>Energía</dt><dd>Certificación energética de edificios con CE3X.</dd>
-      <dt>Fabricación</dt><dd>Impresión 3D, montaje mecánico, mecanizado CNC básico.</dd>
+      <dt>Fabricación</dt><dd>Diseño para fabricación (CNC, soldadura, chapa, fibra de vidrio), impresión 3D, montaje mecánico.</dd>
       <dt>Electrónica</dt><dd>Arduino y ESP32, células de carga, Bluetooth LE.</dd>
-      <dt>Software</dt><dd>Python, Linux, Docker, Home Assistant, Git.</dd>
+      <dt>Software</dt><dd>Python, PowerShell, Linux, Docker, Home Assistant, Git. Claude Code para automatizar CAD y cálculo.</dd>
       <dt>Idiomas</dt><dd>Español y gallego (nativos), inglés (B1 certificado, lo uso a diario), alemán (empezando).</dd>
     </dl>
   </div>

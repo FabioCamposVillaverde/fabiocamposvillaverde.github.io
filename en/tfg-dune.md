@@ -127,7 +127,7 @@ The access standard (EN ISO 14122-2) requires 2.1 m of headroom, which doesn't f
 
 ## The drawings
 
-I produced 16 A3 drawings: general assembly, frame, platform and every part that isn't off-the-shelf, with tolerances and bills of materials. The CAD kept changing, so I generated them with Python scripts that drive SolidWorks through its API (written with the help of Claude Code, an AI tool) and check every dimension against its expected value before saving.
+I produced 16 A3 drawings: general assembly, frame, platform and every part that isn't off-the-shelf, with tolerances and bills of materials. The CAD kept changing, so I generated them with Python scripts that drive SolidWorks through its API (which I wrote with Claude Code, an AI assistant) and check every dimension against its expected value before saving.
 
 </div>
 
@@ -143,4 +143,4 @@ I produced 16 A3 drawings: general assembly, frame, platform and every part that
 
 </div>
 
-<div class="volver"><a href="/en/projects/">← All projects</a><a href="/en/home-server/">Next: a server at home →</a></div>
+<div class="volver"><a href="/en/design-office/">← Previous: my job</a><a href="/en/home-server/">Next: a server at home →</a></div>

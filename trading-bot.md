@@ -81,7 +81,7 @@ Lo único que aguanta es seguir la tendencia diaria: comprar cuando el precio ll
 - A escribir el criterio de éxito antes de mirar los resultados, y a comparar siempre contra el azar.
 - Que los fallos silenciosos cuestan más que una mala estrategia. Casi todo lo que perdí fue por errores de programación, no por el mercado.
 - Que con una cuenta pequeña el servidor alquilado costaba más de lo que la estrategia podía ganar en el mejor caso.
-- Gran parte del código lo escribí con Claude Code, una herramienta de IA. Aprendí a revisarlo con la misma desconfianza que el backtest.
+- Que el código que escribo con un asistente de IA (Claude Code) hay que revisarlo con la misma desconfianza que el backtest.
 
 </div>
 

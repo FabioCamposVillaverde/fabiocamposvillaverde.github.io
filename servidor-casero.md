@@ -108,7 +108,7 @@ Antes, junto al marco de la ventana, el sensor marcaba unos 2 °C de más de dí
 
 - Que lo difícil no es poner un servicio en marcha, sino enterarte de cuándo deja de funcionar sin decir nada.
 - A medir antes de automatizar. Los datos desmintieron la mitad de mis reglas de clima.
-- Mucho del código y de la configuración lo escribí con Claude Code, una herramienta de IA. Mi trabajo fue decidir qué hacer, medir el resultado y revisar lo que hacía, y ahí es donde más aprendí.
+- A trabajar con un asistente de IA, Claude Code, para escribir código y configuración. Yo decido qué se hace y con qué criterio, mido el resultado y reviso lo que entrega. Es la misma forma de trabajar que ahora uso en la oficina técnica.
 
 </div>
 

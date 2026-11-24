@@ -54,7 +54,7 @@ Encima va una matriz de LED que marca la marcha y las revoluciones, y detrás de
 
 ## Pedales
 
-Los pedales parten de un diseño abierto que combina piezas impresas en PETG con placas. El freno no mide cuánto se hunde el pedal sino cuánta fuerza haces, con una célula de carga de 100 kg, como en un coche real. El tacto se cambia con elastómeros de distinta dureza. El acelerador usa un sensor Hall, sin contacto, para que no se desgaste.
+Los pedales los diseñé combinando piezas impresas en PETG con placas. El freno no mide cuánto se hunde el pedal sino cuánta fuerza haces, con una célula de carga de 100 kg, como en un coche real. El tacto se cambia con elastómeros de distinta dureza. El acelerador usa un sensor Hall, sin contacto, para que no se desgaste.
 
 </div>
 
@@ -102,6 +102,14 @@ Debajo del asiento y de los pedales hay dos altavoces viejos usados como vibrado
 | Freno de mano | Célula de carga de 20 kg | Arduino Pro Micro + HX711 |
 | LED | Matriz y tira RGB | SimHub |
 | Vibración | Altavoces reciclados como vibradores | SimHub |
+
+## Qué salió mal
+
+Lo que más problemas dio fue la parte de Arduino. Pedales, freno de mano y el resto de mandos van con varias placas conectadas al PC por USB, y con tantas a la vez empezaron los fallos: no conseguían recoger toda la información de todos los lados.
+
+## Qué aprendí
+
+- Que conectar es más difícil que construir. Cada parte funcionaba sola; los problemas aparecieron al tener que funcionar todas juntas.
 
 </div>
 

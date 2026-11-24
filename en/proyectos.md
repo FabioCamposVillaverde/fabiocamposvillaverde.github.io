@@ -3,7 +3,7 @@ layout: default
 title: Projects
 permalink: /en/projects/
 alt: /proyectos/
-description: "Projects by Fabio Campos: final-year project for the DUNE experiment, home server and home automation, trading bot, sim racing rig, climbing force sensor and parametric conveyor belt."
+description: "Projects by Fabio Campos: his job in the EINGAL design office, final-year project for the DUNE experiment, home server and home automation, trading bot, sim racing rig, climbing force sensor and parametric conveyor belt."
 ---
 
 <div class="cabecera" style="margin: 0 auto 34px; text-align: center;">
@@ -12,6 +12,7 @@ description: "Projects by Fabio Campos: final-year project for the DUNE experime
 </div>
 
 <div class="tarjetas">
+{% include tarjeta.html url="/en/design-office/" titulo="My job at EINGAL" img="/assets/images/tarjetas/trabajo-en.jpg" texto="A truck-mounted stage with a demountable sphere, FEA for clients and an AI assistant that produces drawings and reports." tipo="Inventor · Nastran · CE3X" %}
 {% include tarjeta.html url="/en/tfg-dune/" titulo="Modular cryostat for DUNE" img="/assets/images/tarjetas/tfg.jpg" texto="My final-year project: the module that protects the light sensors of a neutrino detector, and the frame that holds 145 of them." tipo="Thesis · SolidWorks · 2026" %}
 {% include tarjeta.html url="/en/home-server/" titulo="A server at home" img="/assets/images/tarjetas/servidor.jpg" texto="A mini PC that runs my flat's home automation, my own apps and the bot. Includes a thermal model of the flat built from its sensors." tipo="Linux · Docker · Home Assistant" %}
 {% include tarjeta.html url="/en/trading-bot/" titulo="Trading bot" img="/assets/images/tarjetas/trading-bot.jpg" texto="It traded real money for a few months and doesn't make any. Finding out why was the most useful part." tipo="Python · data · validation" %}
